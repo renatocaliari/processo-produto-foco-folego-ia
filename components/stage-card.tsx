@@ -1,37 +1,36 @@
 "use client"
 
 import { User, Bot, UserCog } from "lucide-react"
-import { useState, useRef } from "react"
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 
 interface StageCardProps {
   stage: any
+  filter: string | null
 }
 
-export function StageCard({ stage }: StageCardProps) {
-  const [showTooltip, setShowTooltip] = useState(false)
-  const titleRef = useRef<HTMLSpanElement>(null)
-
+export function StageCard({ stage, filter }: StageCardProps) {
   const getResponsibleIcon = (responsible: string) => {
-    switch (responsible) {
-      case "Humano":
+    switch (responsible.toLowerCase()) {
+      case "humano":
         return <User className="w-5 h-5" />
-      case "IA":
+      case "ia":
         return <Bot className="w-5 h-5" />
-      case "Humano com Assistência de IA":
+      case "humano com assistência de ia":
         return <UserCog className="w-5 h-5" />
       default:
         return null
     }
   }
 
-  // Check if title is truncated
-  const isTitleTruncated = () => {
-    const element = titleRef.current
-    return element ? element.scrollWidth > element.clientWidth : false
-  }
-
   // Get the first responsible party for the icon
-  const primaryResponsible = stage.responsibles && stage.responsibles.length > 0 ? stage.responsibles[0] : null
+  const primaryResponsible =
+    stage.responsibles && stage.responsibles.length > 0 ? stage.responsibles[0].toLowerCase() : null
+
+  // Check if this card should be shown based on the filter
+  // Correspondência exata em vez de parcial
+  if (filter && primaryResponsible && primaryResponsible !== filter.toLowerCase()) {
+    return null
+  }
 
   return (
     <div
@@ -39,26 +38,22 @@ export function StageCard({ stage }: StageCardProps) {
                 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all flex-shrink-0"
       style={{ width: "300px", height: "400px" }}
     >
-      <div className="p-3 font-bold text-lg flex items-center gap-2 border-b-2 border-black relative">
+      <div className="p-3 font-bold text-lg flex items-center gap-2 border-b-2 border-black">
         {primaryResponsible && (
           <div className="flex items-center justify-center w-6 h-6 bg-black text-white rounded-full flex-shrink-0">
             {getResponsibleIcon(primaryResponsible)}
           </div>
         )}
-        <span
-          ref={titleRef}
-          className="truncate"
-          onMouseEnter={() => setShowTooltip(isTitleTruncated())}
-          onMouseLeave={() => setShowTooltip(false)}
-        >
-          {stage.title}
-        </span>
-
-        {showTooltip && (
-          <div className="absolute left-0 -top-10 z-50 bg-white border border-black rounded-md px-3 py-1.5 text-sm shadow-md">
-            {stage.title}
-          </div>
-        )}
+        <TooltipProvider>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <span className="truncate cursor-help">{stage.title}</span>
+            </TooltipTrigger>
+            <TooltipContent side="top" className="max-w-[300px] bg-white text-black border-black">
+              {stage.title}
+            </TooltipContent>
+          </Tooltip>
+        </TooltipProvider>
       </div>
 
       <div className="p-4 pb-9 overflow-y-auto" style={{ height: "calc(400px - 50px)" }}>

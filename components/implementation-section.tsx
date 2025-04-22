@@ -11,6 +11,7 @@ interface ImplementationSectionProps {
   isExpanded: boolean
   onToggle: () => void
   data: any
+  filter: string | null
 }
 
 export function ImplementationSection({
@@ -20,6 +21,7 @@ export function ImplementationSection({
   isExpanded,
   onToggle,
   data,
+  filter,
 }: ImplementationSectionProps) {
   const [expandedTracks, setExpandedTracks] = useState<Record<string, boolean>>({
     delivery: false,
@@ -62,6 +64,7 @@ export function ImplementationSection({
               isExpanded={expandedTracks.discovery}
               onToggle={() => toggleTrack("discovery")}
               data={data.tracks.discovery}
+              filter={filter}
             />
 
             <ProcessSection
@@ -71,6 +74,7 @@ export function ImplementationSection({
               isExpanded={expandedTracks.delivery}
               onToggle={() => toggleTrack("delivery")}
               data={data.tracks.delivery}
+              filter={filter}
             />
           </div>
         </div>
