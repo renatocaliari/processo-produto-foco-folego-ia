@@ -45,13 +45,13 @@ export const deliveryTrackData = {
             ],
           },
           {
-            title: "ferramentas para executar testes e validar cenários",
-            items: [
-              { name: "hercules", url: "https://github.com/test-zeus-ai/testzeus-hercules/" },
-              { name: "skyvern", url: "https://www.skyvern.com/" },
-              { name: "genesis", url: "https://autify.com/genesis" },
-              { name: "shortest", url: "https://shortest.com/" },
-            ],
+            "title": "ferramentas ia execução de cenários bdd",
+            "items": [
+              { "name": "hercules", "url": "https://github.com/test-zeus-ai/testzeus-hercules/" },
+              { "name": "skyvern", "url": "https://skyvern.com/" },
+              { "name": "genesis", "url": "https://autify.com/genesis" },
+              { "name": "shortest", "url": "https://shortest.com/" }
+            ]
           },
           {
             title: "ferramentas ia para formatar base de código para llm",

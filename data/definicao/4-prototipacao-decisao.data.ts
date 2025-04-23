@@ -68,6 +68,57 @@ export const prototipacaoDecisaoStages = [
       ],
     },
   },
+{
+  "id": 25.5,
+  "title": "avaliação rápida da versão simplificada",
+  "type": "stage",
+  "responsibles": ["humano com assistência de ia"],
+  "details": {
+    "comment": "a execução ou opcionalidade dessa etapa depende do contexto: complexidade da solução, velocidade e custo desejados para obter feedback inicial, e a tolerância a riscos. combina abordagens humanas e com assistência de ia.",
+    "resources": [
+      {
+        "title": "ferramentas ia de navegação autônoma",
+        "items": [
+          { "name": "operator.browserbase", "url": "https://operator.browserbase.com/" }, 
+          { "name": "browser use", "url": "https://browser-use.com/" },
+          { "name": "dobrowser", "url": "https://www.dobrowser.io/" },
+          { "name": "skyvern", "url": "https://skyvern.com/" },
+          { "name": "kortix suna", "url": "https://www.suna.so/" },
+          { "name": "openai operator", "url": "https://openai.com/index/introducing-operator/" },
+          { "name": "claude computer", "url": "https://docs.anthropic.com/en/docs/agents-and-tools/computer-use" },
+        ]
+      },
+      {
+        "title": "ferramentas ia para avaliação rápida",
+        "items": [
+          { "name": "gemini live (avaliação ao vivo por vídeo)", "url": "https://aistudio.google.com/live" },
+          { "name": "gemini (avaliação via imagem", "url": "https://gemini.google.com/" },
+          { "name": "claude (avaliação via imagem)", "url": "https://claude.ai/" },
+          { "name": "chatgpt (avaliação via imagem)", "url": "https://chat.openai.com/" },
+          { "name": "grok (avaliação via imagem)", "url": "https://grok.x.ai/" },
+          { "name": "deepseek (avaliação via imagem)", "url": "https://chat.deepseek.com/" },
+        ]
+      },
+      {
+        "title": "ferramentas ia execução de cenários bdd",
+        "items": [
+          { "name": "hercules", "url": "https://github.com/test-zeus-ai/testzeus-hercules/" },
+          { "name": "genesis", "url": "https://autify.com/genesis" },
+          { "name": "shortest", "url": "https://shortest.com/" }
+        ]
+      },
+      {
+        "title": "metodologias e ferramentas de feedback humano",
+        "items": [
+          { "name": "braintrust da pixar (metodologia)", "url": "https://medium.com/boost/braintrust-da-pixar-sess%C3%B5es-de-feedback-mais-enriquecedoras-e-seguras-7e8a6e49fa3e" },
+          { "name": "avaliação com especialista em ux (método)", "url": "na" },
+          { "name": "teste de usabilidade minimalista - guerrilha (método)", "url": "https://www.nngroup.com/articles/guerrilla-usability-testing/" },
+          { "name": "usertesting (ferramenta para encontrar participantes)", "url": "https://www.usertesting.com/" }
+        ]
+      }
+    ]
+  }
+}
   {
     id: 26,
     title: "gerar bdd para testes",
