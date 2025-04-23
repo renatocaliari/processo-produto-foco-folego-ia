@@ -80,6 +80,7 @@ export const delimitacaoIdeacaoStages = [
         {
           title: "ferramentas",
           items: [
+            { name: "The Pocket - Tutorial Codebase Knowledge", url: "https://github.com/The-Pocket/Tutorial-Codebase-Knowledge" },
             { name: "readme-ai", url: "https://github.com/eli64s/readme-ai" },
             { name: "quill", url: "https://github.com/mainnebula/quill" },
             { name: "code2prompt", url: "https://code2prompt.dev/" },
