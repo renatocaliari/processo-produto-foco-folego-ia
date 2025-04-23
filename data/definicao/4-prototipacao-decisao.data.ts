@@ -19,6 +19,14 @@ export const prototipacaoDecisaoStages = [
           ],
         },
         {
+          title: "mcp server para utilizar artefatos do figma em ferramentas com ia",
+          items: [{ name: "framelink.ai", url: "https://www.framelink.ai/" }],
+        },
+        {
+          title: "mcp server para utilizar componentes ui de alta qualidade",
+          items: [{ name: "21st.dev/magic", url: "https://21st.dev/magic" }],
+        },
+        {
           title: "ferramentas de ia — prototipação rápida",
           items: [
             { name: "v0", url: "https://v0.dev/" },
@@ -36,12 +44,26 @@ export const prototipacaoDecisaoStages = [
           ],
         },
         {
-          title: "mcp server para utilizar artefatos do figma em ferramentas com ia",
-          items: [{ name: "framelink.ai", url: "https://www.framelink.ai/" }],
+          title: "ferramentas no-code com ia para prototipação rápida",
+          items: [
+            { name: "bubble", "url": "https://bubble.io/" },
+            { name: "webstudio", url: "https://weweb.io/" },
+            { name: "weweb.io", url: "https://lovable.dev/" },
+            { name: "webflow", url: "http://webflow.com/" },
+            { name: "plasmic", url: "https://plasmic.app/" },
+            { name: "builder", url: "https://www.builder.io/" },
+          ],
         },
         {
-          title: "mcp server para utilizar componentes ui de alta qualidade",
-          items: [{ name: "21st.dev/magic", url: "https://21st.dev/magic" }],
+          title: "ferramentas no-code sem ia para prototipação rápida",
+          "items": [
+            { name: "dittofi", "url": "https://www.dittofi.com/" },
+            { name: "fuzzen.io", "url": "https://fuzen.io/" },
+            { name: "momen", "url": "https://momen.app/" },
+            { name: "wappler.io", "url": "https://wappler.io/" },
+            { name: "toddle.dev", "url": "https://toddle.dev/" },
+            { name: "fluxscape", "url": "https://fluxscape.io/" }
+          ]
         },
       ],
     },
@@ -59,27 +81,6 @@ export const prototipacaoDecisaoStages = [
             {
               name: "gerar cenários bdd gherkin",
               url: "https://calirenato82.substack.com/p/prompt-ia-gerar-cenarios-bdd-gherkin",
-            },
-          ],
-        },
-      ],
-    },
-  },
-  {
-    id: 27,
-    title: "decisão: discovery ou delivery",
-    type: "stage",
-    responsibles: ["humano"],
-    details: {
-      comment:
-        "avalie o que poderia ser feito para operacionalizar antes de produtizar, e decida se vale a pena fazer discovery ou ir direto pro delivery",
-      resources: [
-        {
-          title: "prompts",
-          items: [
-            {
-              name: "discovery: operacionalizar",
-              url: "https://calirenato82.substack.com/p/prompt-ia-discovery-operacionalizar-produtizar",
             },
           ],
         },

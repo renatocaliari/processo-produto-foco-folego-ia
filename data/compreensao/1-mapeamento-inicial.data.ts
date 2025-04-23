@@ -3,7 +3,7 @@ export const mapeamentoInicialData = {
   id: 1,
   title: "mapeamento inicial",
   type: "stage",
-  responsibles: ["ia"],
+  responsibles: ["humano com assistência de ia"],
   details: {
     comment: "mapeamento inicial do espaço do problema",
     resources: [
@@ -17,20 +17,14 @@ export const mapeamentoInicialData = {
         ],
       },
       {
-        title: "serviços",
-        items: [
-          {
-            name: "zero-to-insight",
-            url: "https://v0-zero-to-insight-jtbd.vercel.app/",
-            description: "serviço híbrido - especialista humano + ia - para mapeamento de jobs to be done",
-          },
-        ],
-      },
-      {
         title: "recursos",
         items: [
           {
-            name: "e-book gratuito: inovação baseada em jobs to be done",
+            name: "serviço zero-to-insight (especialista humano + ia)",
+            url: "https://v0-zero-to-insight-jtbd.vercel.app/",
+          },
+          {
+            name: "[e-book gratuito] inovação baseada em jobs to be done",
             url: "https://calirenato82.substack.com/p/e-book-jobs-to-be-done-em-portugues",
           },
         ],
@@ -49,6 +43,9 @@ export const mapeamentoInicialData = {
         title: "ferramentas para saber o que o público já pesquisa sobre o assunto",
         items: [
           { name: "answerthepublic", url: "https://answerthepublic.com/" },
+          { name: "google trends", url: "https://trends.google.com.br/trends/" },
+          { name: "glimpse", url: "https://meetglimpse.com/"},
+          { name: "globe.engineer", url: "https://globe.engineer/" },
           { name: "backlinko - people also ask", url: "https://backlinko.com/" },
           { name: "ubersuggest", url: "https://neilpatel.com/ubersuggest/" },
         ],

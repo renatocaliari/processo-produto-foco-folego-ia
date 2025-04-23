@@ -20,7 +20,7 @@ export const deliveryTrackData = {
       details: {
         resources: [
           {
-            title: "ferramentas ia — extensões open-source para código dentro de ide",
+            title: "ferramentas ia para gerar código — extensões open-source para código dentro de ide",
             items: [
               { name: "roocode", url: "https://roocode.com/" },
               { name: "cline", url: "https://cline.bot/" },
@@ -28,7 +28,7 @@ export const deliveryTrackData = {
             ],
           },
           {
-            title: "ferramentas ia — pagas/freemium para código",
+            title: "ferramentas ia para gerar código — pagas/freemium para código",
             items: [
               { name: "devin", url: "https://devin.ai/" },
               { name: "bolt", url: "https://bolt.new/" },
@@ -38,7 +38,7 @@ export const deliveryTrackData = {
             ],
           },
           {
-            title: "ferramentas ia — web editor/ide open-source",
+            title: "ferramentas ia para gerar código — web editor/ide open-source",
             items: [
               { name: "dyad.sh", url: "https://dyad.sh" },
               { name: "bolt.diy", url: "https://bolt.diy" },
@@ -54,7 +54,7 @@ export const deliveryTrackData = {
             ],
           },
           {
-            title: "ferramentas ia — formatar base de código para llm",
+            title: "ferramentas ia para formatar base de código para llm",
             items: [
               { name: "code2prompt", url: "https://code2prompt.dev/" },
               { name: "repomix", url: "https://repomix.com/" },
@@ -63,7 +63,7 @@ export const deliveryTrackData = {
             ],
           },
           {
-            title: "ferramentas ia — suporte (mcp servers e mais)",
+            title: "ferramentas ia para suporte (mcp servers e mais)",
             items: [
               { name: "context7 (carregar docs de libs para llm)", url: "https://context7.com/" },
               {
@@ -77,6 +77,58 @@ export const deliveryTrackData = {
               },
             ],
           },
+          {
+            title: "ferramentas de automação",
+            items: [
+              { name: "lutra.ai (vibe automation)", url: "https://lutra.ai/" },
+              { name: "activepieces (open-source)", url: "https://www.activepieces.com/" },
+              { name: "n8n (fair code)", url: "https://n8n.io/" },
+              { name: "zapier (com ia)", url: "https://zapier.com/" },
+              { name: "make", url: "https://www.make.com/" },
+              { name: "gumloop", url: "https://www.gumloop.com/" },
+              { name: "magicloops (vibe automation)", url: "https://magicloops.dev/pt" },
+            ],
+          },
+          {
+            title: "ferramentas para criar agentes de ia sem código",
+            items: [
+              { name: "latitude.so (estilo prompt)", url: "https://latitude.so/" },
+              { name: "wordware.ai (estilo doc)", url: "https://app.wordware.ai/lp" },
+              { name: "dify.ai (estilo automação)", url: "https://dify.ai" },
+              { name: "n8n (estilo automação)", url: "https://n8n.io/ " },
+            ],
+          },          
+          {
+            title: "frameworks para criar agentes de ia com código",
+            items: [
+              { name: "inngest agent kit", url: "https://agentkit.inngest.com/overview" },
+              { name: "cloudflare agent kit", url: "https://github.com/cloudflare/agents-starter" },
+              { name: "google agent kit", url: "https://google.github.io/adk-docs/" },
+              { name: "agno", url: "https://agno.com/" },
+            ],
+          },          
+          {
+            title: "ferramentas no-code com ia",
+            items: [
+              { name: "bubble", "url": "https://bubble.io/" },
+              { name: "webstudio", url: "https://weweb.io/" },
+              { name: "weweb.io", url: "https://lovable.dev/" },
+              { name: "webflow", url: "http://webflow.com/" },
+              { name: "plasmic", url: "https://plasmic.app/" },
+              { name: "builder", url: "https://www.builder.io/" },
+            ],
+          },
+          {
+            title: "ferramentas no-code sem ia",
+            "items": [
+              { name: "dittofi", "url": "https://www.dittofi.com/" },
+              { name: "fuzzen.io", "url": "https://fuzen.io/" },
+              { name: "momen", "url": "https://momen.app/" },
+              { name: "wappler.io", "url": "https://wappler.io/" },
+              { name: "toddle.dev", "url": "https://toddle.dev/" },
+              { name: "fluxscape", "url": "https://fluxscape.io/" }
+            ]
+          },
         ],
       },
     },
@@ -85,6 +137,10 @@ export const deliveryTrackData = {
       title: "pull request",
       type: "stage",
       responsibles: ["humano"],
+      details: {
+        comment:
+          "pull request no repositório",
+      },
     },
     {
       id: 32,
@@ -111,15 +167,23 @@ export const deliveryTrackData = {
     },
     {
       id: 33,
-      title: "testes automatizados gerais",
+      title: "rodar testes automatizados gerais",
       type: "stage",
       responsibles: ["humano com assistência de ia"],
+      details: {
+        comment:
+          "rodar testes automatizados: unitário e-ou integração",
+      },
     },
     {
       id: 34,
-      title: "homologação em ambiente de testes",
+      title: "homologar em ambiente de testes",
       type: "stage",
       responsibles: ["humano"],
+      details: {
+        comment:
+          "avaliar se a implementação está ok",
+      },
     },
     {
       id: 35,
@@ -127,20 +191,28 @@ export const deliveryTrackData = {
       type: "stage",
       responsibles: ["humano"],
       details: {
-        comment: "caso tenha gerado cenários",
+        comment: "caso tenha gerado cenários BDD, realizar a execução",
       },
     },
     {
       id: 36,
       title: "deploy",
       type: "stage",
-      responsibles: ["humano"],
+      responsibles: ["ia"],
+      details: {
+        comment:
+          "automação: realizar deploy em produção",
+      },
     },
     {
       id: 37,
       title: "homologação em ambiente de produção",
       type: "stage",
       responsibles: ["humano"],
+      details: {
+        comment:
+          "avaliar se a implementação está ok",
+      },
     },
     {
       id: 38,
@@ -148,7 +220,7 @@ export const deliveryTrackData = {
       type: "stage",
       responsibles: ["humano com assistência de ia"],
       details: {
-        comment: "ia pode ler changelogs do github e sumarizar uma release",
+        comment: "pode ter um agente de ia para ler changelogs do github e sumarizar uma release. ou usar ferramentas para gerenciar changelog.",
         resources: [
           {
             title: "ferramentas",

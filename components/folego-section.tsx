@@ -32,6 +32,7 @@ export function FolegoSection({ data, emoji, isExpanded, onToggle }: FolegoSecti
         {!isExpanded && !isMobile ? (
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="transform rotate-90 flex flex-row text-center">
+              {isExpanded ? <ChevronRight className="rotate-180" size={20} /> : <ChevronDown size={20} />}
               {emoji && (
                 <span role="img" aria-label="Fôlego" className="text-2xl">
                   {emoji}

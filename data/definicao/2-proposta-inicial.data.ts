@@ -25,6 +25,27 @@ export const propostaInicialStages = [
             },
           ],
         },
+        {
+          title: "ferramentas para apoiar criação de documentação",
+          items: [
+            {
+              name: "templaio",
+              url: "https://www.templaio.com/",
+            },
+            {
+              name: "codeguide.dev",
+              url: "https://www.codeguide.dev/",
+            },
+            {
+              name: "scopesflow",
+              url: "https://scopesflow.com/",
+            },
+            {
+              name: "eraser.io",
+              url: "https://eraser.io/",
+            },
+          ],
+        }
       ],
     },
   },
@@ -68,7 +89,7 @@ export const propostaInicialStages = [
   },
   {
     id: 20,
-    title: "definição inicial de ui/ux",
+    title: "ui/ux - definição inicial",
     type: "stage",
     responsibles: ["ia"],
     details: {
@@ -92,14 +113,14 @@ export const propostaInicialStages = [
   },
   {
     id: 20.5,
-    title: "refinar definição de ui/ux",
+    title: "ui/ux - refinar definição",
     type: "stage",
     responsibles: ["humano com assistência de ia"],
     details: {
       comment: "refinar os fluxos e wireframes iniciais com maior precisão",
       resources: [
         {
-          title: "ferramentas ia para fluxoes",
+          title: "ferramentas ia para fluxos",
           items: [
             { name: "figjam", url: "https://www.figma.com/templates/flow-chart-template/" },
             { name: "whimsical flowcharts", url: "https://whimsical.com/flowcharts" },
@@ -113,6 +134,8 @@ export const propostaInicialStages = [
           title: "ferramentas ia para wireframes (evite qualquer detalhe como cor, texto, imagem, etc)",
           items: [
             { name: "wireframe.cc", url: "https://wireframe.cc/" },
+            { name: "excalidraw", url: "https://excalidraw.com/" },
+            { name: "tldraw", url: "https://www.tldraw.com/" },
             { name: "whimsical wireframes", url: "https://whimsical.com/wireframes" },
             { name: "figma", url: "https://www.figma.com/templates/wireframe-kits/" },
             { name: "flowchart.fun", url: "https://flowchart.fun/" },

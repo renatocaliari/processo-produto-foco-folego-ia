@@ -73,9 +73,9 @@ export const delimitacaoIdeacaoStages = [
     id: 13,
     title: "entender produtos próprios atuais",
     type: "stage",
-    responsibles: ["humano"],
+    responsibles: ["ia"],
     details: {
-      comment: "ler readme atualizado do repositório github",
+      comment: "ia pode ler e avaliar readme do repositório github e outros contextos do produto, inclusive a base de código",
       resources: [
         {
           title: "ferramentas",

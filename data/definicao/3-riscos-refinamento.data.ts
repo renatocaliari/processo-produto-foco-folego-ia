@@ -4,7 +4,7 @@ export const riscosRefinamentoStages = [
     id: 21,
     title: "mapear riscos técnicos de desenvolvimento",
     type: "stage",
-    responsibles: ["humano"],
+    responsibles: ["ia"],
     details: {
       resources: [
         {
@@ -40,6 +40,27 @@ export const riscosRefinamentoStages = [
     },
   },
   {
+    id: 21.8,
+    title: "decisão: discovery ou delivery",
+    type: "stage",
+    responsibles: ["humano com assistência de ia"],
+    details: {
+      comment:
+        "com base nas evidências sobre entrega de valor, proposta da solução e riscos técnicos, avalie se vale a pena operacionalizar e validar a ideia antes de produtizar. decida se vale a pena fazer discovery ou ir para o delivery.",
+      resources: [
+        {
+          title: "prompts",
+          items: [
+            {
+              name: "explore opções para operacionalizar e decidir se fará discovery ou delivery",
+              url: "https://calirenato82.substack.com/p/prompt-ia-discovery-operacionalizar-produtizar",
+            },
+          ],
+        },
+      ],
+    },
+  },    
+  {
     id: 22,
     title: "refinar proposta final",
     type: "stage",
@@ -55,7 +76,7 @@ export const riscosRefinamentoStages = [
     type: "stage",
     responsibles: ["ia"],
     details: {
-      comment: "o refinamento desse mapeamento será realizado no período de implementação.",
+      comment: "[se proposta de delivery] o refinamento do mapeamento gerado aqui será realizado no período de implementação.",
       resources: [
         {
           title: "prompts",

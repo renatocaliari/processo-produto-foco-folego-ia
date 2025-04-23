@@ -9,7 +9,7 @@ import { evolucaoSolucaoData } from "./8-evolucao-solucao.data"
 
 export const compreensaoData = {
   title: "aprendizado do espaço do problema e solução",
-  description: "etapas para compreender o espaço do problema e possíveis soluções",
+  description: "etapas para compreender o espaço do problema, descobrir oportunidades e definir soluções",
   stages: [
     mapeamentoInicialData,
     aprendizadoPublicoData,

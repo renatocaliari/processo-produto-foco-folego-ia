@@ -63,29 +63,35 @@ export function StageCard({ stage, filter }: StageCardProps) {
           </div>
         )}
 
-        {stage.details?.resources && stage.details.resources.length > 0 && (
+        {/* Verificar se resources existe e é um array antes de chamar map */}
+        {stage.details?.resources && Array.isArray(stage.details.resources) && stage.details.resources.length > 0 && (
           <>
             {stage.details.resources.map((resource: any, resourceIndex: number) => (
               <div key={resourceIndex} className="mb-4">
                 <h4 className="font-bold mb-2">{resource.title}:</h4>
-                <ul className="list-disc pl-5 text-sm">
-                  {resource.items.map((item: any, itemIndex: number) => (
-                    <li key={itemIndex} className="mb-1">
-                      {item.url ? (
-                        <a
-                          href={item.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-blue-600 underline"
-                        >
-                          {item.name}
-                        </a>
-                      ) : (
-                        item.name
-                      )}
-                    </li>
-                  ))}
-                </ul>
+                {/* Verificar se items existe e é um array antes de chamar map */}
+                {resource.items && Array.isArray(resource.items) ? (
+                  <ul className="list-disc pl-5 text-sm">
+                    {resource.items.map((item: any, itemIndex: number) => (
+                      <li key={itemIndex} className="mb-1">
+                        {item.url ? (
+                          <a
+                            href={item.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-600 underline"
+                          >
+                            {item.name}
+                          </a>
+                        ) : (
+                          item.name
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="text-sm">Nenhum item disponível</p>
+                )}
               </div>
             ))}
           </>

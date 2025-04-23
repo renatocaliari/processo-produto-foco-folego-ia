@@ -6,7 +6,9 @@ import { ProcessSection } from "@/components/process-section"
 import { FolegoSection } from "@/components/folego-section"
 import { ImplementationSection } from "@/components/implementation-section"
 import { ResourcesSection } from "@/components/resources-section"
+import { ContactSection } from "@/components/contact-section"
 import { FilterBar } from "@/components/filter-bar"
+import { AutomationHighlight } from "@/components/automation-highlight"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -48,8 +50,8 @@ export default function ProductProcess() {
             target="_blank"
           >
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-va6NGm9VY2s949gojop7jAy8jHji0w.png"
-              alt="Produto & IA"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-RqtpI7SoccYImW9EgzL1qjCZBDMBvx.png"
+              alt="IA"
               width={80}
               height={80}
               className="hover:scale-105 transition-transform cursor-pointer"
@@ -60,6 +62,9 @@ export default function ProductProcess() {
 
       {/* Filter bar (agora também serve como legenda) */}
       <FilterBar activeFilter={activeFilter} setActiveFilter={setActiveFilter} />
+
+      {/* Destaque sobre automação */}
+      <AutomationHighlight />
 
       <div className="flex flex-col lg:flex-row gap-4 mb-8">
         <div
@@ -120,6 +125,9 @@ export default function ProductProcess() {
           emoji="🧘"
         />
       </div>
+
+      {/* Contact section */}
+      <ContactSection />
 
       {/* Resources section */}
       <ResourcesSection emoji="📚" />

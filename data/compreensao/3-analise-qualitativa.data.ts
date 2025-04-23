@@ -3,7 +3,7 @@ export const analiseQualitativaData = {
   id: 3,
   title: "análise qualitativa aprofundada em dados prévios",
   type: "stage",
-  responsibles: ["ia"],
+  responsibles: ["humano com assistência de ia"],
   details: {
     comment:
       "identificar temas e padrões em grandes volumes de textos, como entrevistas ou qualquer outra base de conhecimento.",

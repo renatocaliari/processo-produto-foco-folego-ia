@@ -9,7 +9,7 @@ export const folegoData = {
     "reuniões em grupos de times",
     "reuniões em grupo de empresa (all hands, etc.)",
     "arquitetura de código (refinamento de prompts ia da estrutura de código, refatoração, débitos técnicos)",
-    "arquitetura de design (refinamento de prompts ia da estrutura de design, evolução de design system, stroybook, componentes)",
+    "arquitetura de design (refinamento de prompts ia da estrutura de design, evolução de design system, storybook, componentes)",
     "abordagem à comunidade (palestras, artigos)",
   ],
 }

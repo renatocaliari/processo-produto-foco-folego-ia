@@ -24,15 +24,6 @@ export const discoveryTrackData = {
       },
     },
     {
-      id: 40,
-      title: "avaliação e refinamento de escopos",
-      type: "stage",
-      responsibles: ["humano"],
-      details: {
-        comment: "avaliar e refinar escopos",
-      },
-    },
-    {
       id: 41,
       title: "tipo de discovery",
       type: "stage",
@@ -42,8 +33,8 @@ export const discoveryTrackData = {
           "avaliar oferta, comprometimento e operacionalização antes de produtizar. consulte tópicos no e-book abaixo.",
         resources: [
           {
-            title: "e-book gratuito - A Arte Da Experimentação: Da Ideia ao Produto",
-            url: "https://calirenato82.substack.com/p/roteiro-pratico-para-validar-ideias",
+            title: "recursos",
+            items: [{ name: "[e-book] A Arte Da Experimentação: Da Ideia ao Produto", url: "https://calirenato82.substack.com/p/roteiro-pratico-para-validar-ideias" }],
           },
         ],
       },
@@ -57,7 +48,11 @@ export const discoveryTrackData = {
         comment: "gerar protótipo com ia",
         resources: [
           {
-            title: "ferramentas",
+            title: "mcp server para utilizar componentes ui de alta qualidade",
+            items: [{ name: "21st.dev/magic", url: "https://21st.dev/magic" }],
+          },
+          {
+            title: "ferramentas de ia — prototipação rápida",
             items: [
               { name: "v0", url: "https://v0.dev/" },
               { name: "tempo.new", url: "https://www.tempo.new/" },
@@ -65,6 +60,56 @@ export const discoveryTrackData = {
               { name: "firebase.studio", url: "https://firebase.studio/" },
               { name: "+70 outras ferramentas", url: "https://vibecodingdirectory.com/" },
             ],
+          },
+          {
+            title: "ferramentas de automação",
+            items: [
+              { name: "lutra.ai (vibe automation)", url: "https://lutra.ai/" },
+              { name: "activepieces (open-source)", url: "https://www.activepieces.com/" },
+              { name: "n8n (fair code)", url: "https://n8n.io/" },
+              { name: "zapier (com ia)", url: "https://zapier.com/" },
+              { name: "make", url: "https://www.make.com/" },
+              { name: "gumloop", url: "https://www.gumloop.com/" },
+              { name: "magicloops (vibe automation)", url: "https://magicloops.dev/pt" },
+            ],
+          },
+          {
+            title: "ferramentas para criar agentes de ia sem código",
+            items: [
+              { name: "latitude.so (estilo prompt)", url: "https://latitude.so/" },
+              { name: "wordware.ai (estilo doc)", url: "https://app.wordware.ai/lp" },
+              { name: "dify.ai (estilo automação)", url: "https://dify.ai" },
+              { name: "n8n (estilo automação)", url: "https://n8n.io/ " },
+            ],
+          },          
+          {
+            title: "ferramentas de ia — prototipação rápida - open source",
+            items: [
+              { name: "dyad.sh", url: "https://www.dyad.sh/" },
+              { name: "bolt.diy", url: "https://bolt.diy/" },
+            ],
+          },
+          {
+            title: "ferramentas no-code com ia para prototipação rápida",
+            items: [
+              { name: "bubble", "url": "https://bubble.io/" },
+              { name: "webstudio", url: "https://weweb.io/" },
+              { name: "weweb.io", url: "https://lovable.dev/" },
+              { name: "webflow", url: "http://webflow.com/" },
+              { name: "plasmic", url: "https://plasmic.app/" },
+              { name: "builder", url: "https://www.builder.io/" },
+            ],
+          },
+          {
+            title: "ferramentas no-code sem ia para prototipação rápida",
+            "items": [
+              { name: "dittofi", "url": "https://www.dittofi.com/" },
+              { name: "fuzzen.io", "url": "https://fuzen.io/" },
+              { name: "momen", "url": "https://momen.app/" },
+              { name: "wappler.io", "url": "https://wappler.io/" },
+              { name: "toddle.dev", "url": "https://toddle.dev/" },
+              { name: "fluxscape", "url": "https://fluxscape.io/" }
+            ]
           },
         ],
       },
