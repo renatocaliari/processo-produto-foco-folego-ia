@@ -106,8 +106,7 @@ export const deliveryTrackData = {
               { name: "google agent kit", url: "https://google.github.io/adk-docs/" },
               { name: "agno", url: "https://agno.com/" },
               { name: "smolagents", url: "https://github.com/huggingface/smolagents" },
-              { name: "pocketflow", url: "https://the-pocket.github.io/PocketFlow/" },
-              { name: "maskara", url: "https://www.maskara.ai/" },
+              { name: "pocketflow", url: "https://the-pocket.github.io/PocketFlow/" }
             ],
           },          
           {
