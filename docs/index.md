@@ -9,22 +9,14 @@ Users can **filter** the view to see only stages assigned to a specific responsi
 
 ```mermaid
 flowchart TD
-    A0["Product Process Data Structure
-"]
-    A1["Main Page (`ProductProcess`)
-"]
-    A2["`ProcessSection` Component
-"]
-    A3["`StageCard` Component
-"]
-    A4["Filtering Logic
-"]
-    A5["Shadcn/UI Component Library
-"]
-    A6["`FolegoSection` Component
-"]
-    A7["`ImplementationSection` Component
-"]
+    A0["Product Process Data Structure"]
+    A1["Main Page (`ProductProcess`)"]
+    A2["ProcessSection Component"]
+    A3["StageCard Component"]
+    A4["Filtering Logic"]
+    A5["Shadcn/UI Component Library"]
+    A6["FolegoSection Component"]
+    A7["ImplementationSection Component"]
     A1 -- "Loads and uses process data" --> A0
     A1 -- "Renders and controls" --> A2
     A1 -- "Manages filter state" --> A4
