@@ -6,7 +6,6 @@ import { ProcessSection } from "@/components/process-section"
 import { FolegoSection } from "@/components/folego-section"
 import { ImplementationSection } from "@/components/implementation-section"
 import { ResourcesSection } from "@/components/resources-section"
-import { ContactSection } from "@/components/contact-section"
 import { FilterBar } from "@/components/filter-bar"
 import { AutomationHighlight } from "@/components/automation-highlight"
 import Image from "next/image"
@@ -63,7 +62,7 @@ export default function ProductProcess() {
       {/* Filter bar (agora também serve como legenda) */}
       <FilterBar activeFilter={activeFilter} setActiveFilter={setActiveFilter} />
 
-      {/* Destaque sobre automação */}
+      {/* Destaque sobre automação com botão de contato discreto */}
       <AutomationHighlight />
 
       <div className="flex flex-col lg:flex-row gap-4 mb-8">
@@ -125,9 +124,6 @@ export default function ProductProcess() {
           emoji="🧘"
         />
       </div>
-
-      {/* Contact section */}
-      <ContactSection />
 
       {/* Resources section */}
       <ResourcesSection emoji="📚" />

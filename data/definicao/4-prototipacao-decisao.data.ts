@@ -100,14 +100,6 @@ export const prototipacaoDecisaoStages = [
           ]
         },
         {
-          "title": "ferramentas ia execução de cenários bdd",
-          "items": [
-            { "name": "hercules", "url": "https://github.com/test-zeus-ai/testzeus-hercules/" },
-            { "name": "genesis", "url": "https://autify.com/genesis" },
-            { "name": "shortest", "url": "https://shortest.com/" }
-          ]
-        },
-        {
           "title": "metodologias e ferramentas de feedback humano",
           "items": [
             { "name": "braintrust da pixar (metodologia)", "url": "https://medium.com/boost/braintrust-da-pixar-sess%C3%B5es-de-feedback-mais-enriquecedoras-e-seguras-7e8a6e49fa3e" },
