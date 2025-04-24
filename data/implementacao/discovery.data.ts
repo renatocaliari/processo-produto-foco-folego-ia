@@ -4,7 +4,7 @@ export const discoveryTrackData = {
   description: "etapas para descobrir e validar a solução",
   stages: [
     {
-      id: 39,
+      id: 39, 
       title: "projeto de discovery",
       type: "stage",
       responsibles: ["humano"],

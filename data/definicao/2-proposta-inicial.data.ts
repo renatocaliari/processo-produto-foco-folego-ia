@@ -50,10 +50,10 @@ export const propostaInicialStages = [
     },
   },
   {
-    id: 18,
-    title: "mapear escopos por entrega de valor",
+    id: 18.1,
+    title: "refinar proposta",
     type: "stage",
-    responsibles: ["ia"],
+    responsibles: ["humano"],
     details: {
       resources: [
         {
@@ -62,6 +62,25 @@ export const propostaInicialStages = [
             {
               name: "mapeamento e sequenciamento de escopos verticais",
               url: "https://calirenato82.substack.com/p/prompt-ia-mapeamento-e-sequenciamento-escopos-verticais-entrega-valor",
+            },
+          ],
+        },
+      ],
+    },
+  },
+  {
+    id: 18.2,
+    title: "avaliar proposta de solução",
+    type: "stage",
+    responsibles: ["ia"],
+    details: {
+      resources: [
+        {
+          title: "prompts",
+          items: [
+            {
+              name: "avaliar proposta de solução",
+              url: "https://calirenato82.substack.com/p/prompt-ia-avaliacao-da-proposta-de-solucao",
             },
           ],
         },

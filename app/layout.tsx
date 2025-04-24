@@ -4,8 +4,8 @@ import type { Metadata } from "next"
 import Script from "next/script"
 
 export const metadata: Metadata = {
-  title: "Processo de Produto com IA",
-  description: "Visualização do processo de produto com IA",
+  title: "Time de Produto para o Futuro do Trabalho",
+  description: "Visualização do processo de produto com IA e trilhas de progressão para o futuro do trabalho",
     generator: 'v0.dev'
 }
 

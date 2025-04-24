@@ -20,15 +20,16 @@ export const riscosRefinamentoStages = [
     },
   },
   {
-    id: 21.5,
-    title: "refinar mapeamento de riscos",
+    id: 22,
+    title: "refinar proposta final e avaliação de riscos",
     type: "stage",
-    responsibles: ["humano com assistência de ia"],
+    responsibles: ["humano"],
     details: {
-      comment: "refinar a avaliação de riscos com maior precisão",
+      comment:
+        "consultar líder técnico e product designer para avaliar a proposta e refinar uma proposta concreta o suficiente para guiar a implementação, abstrata o suficiente para dar autonomia ao time de implementação",
       resources: [
         {
-          title: "ferramentas de ia para apoiar",
+          title: "ferramentas de ia para apoiar avaliação técnica",
           items: [
             { name: "augment code", url: "https://www.augmentcode.com/" },
             { name: "devin", url: "https://app.devin.ai/" },
@@ -40,7 +41,7 @@ export const riscosRefinamentoStages = [
     },
   },
   {
-    id: 21.8,
+    id: 22.8,
     title: "decisão: discovery ou delivery",
     type: "stage",
     responsibles: ["humano com assistência de ia"],
@@ -59,17 +60,7 @@ export const riscosRefinamentoStages = [
         },
       ],
     },
-  },    
-  {
-    id: 22,
-    title: "refinar proposta final",
-    type: "stage",
-    responsibles: ["humano"],
-    details: {
-      comment:
-        "consultar líder técnico e product designer para proposta concreta o suficiente para guiar a implementação, abstrata o suficiente para dar autonomia ao time de implementação",
-    },
-  },
+  },   
   {
     id: 23,
     title: "mapear e sequenciar escopos técnicos",

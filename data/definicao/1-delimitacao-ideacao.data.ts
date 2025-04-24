@@ -6,7 +6,7 @@ export const delimitacaoIdeacaoStages = [
     type: "stage",
     responsibles: ["humano com assistência de ia"],
     details: {
-      comment: "definir o problema a ser resolvido com clareza",
+      comment: "definir o problema a ser resolvido com clareza. a pergunta não é 'O que poderíamos construir?' mas 'O que está acontecendo de errado (ou que poderia ser melhor)?'",
       resources: [
         {
           title: "prompts",
@@ -46,15 +46,19 @@ export const delimitacaoIdeacaoStages = [
     type: "stage",
     responsibles: ["humano"],
     details: {
-      comment: "definir período para investir tempo em uma solução",
+      comment: "defina quantas semanas tem de apetite para investir tempo em uma solução. sem isso não conseguirá determinar o que fica fora e o que precisa ser simplificado. essa etapa é crucial e diferente da ideia de estimar pontos ou tempo posteriormente - que cairia na falácia do planejamento e viés do otimismo. leia mais abaixo.",
       resources: [
         {
-          title: "recursos",
+          title: "recursos", 
           items: [
             {
-              name: "saiba mais",
+              name: "restrição de tempo em vez de estimativa de tempo",
               url: "https://calirenato82.substack.com/i/160124085/restricao-de-tempo",
             },
+            {
+              name: "shape up - apetite de tempo",
+              url: "https://basecamp-com.translate.goog/shapeup/1.2-chapter-03?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=en&_x_tr_pto=wapp",
+            }
           ],
         },
       ],
@@ -80,7 +84,7 @@ export const delimitacaoIdeacaoStages = [
         {
           title: "ferramentas",
           items: [
-            { name: "The Pocket - Tutorial Codebase Knowledge", url: "https://github.com/The-Pocket/Tutorial-Codebase-Knowledge" },
+            { name: "Tutorial-Codebase-Knowledge", url: "https://github.com/The-Pocket/Tutorial-Codebase-Knowledge" },
             { name: "readme-ai", url: "https://github.com/eli64s/readme-ai" },
             { name: "quill", url: "https://github.com/mainnebula/quill" },
             { name: "code2prompt", url: "https://code2prompt.dev/" },

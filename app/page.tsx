@@ -1,13 +1,17 @@
 "use client"
 
 import { useState } from "react"
-import { processData } from "@/data"
+// Importando do novo arquivo de dados consolidado
+import { processData } from "@/data-export"
 import { ProcessSection } from "@/components/process-section"
 import { FolegoSection } from "@/components/folego-section"
 import { ImplementationSection } from "@/components/implementation-section"
 import { ResourcesSection } from "@/components/resources-section"
 import { FilterBar } from "@/components/filter-bar"
 import { AutomationHighlight } from "@/components/automation-highlight"
+import { CareerPathsSection } from "@/components/career-paths-section"
+import { ImpactLevelsSection } from "@/components/impact-levels-section"
+import { SiteIntro } from "@/components/site-intro"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -29,7 +33,19 @@ export default function ProductProcess() {
 
   return (
     <div className="min-h-screen bg-neutral-100 p-4 md:p-8 font-mono">
-      <h1 className="text-4xl font-bold mb-6 text-center">Processo de Produto com IA</h1>
+      {/* Título principal alterado para "Time de Produto para o Futuro do Trabalho" com emoji */}
+      <h1 className="text-4xl font-bold mb-2 text-center flex items-center justify-center gap-2">
+        <span role="img" aria-label="Futuro" className="text-4xl">
+          🚀
+        </span>
+        Time de Produto para o Futuro do Trabalho
+      </h1>
+
+      {/* Subtítulo "Processo Foco & Fôlego com IA" */}
+      <h2 className="text-2xl font-bold mb-6 text-center">Processo Foco & Fôlego com IA</h2>
+
+      {/* Nova caixa de introdução elegante */}
+      <SiteIntro />
 
       {/* Stickers abaixo do título */}
       <div className="flex items-center justify-center mb-8">
@@ -125,7 +141,13 @@ export default function ProductProcess() {
         />
       </div>
 
-      {/* Resources section */}
+      {/* Nova seção de Níveis de impacto, Avaliação e remuneração */}
+      <ImpactLevelsSection />
+
+      {/* Career Paths Section (renomeada para "Papéis evolutivos") */}
+      <CareerPathsSection />
+
+      {/* Resources section (com título ajustado para mesmo tamanho) */}
       <ResourcesSection emoji="📚" />
     </div>
   )
