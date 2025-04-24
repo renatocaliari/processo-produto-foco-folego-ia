@@ -11,7 +11,7 @@ export function Footer() {
         >
           Cali (Renato Caliari)
         </a>{" "}
-        com 🖤
+        com <span role="img" aria-label="black heart">🖤</span>
       </p>
     </footer>
   )

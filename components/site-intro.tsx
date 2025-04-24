@@ -10,11 +10,7 @@ export function SiteIntro() {
   }
 
   return (
-    <div className="max-w-4xl mx-auto mb-12 p-6 bg-white border-2 border-black rounded-lg shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]">
-      <p className="text-center mb-6 text-lg">
-        Este site apresenta uma visão integrada para times de produto do futuro, combinando:
-      </p>
-
+    <div className="max-w-4xl mx-auto mb-12 p-6">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
         <div
           className="flex flex-col items-center text-center p-4 bg-amber-50 rounded-lg border border-black cursor-pointer hover:bg-amber-100 transition-colors"
@@ -61,10 +57,24 @@ export function SiteIntro() {
         </div>
       </div>
 
-      <p className="text-center text-sm italic mt-6">
+      <p className="text-center text-sm italic mt-6 mb-6">
         Uma abordagem integrada para capacitar times de produto a navegar na complexidade, aproveitar o potencial da IA
         e evoluir de forma não-linear em um mundo em constante mudança.
       </p>
+
+      <div className="text-center">
+        <button
+          className="text-sm md:text-base bg-black text-white py-2 px-4 rounded-md hover:bg-gray-800 transition-colors inline-flex items-center gap-2 font-bold shadow-[2px_2px_0px_0px_rgba(0,0,0,0.3)]"
+          data-tally-open="3jgb49"
+          data-tally-emoji-text="🤖"
+          data-tally-emoji-animation="wave"
+        >
+          <span role="img" aria-label="Contato" className="text-base md:text-lg">
+            👋
+          </span>
+          Precisa de ajuda? Entre em contato
+        </button>
+      </div>
     </div>
   )
 }

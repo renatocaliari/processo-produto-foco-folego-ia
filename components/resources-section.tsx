@@ -42,6 +42,24 @@ export function ResourcesSection({ emoji }: ResourcesSectionProps) {
       description:
         "Processo passo a passo na utilização do framework de inovação Jobs To Be Done aplicado a negócios e produto.",
     },
+    {
+      title: "Os perigos da avaliação de desempenho nas organizações",
+      url: "https://calirenato82.substack.com/p/os-perigos-da-avaliacao-de-desempenho",
+      description:
+        "Análise crítica sobre os riscos e armadilhas das avaliações de desempenho tradicionais, incluindo o Nine-Box, com alternativas mais eficazes.",
+    },
+    {
+      title: "O perigo ao usar metas em organizações",
+      url: "https://calirenato82.substack.com/p/o-perigo-de-metas-em-organizacoes",
+      description:
+        "Reflexão sobre como metas podem gerar comportamentos indesejados e alternativas para criar alinhamento sem os efeitos colaterais negativos.",
+    },
+    {
+      title: "[e-book] Contornos - Tecnologia Social para organizações",
+      url: "https://calirenato82.substack.com/p/e-book-contornos-tecnologia-social",
+      description:
+        "Sistema com regras básicas para dar mais agilidade, distribuir decisões com autonomia e responsabilidade, e fomentar experimentações.",
+    },
   ]
 
   return (
@@ -55,11 +73,11 @@ export function ResourcesSection({ emoji }: ResourcesSectionProps) {
         Recursos para Consulta
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-5xl mx-auto">
         {resources.map((resource, index) => (
           <div
             key={index}
-            className="border-2 border-black rounded-lg bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] 
+            className="border-2 border-black rounded-lg bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]
                       hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all p-4 flex flex-col h-full"
           >
             <h3 className="font-bold text-lg mb-2 border-b-2 border-black pb-2">{resource.title}</h3>

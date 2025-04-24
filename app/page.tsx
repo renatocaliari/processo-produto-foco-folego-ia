@@ -12,6 +12,7 @@ import { AutomationHighlight } from "@/components/automation-highlight"
 import { CareerPathsSection } from "@/components/career-paths-section"
 import { ImpactLevelsSection } from "@/components/impact-levels-section"
 import { SiteIntro } from "@/components/site-intro"
+import { Footer } from "@/components/footer"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -33,22 +34,21 @@ export default function ProductProcess() {
 
   return (
     <div className="min-h-screen bg-neutral-100 p-4 md:p-8 font-mono">
-      {/* Título principal alterado para "Time de Produto para o Futuro do Trabalho" com emoji */}
       <h1 className="text-4xl font-bold mb-2 text-center flex items-center justify-center gap-2">
         <span role="img" aria-label="Futuro" className="text-4xl">
           🚀
         </span>
-        Time de Produto para o Futuro do Trabalho
+        Time de Produto preparado para o Futuro
       </h1>
-
-      {/* Subtítulo "Processo Foco & Fôlego com IA" */}
-      <h2 className="text-2xl font-bold mb-6 text-center">Processo Foco & Fôlego com IA</h2>
 
       {/* Nova caixa de introdução elegante */}
       <SiteIntro />
 
-      {/* Stickers abaixo do título */}
-      <div className="flex items-center justify-center mb-8">
+      {/* Subtítulo "Processo Foco & Fôlego com IA" */}
+      <h2 id="processo-foco" className="text-2xl font-bold mb-6 text-center">Processo Foco & Fôlego com IA</h2>
+
+      {/* Stickers abaixo do título "Processo Foco & Fôlego com IA" */}
+      <div className="flex items-center justify-center mb-6">
         <div className="flex items-center gap-4">
           <Link href="http://calirenato82.substack.com/p/processo-de-produto-foco-and-folego" target="_blank">
             <Image
@@ -75,15 +75,15 @@ export default function ProductProcess() {
         </div>
       </div>
 
-      {/* Filter bar (agora também serve como legenda) */}
-      <FilterBar activeFilter={activeFilter} setActiveFilter={setActiveFilter} />
-
       {/* Destaque sobre automação com botão de contato discreto */}
       <AutomationHighlight />
 
+      {/* Filter bar (agora também serve como legenda) */}
+      <FilterBar activeFilter={activeFilter} setActiveFilter={setActiveFilter} />
+
       <div className="flex flex-col lg:flex-row gap-4 mb-8">
         <div
-          className={`border-4 border-black rounded-xl bg-white shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] 
+          className={`border-4 border-black rounded-xl bg-white shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]
           ${isFolegoExpanded ? "lg:w-4/5" : "md:w-full lg:w-11/12"}`}
         >
           {/* Foco section with title and description in the same pattern as Fôlego */}
@@ -142,13 +142,22 @@ export default function ProductProcess() {
       </div>
 
       {/* Nova seção de Níveis de impacto, Avaliação e remuneração */}
-      <ImpactLevelsSection />
+      <div id="niveis-impacto">
+        <ImpactLevelsSection />
+      </div>
 
       {/* Career Paths Section (renomeada para "Papéis evolutivos") */}
-      <CareerPathsSection />
+      <div id="papeis-evolutivos">
+        <CareerPathsSection />
+      </div>
 
       {/* Resources section (com título ajustado para mesmo tamanho) */}
-      <ResourcesSection emoji="📚" />
+      <div id="recursos-consulta">
+        <ResourcesSection emoji="📚" />
+      </div>
+
+      {/* Footer */}
+      <Footer />
     </div>
   )
 }
