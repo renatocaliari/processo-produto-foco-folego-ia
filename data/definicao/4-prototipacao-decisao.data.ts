@@ -82,6 +82,8 @@ export const prototipacaoDecisaoStages = [
             { "name": "operator.browserbase", "url": "https://operator.browserbase.com/" }, 
             { "name": "browser use", "url": "https://browser-use.com/" },
             { "name": "dobrowser", "url": "https://www.dobrowser.io/" },
+            { "name": "hyperbrowser", "url": "https://www.hyperbrowser.ai/" },
+            { "name": "simular", "url": "https://www.simular.ai/" },            
             { "name": "skyvern", "url": "https://skyvern.com/" },
             { "name": "owl", "url": "https://github.com/camel-ai/owl" },
             { "name": "kortix suna", "url": "https://www.suna.so/" },

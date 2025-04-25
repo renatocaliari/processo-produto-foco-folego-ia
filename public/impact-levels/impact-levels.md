@@ -1,5 +1,3 @@
-# repensando carreiras: para além dos modelos lineares de progressão
-
 o mundo do trabalho está em constante evolução, desafiando a noção tradicional de carreiras lineares e previsíveis. a forma como aprendemos e nos desenvolvemos raramente segue um caminho reto; é um processo contínuo, exploratório e muitas vezes não linear. como, então, podemos criar sistemas de progressão profissional que verdadeiramente reflitam essa dinâmica, especialmente em áreas que exigem adaptabilidade e aprendizado constante, como a de desenvolvimento de produto?
 
 este artigo explora as limitações de modelos de progressão hierárquicos tradicionais e propõe uma abordagem alternativa, focada em impacto, habilidades contextuais e aprendizado contínuo. é um convite à reflexão sobre como podemos alinhar nossas estruturas de desenvolvimento com a natureza fluida do trabalho moderno.
@@ -41,22 +39,22 @@ abaixo está um exemplo de níveis de impacto que poderiam ser aplicados em dive
 
 **níveis de impacto - níveis da trilha**
 
-* **contribuindo:**
+* **aprendiz:**
     * **foco:** aprender e aplicar com orientação.
     * **autonomia:** guiada (precisa de direcionamento no 'o quê' e 'como').
     * **complexidade:** tarefas claras e bem definidas.
     * **impacto:** local (tarefas individuais, time imediato).
-* **construindo:**
+* **realizador:**
     * **foco:** aplicar de forma autônoma, propor soluções.
     * **autonomia:** define o 'como', busca alinhar o 'o quê'.
     * **complexidade:** problemas conhecidos, desafios claros.
     * **impacto:** time, produto/serviço.
-* **liderando:**
+* **mentor:**
     * **foco:** lidar com ambiguidade, multiplicar conhecimento.
     * **autonomia:** define o 'o quê' e 'como' em escopos maiores.
     * **complexidade:** problemas ambíguos, escopo amplo.
     * **impacto:** multi-time, área, organização.
-* **escalando:**
+* **estrategista:**
     * **foco:** lidar com desafios sistêmicos, criar novas capacidades.
     * **autonomia:** define direção estratégica.
     * **complexidade:** problemas sistêmicos, estratégicos.

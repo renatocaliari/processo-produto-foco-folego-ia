@@ -34,6 +34,7 @@ export const riscosRefinamentoStages = [
             { name: "augment code", url: "https://www.augmentcode.com/" },
             { name: "all hands (open source)", url: "https://github.com/All-Hands-AI/OpenHands" },
             { name: "swe agent (open source)", url: "https://swe-agent.com/" },
+            { name: "agentless", url: "https://github.com/OpenAutoCoder/Agentless" },
             { name: "devin", url: "https://app.devin.ai/" },
             { name: "roocode (open source)", url: "https://roocode.com/" },
             { name: "cline (open source)", url: "https://cline.bot/" },

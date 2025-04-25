@@ -8,7 +8,7 @@ import { FolegoSection } from "@/components/folego-section"
 import { ImplementationSection } from "@/components/implementation-section"
 import { ResourcesSection } from "@/components/resources-section"
 import { FilterBar } from "@/components/filter-bar"
-import { AutomationHighlight } from "@/components/automation-highlight"
+import { ExperimentationCTA } from "@/components/experimentation-cta"
 import { CareerPathsSection } from "@/components/career-paths-section"
 import { ImpactLevelsSection } from "@/components/impact-levels-section"
 import { SiteIntro } from "@/components/site-intro"
@@ -33,59 +33,68 @@ export default function ProductProcess() {
   }
 
   return (
-    <div className="min-h-screen bg-neutral-100 p-4 md:p-8 font-mono">
-      <h1 className="text-4xl font-bold mb-2 text-center flex items-center justify-center gap-2">
-        <span role="img" aria-label="Futuro" className="text-4xl">
-          🚀
-        </span>
-        Ops - Time de Produto
-      </h1>
+    <div className="min-h-screen bg-neutral-100 font-mono">
+      <div className="mx-auto max-w-[1024px] px-4 md:px-8">
+        <h1 className="text-4xl font-bold mb-2 text-center flex items-center justify-center gap-2 pt-8">
+          <span role="img" aria-label="Futuro" className="text-4xl">
+            🚀
+          </span>
+          <div className="flex flex-col">
+            <span>Ops - Time de Produto</span>
+            <span className="text-2xl">com assistência de Inteligência Artificial</span>
+          </div>
+        </h1>
 
-      {/* Nova caixa de introdução elegante */}
-      <SiteIntro />
+        {/* Nova caixa de introdução elegante */}
+        <SiteIntro />
 
-      {/* Subtítulo "Processo Foco & Fôlego com IA" */}
-      <h2 id="processo-foco" className="text-2xl font-bold mb-6 text-center">Processo Foco & Fôlego com Inteligência Artifical</h2>
+        {/* Subtítulo "Processo Foco & Fôlego com IA" */}
+        <h2 id="processo-foco" className="text-2xl font-bold mb-2 text-center">Processo Foco & Fôlego com Inteligência Artifical</h2>
+        
+        {/* Novo subtítulo com estatísticas */}
+        <p className="text-center text-sm mb-6">2 ciclos, 3 trilhas, +100 ferramentas, +10 prompts, <br/>+etapas automatizadas ou assistidas por inteligência artificial</p>
 
-      {/* Stickers abaixo do título "Processo Foco & Fôlego com IA" */}
-      <div className="flex items-center justify-center mb-6">
-        <div className="flex items-center gap-4">
-          <Link href="http://calirenato82.substack.com/p/processo-de-produto-foco-and-folego" target="_blank">
-            <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-pKb78DESfUMWDkvoEmRxBQAL434QUW.png"
-              alt="Foco & Fôlego"
-              width={80}
-              height={80}
-              className="hover:scale-105 transition-transform cursor-pointer"
-            />
-          </Link>
-          <div className="text-3xl font-bold">+</div>
-          <Link
-            href="https://calirenato82.substack.com/p/produto-digital-processo-assistencia-inteligencia-artificial"
-            target="_blank"
-          >
-            <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-RqtpI7SoccYImW9EgzL1qjCZBDMBvx.png"
-              alt="IA"
-              width={80}
-              height={80}
-              className="hover:scale-105 transition-transform cursor-pointer"
-            />
-          </Link>
+        {/* Stickers abaixo do título "Processo Foco & Fôlego com IA" */}
+        <div className="flex items-center justify-center mb-6">
+          <div className="flex items-center gap-4">
+            <Link href="http://calirenato82.substack.com/p/processo-de-produto-foco-and-folego" target="_blank">
+              <Image
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-pKb78DESfUMWDkvoEmRxBQAL434QUW.png"
+                alt="Foco & Fôlego"
+                width={80}
+                height={80}
+                className="hover:scale-105 transition-transform cursor-pointer"
+              />
+            </Link>
+            <div className="text-3xl font-bold">+</div>
+            <Link
+              href="https://calirenato82.substack.com/p/produto-digital-processo-assistencia-inteligencia-artificial"
+              target="_blank"
+            >
+              <Image
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-RqtpI7SoccYImW9EgzL1qjCZBDMBvx.png"
+                alt="IA"
+                width={80}
+                height={80}
+                className="hover:scale-105 transition-transform cursor-pointer"
+              />
+            </Link>
+          </div>
         </div>
-      </div>
 
-      {/* Destaque sobre automação com botão de contato discreto */}
-      <AutomationHighlight />
+        {/* Call to action para experimentação */}
+        <ExperimentationCTA />
 
-      {/* Filter bar (agora também serve como legenda) */}
-      <FilterBar activeFilter={activeFilter} setActiveFilter={setActiveFilter} />
+        <div className="mb-8">
+          {/* Filter bar (agora também serve como legenda) */}
+          <FilterBar activeFilter={activeFilter} setActiveFilter={setActiveFilter} />
+        </div>
 
-      <div className="flex flex-col lg:flex-row gap-4 mb-8">
-        <div
-          className={`border-4 border-black rounded-xl bg-white shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]
-          ${isFolegoExpanded ? "lg:w-4/5" : "md:w-full lg:w-11/12"}`}
-        >
+        <div className="flex flex-col lg:flex-row gap-4 mb-8">
+          <div
+            className={`border-4 border-black rounded-xl bg-white shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]
+            ${isFolegoExpanded ? "lg:w-4/5" : "md:w-full lg:w-11/12"}`}
+          >
           {/* Foco section with title and description in the same pattern as Fôlego */}
           <div className="border-b-2 border-black">
             <div className="p-4 font-bold text-xl flex items-center gap-2">
@@ -141,23 +150,24 @@ export default function ProductProcess() {
         />
       </div>
 
-      {/* Nova seção de Níveis de impacto, Avaliação e remuneração */}
-      <div id="niveis-impacto">
-        <ImpactLevelsSection />
-      </div>
+        {/* Nova seção de Níveis de impacto, Avaliação e remuneração */}
+        <div id="niveis-impacto">
+          <ImpactLevelsSection />
+        </div>
 
-      {/* Career Paths Section (renomeada para "Papéis evolutivos") */}
-      <div id="papeis-evolutivos">
-        <CareerPathsSection />
-      </div>
+        {/* Career Paths Section (renomeada para "Papéis evolutivos") */}
+        <div id="papeis-evolutivos">
+          <CareerPathsSection />
+        </div>
 
-      {/* Resources section (com título ajustado para mesmo tamanho) */}
-      <div id="recursos-consulta">
-        <ResourcesSection emoji="📚" />
-      </div>
+        {/* Resources section (com título ajustado para mesmo tamanho) */}
+        <div id="recursos-consulta">
+          <ResourcesSection emoji="📚" />
+        </div>
 
-      {/* Footer */}
-      <Footer />
+        {/* Footer */}
+        <Footer />
+      </div>
     </div>
   )
 }

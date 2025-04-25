@@ -1,5 +1,3 @@
-## aprendizado, avaliação e reconhecimento
-
 modelos alternativos de progressão exigem abordagens diferentes para aprendizado e avaliação, dissociando o desenvolvimento contínuo da avaliação formal para fins de remuneração. mais detalhes e alternativas podem ser encontrados [aqui](https://calirenato82.substack.com/p/os-perigos-da-avaliacao-de-desempenho).
 
 algumas possibilidades incluem:
