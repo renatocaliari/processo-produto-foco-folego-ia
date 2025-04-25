@@ -13,7 +13,7 @@ Product Manager é responsável por identificar oportunidades de produto, defini
 * pm | plataforma
 * pm | growth
 * pm | estratégia de área/portfólio (evitar conotação hierárquica)
-* líder de capítulo de produto (papel distinto de desenvolvimento da disciplina/pessoas)
+* orientador(a) de capítulo de produto (papel distinto de desenvolvimento da disciplina/pessoas)
 * mentor(a) de pms (papel distinto de desenvolvimento individual)
 
 ## selos (apenas ideias para explorar e refinar)
