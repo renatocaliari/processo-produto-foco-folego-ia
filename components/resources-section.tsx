@@ -43,6 +43,12 @@ export function ResourcesSection({ emoji }: ResourcesSectionProps) {
         "Processo passo a passo na utilização do framework de inovação Jobs To Be Done aplicado a negócios e produto.",
     },
     {
+      title: "Definir papéis e mapear responsabilidades para trabalho em conjunto",
+      url: "https://calirenato82.substack.com/p/definir-papeis-e-mapear-responsabilidades",
+      description:
+        "Aprenda a definir papéis flexíveis e mapeie responsabilidades para um trabalho conjunto adaptável.",
+    },
+    {
       title: "Os perigos da avaliação de desempenho nas organizações",
       url: "https://calirenato82.substack.com/p/os-perigos-da-avaliacao-de-desempenho",
       description:
