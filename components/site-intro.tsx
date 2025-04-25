@@ -31,7 +31,7 @@ export function SiteIntro() {
             👥
           </span>
           <h3 className="font-bold mb-1">Papéis Evolutivos</h3>
-          <p className="text-sm">Trilhas de progressão flexíveis para PM, Designer e Developer com IA integrada</p>
+          <p className="text-sm">Trilhas de progressão flexíveis para PM, Designer e Developer</p>
         </div>
 
         <div
