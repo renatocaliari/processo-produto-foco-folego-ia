@@ -1,8 +1,6 @@
-# Trilha de Progressão: Product Developer
+# Product Developer
 
-## Visão Geral
-
-O Product Developer é um engenheiro de software com foco em construir produtos digitais, combinando excelência técnica com entendimento profundo de negócios e experiência do usuário.
+Product Developer é um engenheiro de software com foco em construir produtos digitais, combinando excelência técnica com entendimento profundo de negócios e experiência do usuário.
 
 ## papéis (pode ter múltiplos)
 

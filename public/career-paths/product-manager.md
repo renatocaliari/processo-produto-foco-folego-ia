@@ -1,8 +1,6 @@
-# Trilha de Progressão: Product Manager
+# Product Manager
 
-## Visão Geral
-
-O Product Manager é responsável por identificar oportunidades de produto, definir a visão e estratégia, e trabalhar com equipes multidisciplinares para entregar valor aos usuários e ao negócio.
+Product Manager é responsável por identificar oportunidades de produto, definir a visão e estratégia, e trabalhar com equipes multidisciplinares para entregar valor aos usuários e ao negócio.
 
 ## papéis e responsabilidades (pode ter múltiplos)
 

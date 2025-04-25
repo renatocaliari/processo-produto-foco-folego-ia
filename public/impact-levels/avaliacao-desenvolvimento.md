@@ -98,7 +98,7 @@ compartilhe a proposta abaixo com as pessoas.
 
 ## **avaliar sua própria percepção sobre outra pessoa**
 
-utilizando as dicas sobre dados confiáveis, variados e válidos, em vez de usar afirmações que pedem para avaliar comportamento dos outros, substitua por **afirmações que perguntem à pessoa avaliadora sobre sua própria percepção em relação a algo sobre outra pessoa**.
+utilizando as dicas sobre [dados confiáveis, variados e válidos](https://calirenato82.substack.com/i/141675016/perigos-e-armadilha-quais-tipos-de-dados-precisamos-para-uma-avaliacao), em vez de usar afirmações que pedem para avaliar comportamento dos outros, substitua por **afirmações que perguntem à pessoa avaliadora sobre sua própria percepção em relação a algo sobre outra pessoa**.
 
 em vez da afirmação sobre uma outra pessoa como *“é uma boa ouvinte”*, substitua por algo que faça uma pessoa que irá avaliar a outra pensar na sua própria percepção: *“eu percebo que minhas opiniões são sempre ouvidas”* com relação a outra pessoa.
 

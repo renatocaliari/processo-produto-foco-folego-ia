@@ -1,8 +1,6 @@
-# Trilha de Progressão: Product Designer
+# Product Designer
 
-## Visão Geral
-
-O Product Designer combina habilidades de UX e UI para criar experiências de produto centradas no usuário, trabalhando na interseção entre necessidades do usuário, objetivos de negócio e viabilidade técnica.
+Product Designer combina habilidades de UX e UI para criar experiências de produto centradas no usuário, trabalhando na interseção entre necessidades do usuário, objetivos de negócio e viabilidade técnica.
 
 ## papéis (pode ter múltiplos)
 
