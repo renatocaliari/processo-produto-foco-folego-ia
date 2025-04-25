@@ -2,11 +2,12 @@ import type React from "react"
 import "./globals.css"
 import type { Metadata } from "next"
 import Script from "next/script"
+import { PostHogProvider } from "../components/PostHogProvider"
 
 export const metadata: Metadata = {
   title: "Ops - Time de Produto",
   description: "Visualização do processo de produto com IA e trilhas de progressão para o futuro do trabalho",
-    generator: 'v0.dev'
+  generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -22,7 +23,11 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
         <Script async src="https://tally.so/widgets/embed.js" />
       </head>
-      <body>{children}</body>
+      <body>
+        <PostHogProvider>
+          {children}
+        </PostHogProvider>
+      </body>
     </html>
   )
 }
