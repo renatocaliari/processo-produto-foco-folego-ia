@@ -33,8 +33,8 @@ export function ExperimentationModal({ isOpen, onClose }: ExperimentationModalPr
 * **🤖 Automação com IA**: Automatize etapas com IA dentro de suas próprias ferramentas
 
 * **⚙️ Trilhas paralelas**: Treine trilhas em paralelo com focos em períodos diferentes:
-  - Compreensão (contínua)
-  - Definição (apostas para próximo ciclo)
+  - Mapeamento de oportunidades (contínuo)
+  - Definição de solução (apostas para próximo ciclo)
   - Implementação (apostas definidas no ciclo passado)
 `
 
