@@ -30,6 +30,8 @@ export const deliveryTrackData = {
           {
             title: "ferramentas ia para gerar código — pagas/freemium para código",
             items: [
+              { name: "all hands (open source)", url: "https://github.com/All-Hands-AI/OpenHands" },
+              { name: "swe agent (open source)", url: "https://swe-agent.com/" },
               { name: "devin", url: "https://devin.ai/" },
               { name: "bolt", url: "https://bolt.new/" },
               { name: "replit", url: "https://replit.com/" },
@@ -51,6 +53,7 @@ export const deliveryTrackData = {
               { "name": "skyvern", "url": "https://skyvern.com/" },
               { "name": "genesis", "url": "https://autify.com/genesis" },
               { "name": "shortest", "url": "https://shortest.com/" }
+              { "name": "https://apify.com/apify/rag-web-browser", "url": "https://apify.com/apify/rag-web-browser" },
             ]
           },
           {
@@ -94,6 +97,7 @@ export const deliveryTrackData = {
             items: [
               { name: "latitude.so (estilo prompt)", url: "https://latitude.so/" },
               { name: "rowboatlabs (estilo chat)", url: "https://rowboatlabs.com/" },
+              { name: "rowboatlabs + openrouter para qualquer LLM (estilo chat)", url: "https://github.com/ramonck/rowboat-openrouter" },              
               { name: "wordware.ai (estilo doc)", url: "https://app.wordware.ai/lp" },
               { name: "dify.ai (estilo automação)", url: "https://dify.ai" },
               { name: "n8n (estilo automação)", url: "https://n8n.io/ " },

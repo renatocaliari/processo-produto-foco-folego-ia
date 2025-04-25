@@ -83,6 +83,7 @@ export const prototipacaoDecisaoStages = [
             { "name": "browser use", "url": "https://browser-use.com/" },
             { "name": "dobrowser", "url": "https://www.dobrowser.io/" },
             { "name": "skyvern", "url": "https://skyvern.com/" },
+            { "name": "owl", "url": "https://github.com/camel-ai/owl" },
             { "name": "kortix suna", "url": "https://www.suna.so/" },
             { "name": "openai operator", "url": "https://openai.com/index/introducing-operator/" },
             { "name": "claude computer", "url": "https://docs.anthropic.com/en/docs/agents-and-tools/computer-use" },
