@@ -11,7 +11,7 @@ export const analiseDadosProducaoData = {
       {
         title: "prompts",
         items: [
-          { name: "systemic health indicators", url: "https://calirenato82.substack.com/p/prompt-ia-metricas-produto" },
+          { name: "descoberta de métricas para acompanhamento", url: "https://calirenato82.substack.com/p/prompt-ia-metricas-produto" },
         ],
       },
       {

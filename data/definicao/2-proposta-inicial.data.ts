@@ -55,17 +55,7 @@ export const propostaInicialStages = [
     type: "stage",
     responsibles: ["humano"],
     details: {
-      resources: [
-        {
-          title: "prompts",
-          items: [
-            {
-              name: "mapeamento e sequenciamento de escopos verticais",
-              url: "https://calirenato82.substack.com/p/prompt-ia-mapeamento-e-sequenciamento-escopos-verticais-entrega-valor",
-            },
-          ],
-        },
-      ],
+      comment: "refinar proposta"
     },
   },
   {
@@ -160,6 +150,23 @@ export const propostaInicialStages = [
             { name: "flowchart.fun", url: "https://flowchart.fun/" },
             { name: "uxpilot", url: "https://uxpilot.ai/" },
             { name: "miro", url: "https://miro.com/pt/wireframe/" },
+          ],
+        },
+      ],
+    },
+  },
+  {
+    id: 20.8,
+    title: "ui/ux - avaliar definição",
+    type: "stage",
+    responsibles: ["ia"],
+    details: {
+      comment: "avaliar a proposta de fluxos, affordances e dados",
+      resources: [
+        {
+          title: "prompts",
+          items: [
+            { name: "avaliação de fluxos, affordances e dados", url: "https://calirenato82.substack.com/p/prompt-ia-avaliacao-da-definicao-fluxos-affordances" },
           ],
         },
       ],

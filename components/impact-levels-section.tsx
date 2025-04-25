@@ -1,9 +1,8 @@
 "use client"
 
 import type React from "react"
-
 import { useState, useEffect } from "react"
-import { TrendingUp, DollarSign } from "lucide-react"
+import { TrendingUp, DollarSign, LineChart } from "lucide-react"
 import { X } from "lucide-react"
 import ReactMarkdown from "react-markdown"
 
@@ -21,6 +20,7 @@ export function ImpactLevelsSection() {
   const [content, setContent] = useState<string>("")
   const [isLoading, setIsLoading] = useState(false)
 
+  // Definição dos cards de impacto (apenas metadados)
   const impactCards: ImpactCard[] = [
     {
       id: "impact-levels",
@@ -30,11 +30,18 @@ export function ImpactLevelsSection() {
       color: "bg-amber-100 border-amber-300",
     },
     {
-      id: "evaluation-compensation",
-      title: "Avaliação e Remuneração",
-      description: "Conheça nosso processo de avaliação e estrutura de remuneração",
-      icon: <DollarSign className="w-12 h-12" />,
+      id: "avaliacao-desenvolvimento",
+      title: "Avaliação e Desenvolvimento",
+      description: "Conheça nosso processo de avaliação e desenvolvimento profissional",
+      icon: <LineChart className="w-12 h-12" />,
       color: "bg-teal-100 border-teal-300",
+    },
+    {
+      id: "evaluation-compensation",
+      title: "Remuneração",
+      description: "Entenda nossa estrutura de remuneração e benefícios",
+      icon: <DollarSign className="w-12 h-12" />,
+      color: "bg-blue-100 border-blue-300",
     },
   ]
 
@@ -84,7 +91,7 @@ export function ImpactLevelsSection() {
         Níveis de impacto, Avaliação e Remuneração
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {impactCards.map((card) => (
           <div
             key={card.id}
