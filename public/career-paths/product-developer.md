@@ -11,7 +11,7 @@ Product Developer é um engenheiro de software com foco em construir produtos di
 * 🤖 developer | criação de agentes & soluções ia (foco em utilizar frameworks e plataformas para construir funcionalidades baseadas em ia)
 * mentor(a) técnico(a) | desenvolvimento rápido & ia (papel distinto focado no desenvolvimento de outros devs nessas abordagens)
 
-## selos
+## selos (apenas ideias para explorar e refinar)
 
 ### prototipagem & construção:
 

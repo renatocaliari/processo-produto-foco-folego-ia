@@ -19,7 +19,7 @@ Product Designer combina habilidades de UX e UI para criar experiências de prod
 * 🤖 facilitador(a) | workshops de ia generativa para design: conduz workshops explorando o potencial de ferramentas de ia generativa.
 * estrategista de conteúdo / ux writer (opcional, se mantido como papel distinto)
 
-## selos
+## selos (apenas ideias para explorar e refinar)
 
 ### processo & métodos:
 

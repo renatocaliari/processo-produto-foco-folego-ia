@@ -16,7 +16,7 @@ Product Manager é responsável por identificar oportunidades de produto, defini
 * líder de capítulo de produto (papel distinto de desenvolvimento da disciplina/pessoas)
 * mentor(a) de pms (papel distinto de desenvolvimento individual)
 
-## selos
+## selos (apenas ideias para explorar e refinar)
 
 ### estratégia & visão de produto:
 
@@ -41,7 +41,6 @@ Product Manager é responsável por identificar oportunidades de produto, defini
 
 ### entrega & execução:
 
-* [selo] escrita eficaz de propostas de soluções
 * [selo] gerenciamento de backlog e fluxo de trabalho (utilizando ferramentas de gestão de tarefas/projetos - ex: jira, linear)
 * [selo] colaboração técnica com engenharia
 * 🤖 [selo] análise de métricas de produto pós-lançamento (monitora e interpreta métricas de performance, utilizando as capacidades de ferramentas de product analytics, incluindo funcionalidades de ia embarcadas - ex: posthog, amplitude)
