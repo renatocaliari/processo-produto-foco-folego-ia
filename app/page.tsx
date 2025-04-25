@@ -35,21 +35,42 @@ export default function ProductProcess() {
   return (
     <div className="min-h-screen bg-neutral-100 font-mono">
       <div className="mx-auto max-w-[1024px] px-4 md:px-8">
-        <h1 className="text-4xl font-bold mb-2 text-center flex items-center justify-center gap-2 pt-8">
-          <span role="img" aria-label="Futuro" className="text-4xl">
-            🚀
-          </span>
-          <div className="flex flex-col">
-            <span>Ops - Time de Produto</span>
-            <span className="text-2xl">com assistência de Inteligência Artificial</span>
+        {/* Hero section com mais espaço e clean */}
+        <div className="pt-16 pb-12 flex flex-col items-center">
+          <h1 className="text-4xl font-bold mb-4 text-center flex items-center justify-center gap-2">
+            <span role="img" aria-label="Futuro" className="text-4xl">
+              🚀
+            </span>
+            <div className="flex flex-col">
+              <span>Ops - Time de Produto</span>
+              <span className="text-2xl">com assistência de Inteligência Artificial</span>
+            </div>
+          </h1>
+          
+          <p className="text-center max-w-2xl mb-8">
+            Navegando na complexidade e potencializando times com IA: uma abordagem integrada para evolução não-linear em um mundo em constante mudança.
+          </p>
+          
+          <div className="text-center mb-8">
+            <button
+              className="text-sm md:text-base bg-black text-white py-2 px-4 rounded-md hover:bg-gray-800 transition-colors inline-flex items-center gap-2 font-bold shadow-[2px_2px_0px_0px_rgba(0,0,0,0.3)]"
+              data-tally-open="3jgb49"
+              data-tally-emoji-text="🤖"
+              data-tally-emoji-animation="wave"
+            >
+              <span role="img" aria-label="Contato" className="text-base md:text-lg">
+                👋
+              </span>
+              Precisa de ajuda? Entre em contato
+            </button>
           </div>
-        </h1>
+        </div>
 
-        {/* Nova caixa de introdução elegante */}
+        {/* Mover SiteIntro (cards) para depois da primeira dobra */}
         <SiteIntro />
 
         {/* Subtítulo "Processo Foco & Fôlego com IA" */}
-        <h2 id="processo-foco" className="text-2xl font-bold mb-2 text-center">Processo Foco & Fôlego com Inteligência Artifical</h2>
+        <h2 id="processo-foco" className="text-2xl font-bold mb-2 text-center mt-12">Processo Foco & Fôlego com Inteligência Artifical</h2>
         
         {/* Novo subtítulo com estatísticas */}
         <p className="text-center text-sm mb-6">2 ciclos, 3 trilhas, +100 ferramentas, +10 prompts, <br/>+etapas automatizadas ou assistidas por inteligência artificial</p>
@@ -82,8 +103,10 @@ export default function ProductProcess() {
           </div>
         </div>
 
-        {/* Call to action para experimentação */}
-        <ExperimentationCTA />
+        {/* ExperimentationCTA movido para abaixo dos stickers */}
+        <div className="mb-8">
+          <ExperimentationCTA />
+        </div>
 
         <div className="mb-8">
           {/* Filter bar (agora também serve como legenda) */}

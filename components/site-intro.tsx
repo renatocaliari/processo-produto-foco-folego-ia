@@ -62,19 +62,6 @@ export function SiteIntro() {
         e evoluir de forma não-linear em um mundo em constante mudança.
       </p>
 
-      <div className="text-center">
-        <button
-          className="text-sm md:text-base bg-black text-white py-2 px-4 rounded-md hover:bg-gray-800 transition-colors inline-flex items-center gap-2 font-bold shadow-[2px_2px_0px_0px_rgba(0,0,0,0.3)]"
-          data-tally-open="3jgb49"
-          data-tally-emoji-text="🤖"
-          data-tally-emoji-animation="wave"
-        >
-          <span role="img" aria-label="Contato" className="text-base md:text-lg">
-            👋
-          </span>
-          Precisa de ajuda? Entre em contato
-        </button>
-      </div>
     </div>
   )
 }
