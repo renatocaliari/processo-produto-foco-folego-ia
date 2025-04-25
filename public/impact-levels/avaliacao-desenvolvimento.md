@@ -14,13 +14,13 @@ a ideia é focar em processos mais:
 * **como funciona:** a pessoa busca ativamente feedback contextualizado (sobre ações e situações concretas) de colegas, líderes, stakeholders, etc. conversas regulares de desenvolvimento com mentores ou líderes focam em aspirações, desafios e oportunidades, usando a estrutura de níveis/selos/papéis como guia. retrospectivas de time continuam sendo usadas para melhoria coletiva.
 * **o que evita:** pressão por feedback apenas em ciclos formais; feedback genérico; mistura de desenvolvimento com avaliação para recompensa.
 
-**validação de selos (reconhecimento de habilidades/experiências):**
+## **validação de selos (reconhecimento de habilidades/experiências):**
 
 * **objetivo:** reconhecer formalmente a demonstração de proficiência ou experiência em uma habilidade específica.
 * **como funciona:** a pessoa submete um conjunto de evidências concretas (projetos, análises, código, workshops facilitados, etc.) que demonstram a aplicação prática da habilidade. um grupo definido (pares, comitê técnico) analisa as evidências e valida (ou não) a concessão do selo de forma transparente.
 * **o que evita:** auto-declaração sem comprovação; decisões centralizadas e potencialmente enviesadas.
 
-**constatação de nível de impacto (base para progressão e faixa salarial):**
+## **constatação de nível de impacto (base para progressão e faixa salarial):**
 * **objetivo:** determinar se a pessoa opera consistentemente no próximo nível de impacto, autonomia e complexidade, justificando a progressão para a faixa salarial correspondente.
 * **como funciona:** quando a pessoa, em diálogo com mentores/líderes, acredita ter evidências robustas de atuação consistente no nível seguinte, ela compila um portfólio abrangente (resultados, complexidade superada, autonomia, influência, selos relevantes). um comitê diverso avalia coletivamente as evidências para constatar o novo nível, buscando consenso baseado nas provas. não há um ciclo obrigatório fixo para todos.
 * **o que evita:** progressão baseada apenas na avaliação subjetiva de um gestor; inflação de cargos sem aumento comprovado de impacto; pressão por promoções anuais.
