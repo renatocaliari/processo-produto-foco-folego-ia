@@ -96,16 +96,24 @@ export function CareerPathsSection() {
         {careerPaths.map((path) => (
           <div
             key={path.id}
-            className={`border-2 border-black rounded-lg ${path.color} shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]
-                      hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all p-6 flex flex-col items-center text-center cursor-pointer`}
             onClick={() => openModal(path.id)}
+            id={`career-paths-open-${path.id}`}
+            data-name={`career-paths-open-${path.id}`}
+            className="border-2 border-black rounded-lg bg-white p-6 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all cursor-pointer"
           >
-            <div className="mb-4 bg-white p-4 rounded-full border-2 border-black">{path.icon}</div>
+            <div className="flex justify-center mb-4">
+              {path.icon}
+            </div>
             <h3 className="font-bold text-xl mb-2">{path.title}</h3>
             <p className="text-sm mb-4">{path.description}</p>
-            <button className="mt-auto bg-black text-white font-bold py-2 px-4 rounded hover:bg-gray-800 transition-colors">
-              Ver Trilha
-            </button>
+            <div className="flex justify-center">
+              <button
+                id={`career-paths-view-${path.id}`}
+                name={`career-paths-view-${path.id}`}
+                className="mt-auto bg-black text-white font-bold py-2 px-4 rounded hover:bg-gray-800 transition-colors">
+                Ver Trilha
+              </button>
+            </div>
           </div>
         ))}
       </div>
@@ -119,6 +127,8 @@ export function CareerPathsSection() {
               </h2>
               <button
                 onClick={closeModal}
+                id="career-paths-modal-close"
+                name="career-paths-modal-close"
                 className="p-2 hover:bg-gray-100 rounded-full transition-colors"
                 aria-label="Fechar"
               >
@@ -141,6 +151,8 @@ export function CareerPathsSection() {
             <div className="p-4 border-t-2 border-black flex justify-end">
               <button
                 onClick={closeModal}
+                id="career-paths-modal-close-bottom"
+                name="career-paths-modal-close-bottom"
                 className="bg-black text-white font-bold py-2 px-6 rounded hover:bg-gray-800 transition-colors"
               >
                 Fechar

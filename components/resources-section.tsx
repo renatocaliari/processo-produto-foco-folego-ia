@@ -83,20 +83,27 @@ export function ResourcesSection({ emoji }: ResourcesSectionProps) {
         {resources.map((resource, index) => (
           <div
             key={index}
-            className="border-2 border-black rounded-lg bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]
-                      hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all p-4 flex flex-col h-full"
+            id={`resources-card-${index}`}
+            className="flex items-center"
           >
-            <h3 className="font-bold text-lg mb-2 border-b-2 border-black pb-2">{resource.title}</h3>
-            <p className="text-sm mb-4 flex-grow">{resource.description}</p>
-            <div className="mt-auto">
-              <a
-                href={resource.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-black text-white font-bold py-2 px-4 rounded hover:bg-gray-800 transition-colors w-full text-center"
-              >
-                Acessar
-              </a>
+            <div
+              className="border-2 border-black rounded-lg bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]
+                        hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all p-4 flex flex-col h-full w-full"
+            >
+              <h3 className="font-bold text-lg mb-2 border-b-2 border-black pb-2">{resource.title}</h3>
+              <p className="text-sm mb-4 flex-grow">{resource.description}</p>
+              <div className="mt-auto">
+                <a
+                  href={resource.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  id={`resources-access-${index}`}
+                  data-name={`resources-access-${index}`}
+                  className="inline-block bg-black text-white font-bold py-2 px-4 rounded hover:bg-gray-800 transition-colors w-full text-center"
+                >
+                  Acessar
+                </a>
+              </div>
             </div>
           </div>
         ))}

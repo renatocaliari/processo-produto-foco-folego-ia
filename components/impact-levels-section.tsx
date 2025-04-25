@@ -95,6 +95,7 @@ export function ImpactLevelsSection() {
         {impactCards.map((card) => (
           <div
             key={card.id}
+            data-ph-capture-attribute={`card:impact-levels:open-${card.id}`}
             className={`border-2 border-black rounded-lg ${card.color} shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]
                       hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all p-6 flex flex-col items-center text-center cursor-pointer`}
             onClick={() => openModal(card.id)}
@@ -102,7 +103,10 @@ export function ImpactLevelsSection() {
             <div className="mb-4 bg-white p-4 rounded-full border-2 border-black">{card.icon}</div>
             <h3 className="font-bold text-xl mb-2">{card.title}</h3>
             <p className="text-sm mb-4">{card.description}</p>
-            <button className="mt-auto bg-black text-white font-bold py-2 px-4 rounded hover:bg-gray-800 transition-colors">
+            <button 
+              className="mt-auto bg-black text-white font-bold py-2 px-4 rounded hover:bg-gray-800 transition-colors"
+              data-ph-capture-attribute={`button:impact-card:view-details-${card.id}`}
+            >
               Ver Detalhes
             </button>
           </div>

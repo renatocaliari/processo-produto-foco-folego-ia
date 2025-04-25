@@ -45,10 +45,11 @@ export function ExperimentationModal({ isOpen, onClose }: ExperimentationModalPr
           <h2 className="text-2xl font-bold">Como experimentar o processo</h2>
           <button
             onClick={onClose}
-            className="p-2 hover:bg-gray-100 rounded-full transition-colors"
-            aria-label="Fechar"
+            id="experimentation-modal-close"
+            name="experimentation-modal-close"
+            className="absolute top-4 right-4 p-2 rounded-full hover:bg-gray-100"
           >
-            <X className="w-6 h-6" />
+            <X className="w-5 h-5" />
           </button>
         </div>
 
@@ -61,6 +62,8 @@ export function ExperimentationModal({ isOpen, onClose }: ExperimentationModalPr
         <div className="p-4 border-t-2 border-black flex justify-end">
           <button
             onClick={onClose}
+            id="experimentation-modal-close-bottom"
+            name="experimentation-modal-close-bottom"
             className="bg-black text-white font-bold py-2 px-6 rounded hover:bg-gray-800 transition-colors"
           >
             Fechar

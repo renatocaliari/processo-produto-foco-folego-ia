@@ -24,6 +24,8 @@ export function FilterBar({ activeFilter, setActiveFilter }: FilterBarProps) {
             <button
               key={filter.id}
               onClick={() => setActiveFilter(activeFilter === filter.id ? null : filter.id)}
+              id={`filter-bar-toggle-${filter.id}`}
+              name={`filter-bar-toggle-${filter.id}`}
               className={`flex items-center gap-1 px-3 py-1 rounded-md transition-colors ${
                 activeFilter === filter.id ? "bg-black text-white" : "bg-gray-100 hover:bg-gray-200 text-black"
               }`}

@@ -1,3 +1,5 @@
+import { Code2 } from "lucide-react"
+
 export function Footer() {
   return (
     <footer className="mt-16 mb-8 text-center">
@@ -8,6 +10,7 @@ export function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           className="font-bold hover:underline"
+          id="footer-linkedin-link"
         >
           Cali (Renato Caliari)
         </a>{" "}

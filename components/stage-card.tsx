@@ -37,6 +37,7 @@ export function StageCard({ stage, filter }: StageCardProps) {
       className="border-2 border-black rounded-lg bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] 
                 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all flex-shrink-0"
       style={{ width: "300px", height: "400px" }}
+      data-ph-capture-attribute={`card:stage:view-${stage.id}`}
     >
       <div className="p-3 font-bold text-lg flex items-center gap-2 border-b-2 border-black">
         {primaryResponsible && (

@@ -15,6 +15,8 @@ export function SiteIntro() {
         <div
           className="flex flex-col items-center text-center p-4 bg-amber-50 rounded-lg border border-black cursor-pointer hover:bg-amber-100 transition-colors"
           onClick={() => scrollToSection("processo-foco")}
+          id="site-intro-processo-foco"
+          data-name="site-intro-processo-foco"
         >
           <span role="img" aria-label="Processo" className="text-2xl mb-2">
             🔄
@@ -26,6 +28,8 @@ export function SiteIntro() {
         <div
           className="flex flex-col items-center text-center p-4 bg-blue-50 rounded-lg border border-black cursor-pointer hover:bg-blue-100 transition-colors"
           onClick={() => scrollToSection("papeis-evolutivos")}
+          id="site-intro-papeis-evolutivos"
+          data-name="site-intro-papeis-evolutivos"
         >
           <span role="img" aria-label="Papéis" className="text-2xl mb-2">
             👥
@@ -37,6 +41,8 @@ export function SiteIntro() {
         <div
           className="flex flex-col items-center text-center p-4 bg-green-50 rounded-lg border border-black cursor-pointer hover:bg-green-100 transition-colors"
           onClick={() => scrollToSection("niveis-impacto")}
+          id="site-intro-niveis-impacto"
+          data-name="site-intro-niveis-impacto"
         >
           <span role="img" aria-label="Crescimento" className="text-2xl mb-2">
             📈
@@ -48,6 +54,8 @@ export function SiteIntro() {
         <div
           className="flex flex-col items-center text-center p-4 bg-purple-50 rounded-lg border border-black cursor-pointer hover:bg-purple-100 transition-colors"
           onClick={() => scrollToSection("recursos-consulta")}
+          id="site-intro-recursos-consulta"
+          data-name="site-intro-recursos-consulta"
         >
           <span role="img" aria-label="Recursos" className="text-2xl mb-2">
             📚

@@ -12,6 +12,8 @@ export function ExperimentationCTA() {
       <div className="mb-8 flex justify-center">
         <button
           onClick={() => setIsModalOpen(true)}
+          id="experimentation-cta-open-modal"
+          name="experimentation-cta-open-modal"
           className="flex items-center gap-2 px-6 py-3 bg-amber-100 text-black font-bold rounded-lg border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all"
         >
           <Sparkles className="w-5 h-5" />
