@@ -1,6 +1,7 @@
 o mundo do trabalho está em constante evolução, desafiando a noção tradicional de carreiras lineares e previsíveis. a forma como aprendemos e nos desenvolvemos raramente segue um caminho reto; é um processo contínuo, exploratório e muitas vezes não linear. como, então, podemos criar sistemas de progressão profissional que verdadeiramente reflitam essa dinâmica, especialmente em áreas que exigem adaptabilidade e aprendizado constante, como a de desenvolvimento de produto?
 
-este artigo explora as limitações de modelos de progressão hierárquicos tradicionais e propõe uma abordagem alternativa, focada em impacto, habilidades contextuais e aprendizado contínuo. é um convite à reflexão sobre como podemos alinhar nossas estruturas de desenvolvimento com a natureza fluida do trabalho moderno.
+## antes de iniciar o papo - avalie sua trilha
+experimente esse [prompt experimental](https://calirenato82.substack.com/p/prompt-ia-trilha-de-progressao) para avaliar trilhas de progressão na sua organização.
 
 ## os desafios dos modelos lineares tradicionais
 
