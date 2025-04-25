@@ -57,27 +57,12 @@ export const deliveryTrackData = {
             ]
           },
           {
-            title: "ferramentas ia para formatar base de código para llm",
+            title: "ferramentas ia para preparar documentações de bibliotecas e-ou base de código para llm",
             items: [
               { name: "code2prompt", url: "https://code2prompt.dev/" },
               { name: "repomix", url: "https://repomix.com/" },
               { name: "llmstxt", url: "https://www.llmstxt.new/" },
               { name: "gitingest", url: "https://gitingest.com/" },
-            ],
-          },
-          {
-            title: "ferramentas ia para suporte (mcp servers e mais)",
-            items: [
-              { name: "context7 (carregar docs de libs para llm)", url: "https://context7.com/" },
-              {
-                name: "graphiti (memória em grafo para agentes ia)",
-                url: "https://github.com/gifflet/graphiti-mcp-server",
-              },
-              { name: "mcp server qdrant (busca vetorial)", url: "https://github.com/qdrant/mcp-server-qdrant" },
-              {
-                name: "serena (análise semântica para qualquer agent ia ou integração claude desktop)",
-                url: "https://github.com/oraios/serena",
-              },
             ],
           },
           {
@@ -113,7 +98,24 @@ export const deliveryTrackData = {
               { name: "smolagents", url: "https://github.com/huggingface/smolagents" },
               { name: "pocketflow", url: "https://the-pocket.github.io/PocketFlow/" }
             ],
-          },          
+          },
+          {
+            title: "ferramentas ia de memória e contexto para agentes ia",
+            items: [
+              { name: "airweave", url: "https://airweave.ai/" },
+              { name: "graphlit", url: "https://www.graphlit.com/" },
+              {
+                name: "graphiti (memória em grafo para agentes ia)",
+                url: "https://github.com/gifflet/graphiti-mcp-server",
+              },
+              { name: "context7 (carregar docs de libs para llm)", url: "https://context7.com/" },
+              { name: "qdrant mcp server (busca vetorial)", url: "https://github.com/qdrant/mcp-server-qdrant" },
+              {
+                name: "serena (análise semântica para qualquer agent ia ou integração claude desktop)",
+                url: "https://github.com/oraios/serena",
+              },
+            ],
+          },              
           {
             title: "ferramentas no-code com ia",
             items: [

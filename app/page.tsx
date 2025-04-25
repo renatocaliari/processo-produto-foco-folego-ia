@@ -38,14 +38,14 @@ export default function ProductProcess() {
         <span role="img" aria-label="Futuro" className="text-4xl">
           🚀
         </span>
-        Time de Produto preparado para o Futuro
+        Ops - Time de Produto
       </h1>
 
       {/* Nova caixa de introdução elegante */}
       <SiteIntro />
 
       {/* Subtítulo "Processo Foco & Fôlego com IA" */}
-      <h2 id="processo-foco" className="text-2xl font-bold mb-6 text-center">Processo Foco & Fôlego com IA</h2>
+      <h2 id="processo-foco" className="text-2xl font-bold mb-6 text-center">Processo Foco & Fôlego com Inteligência Artifical</h2>
 
       {/* Stickers abaixo do título "Processo Foco & Fôlego com IA" */}
       <div className="flex items-center justify-center mb-6">
