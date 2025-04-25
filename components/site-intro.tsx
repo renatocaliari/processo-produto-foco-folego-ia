@@ -56,12 +56,6 @@ export function SiteIntro() {
           <p className="text-sm">Materiais e ferramentas para aprofundar conhecimentos e implementar práticas</p>
         </div>
       </div>
-
-      <p className="text-center text-sm italic mt-6 mb-6">
-        Uma abordagem integrada para capacitar times de produto a navegar na complexidade, aproveitar o potencial da IA
-        e evoluir de forma não-linear em um mundo em constante mudança.
-      </p>
-
     </div>
   )
 }
