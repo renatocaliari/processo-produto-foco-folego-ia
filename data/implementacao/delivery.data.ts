@@ -201,6 +201,19 @@ export const deliveryTrackData = {
       responsibles: ["humano"],
       details: {
         comment: "caso tenha gerado cenários BDD, realizar a execução",
+        resources: [
+          {
+            "title": "ferramentas ia execução de cenários bdd",
+            "items": [
+              { "name": "hercules", "url": "https://github.com/test-zeus-ai/testzeus-hercules/" },
+              { "name": "skyvern", "url": "https://skyvern.com/" },
+              { "name": "genesis", "url": "https://autify.com/genesis" },
+              { "name": "shortest", "url": "https://shortest.com/" },
+              { "name": "rag-web-browser", "url": "https://apify.com/apify/rag-web-browser" },
+            ]
+          },
+
+        ]
       },
     },
     {
