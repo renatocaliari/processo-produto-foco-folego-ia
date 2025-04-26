@@ -115,7 +115,16 @@ export const deliveryTrackData = {
                 url: "https://github.com/oraios/serena",
               },
             ],
-          },              
+          },   
+          {
+            title: "ferramentas ia para conectar a outros serviços e apps",
+            items: [
+              { name: "activepieces mcp server", url: "https://www.activepieces.com/mcp" },
+              { name: "airweave", url: "https://airweave.ai/" },
+              { name: "graphlit", url: "https://www.graphlit.com/" },
+              { name: "composio", url: "https://composio.dev/" },
+            ],
+          },            
           {
             title: "ferramentas no-code com ia",
             items: [
