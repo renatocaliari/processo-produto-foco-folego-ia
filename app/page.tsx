@@ -42,13 +42,13 @@ export default function ProductProcess() {
               🚀
             </span>
             <div className="flex flex-col">
-              <span>Ops - Time de Produto</span>
-              <span className="text-2xl">com assistência de Inteligência Artificial</span>
+              <span>Product Ops</span>
+              <span className="text-2xl">Navegando na complexidade e potencializando times com IA</span>
             </div>
           </h1>
           
           <p className="text-center max-w-2xl mb-8">
-            Navegando na complexidade e potencializando times com IA: uma abordagem integrada para evolução não-linear em um mundo em constante mudança.
+            uma abordagem integrada para evolução não-linear em um mundo em constante mudança.
           </p>
           
           <div className="text-center mb-8">
