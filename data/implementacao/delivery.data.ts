@@ -82,7 +82,7 @@ export const deliveryTrackData = {
             items: [
               { name: "latitude.so (estilo prompt)", url: "https://latitude.so/" },
               { name: "workflowai (estilo chat e prompt)", url: "https://workflowai.com/" },
-              { name: "rowboatlabs (estilo chat)", url: "https://rowboatlabs.com/" },: "https://github.com/ramonck/rowboat-openrouter" },              
+              { name: "rowboatlabs (estilo chat)", url: "https://rowboatlabs.com/" }, url: "https://github.com/ramonck/rowboat-openrouter" },              
               { name: "wordware.ai (estilo doc)", url: "https://app.wordware.ai/lp" },
               { name: "dify.ai (estilo automação)", url: "https://dify.ai" },
               { name: "n8n (estilo automação)", url: "https://n8n.io/ " },
