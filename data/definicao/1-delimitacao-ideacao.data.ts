@@ -95,7 +95,7 @@ export const delimitacaoIdeacaoStages = [
   },
   {
     id: 14,
-    title: "gerar ideias para resolver problema",
+    title: "mapear potenciais soluções",
     type: "stage",
     responsibles: ["ia"],
     details: {
@@ -104,12 +104,8 @@ export const delimitacaoIdeacaoStages = [
           title: "prompts",
           items: [
             {
-              name: "gerar ideias de soluções",
-              url: "https://calirenato82.substack.com/p/prompt-ia-gerar-ideias-solucoes",
-            },
-            {
-              name: "priorizar soluções com base em 9 elementos",
-              url: "https://calirenato82.substack.com/p/prompt-ia-gerar-ideias-solucoes",
+              name: "gerar mapeamento de oportunidades e potenciaos soluções priorizando por critérios evolutivos e abordando estratégias de 'Job-to-Be-Done Growth Strategy'",
+              url: "https://calirenato82.substack.com/p/prompt-ia-mapeamento-de-oportunidades",
             },
           ],
         },
