@@ -122,16 +122,17 @@ export const propostaInicialStages = [
   },
   {
     id: 20.5,
-    title: "ui/ux - refinar definição",
+    title: "ui/ux - refinar fluxos e wireframes",
     type: "stage",
     responsibles: ["humano com assistência de ia"],
     details: {
-      comment: "refinar os fluxos e wireframes iniciais com maior precisão",
+      comment: "refinar fluxos e confirmar necessidade de wireframes",
       resources: [
         {
           title: "ferramentas ia para fluxos",
           items: [
-            { name: "figjam", url: "https://www.figma.com/templates/flow-chart-template/" },
+            { name: "wireframe.cc", url: "https://wireframe.cc/" },
+            { name: "figjam", url: "https://www.figma.com/templates/flow-chart-template/" },            
             { name: "whimsical flowcharts", url: "https://whimsical.com/flowcharts" },
             { name: "eraser.io", url: "https://www.eraser.io/" },
             { name: "flowchart.fun", url: "https://flowchart.fun/" },
