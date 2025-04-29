@@ -104,7 +104,7 @@ export const delimitacaoIdeacaoStages = [
           title: "prompts",
           items: [
             {
-              name: "gerar mapeamento de oportunidades e potenciaos soluções priorizando por critérios evolutivos e abordando estratégias de 'Job-to-Be-Done Growth Strategy'",
+              name: "gerar mapeamento de oportunidades e potenciais soluções priorizando por critérios evolutivos e abordando estratégias de 'Job-to-Be-Done Growth Strategy'",
               url: "https://calirenato82.substack.com/p/prompt-ia-mapeamento-de-oportunidades",
             },
           ],
