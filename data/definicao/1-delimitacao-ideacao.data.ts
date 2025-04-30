@@ -2,11 +2,11 @@
 export const delimitacaoIdeacaoStages = [
   {
     id: 9,
-    title: "delimitar problema",
+    title: "delimitar problema e apetite",
     type: "stage",
     responsibles: ["humano com assistência de ia"],
     details: {
-      comment: "definir o problema a ser resolvido com clareza. a pergunta não é 'O que poderíamos construir?' mas 'O que está acontecendo de errado (ou que poderia ser melhor)?'",
+      comment: "definir o problema a ser resolvido com clareza e o apetite de tempo. a pergunta não é 'O que poderíamos construir?' mas 'O que está acontecendo de errado (ou que poderia ser melhor)?'. defina quantas semanas tem de apetite para investir tempo em uma solução. sem isso não conseguirá determinar o que fica fora e o que precisa ser simplificado. essa informação é crucial e diferente da ideia de estimar pontos ou tempo posteriormente - que cairia na falácia do planejamento e viés do otimismo. leia mais abaixo",
       resources: [
         {
           title: "prompts",
@@ -17,37 +17,6 @@ export const delimitacaoIdeacaoStages = [
             },
           ],
         },
-      ],
-    },
-  },
-  {
-    id: 10,
-    title: "avaliar delimitação do problema",
-    type: "stage",
-    responsibles: ["ia"],
-    details: {
-      comment: "ia avalia a delimitação do problema para ver se está em um nível de abstração suficiente",
-      resources: [
-        {
-          title: "prompts",
-          items: [
-            {
-              name: "avaliação de delimitação de problema",
-              url: "https://calirenato82.substack.com/p/prompt-ia-avaliacao-delimitacao-problema",
-            },
-          ],
-        },
-      ],
-    },
-  },
-  {
-    id: 11,
-    title: "definir apetite de tempo",
-    type: "stage",
-    responsibles: ["humano"],
-    details: {
-      comment: "defina quantas semanas tem de apetite para investir tempo em uma solução. sem isso não conseguirá determinar o que fica fora e o que precisa ser simplificado. essa etapa é crucial e diferente da ideia de estimar pontos ou tempo posteriormente - que cairia na falácia do planejamento e viés do otimismo. leia mais abaixo.",
-      resources: [
         {
           title: "recursos", 
           items: [
@@ -59,6 +28,26 @@ export const delimitacaoIdeacaoStages = [
               name: "shape up - apetite de tempo",
               url: "https://basecamp-com.translate.goog/shapeup/1.2-chapter-03?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=en&_x_tr_pto=wapp",
             }
+          ],
+        },
+      ],
+    },
+  },
+  {
+    id: 10,
+    title: "avaliar delimitação do problema",
+    type: "stage",
+    responsibles: ["ia"],
+    details: {
+      comment: "ia avalia a delimitação do problema para ver se está em um nível de abstração suficiente e com informações suficientes",
+      resources: [
+        {
+          title: "prompts",
+          items: [
+            {
+              name: "avaliação de delimitação de problema",
+              url: "https://calirenato82.substack.com/p/prompt-ia-avaliacao-delimitacao-problema",
+            },
           ],
         },
       ],
