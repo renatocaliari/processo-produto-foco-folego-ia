@@ -107,7 +107,7 @@ export const deliveryTrackData = {
               { name: "mem0.ai", url: "https://mem0.ai/" },
               {
                 name: "graphiti (memória em grafo para agentes ia)",
-                url: "https://github.com/gifflet/graphiti-mcp-server",
+                url: "https://github.com/getzep/graphiti/blob/main/mcp_server/README.md",
               },
               { name: "context7 (carregar docs de libs para llm)", url: "https://context7.com/" },
               { name: "qdrant mcp server (busca vetorial)", url: "https://github.com/qdrant/mcp-server-qdrant" },
