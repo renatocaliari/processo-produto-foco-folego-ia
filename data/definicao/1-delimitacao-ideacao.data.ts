@@ -54,21 +54,12 @@ export const delimitacaoIdeacaoStages = [
     },
   },
   {
-    id: 12,
-    title: "identificar produtos atuais para integração",
-    type: "stage",
-    responsibles: ["humano"],
-    details: {
-      comment: "consultar líder técnico para saber links dos repositórios do produtos no github",
-    },
-  },
-  {
     id: 13,
-    title: "entender produtos próprios atuais",
+    title: "carregar info de produtos atuais da empresa",
     type: "stage",
     responsibles: ["ia"],
     details: {
-      comment: "ia pode ler e avaliar readme do repositório github e outros contextos do produto, inclusive a base de código",
+      comment: "informar links dos repositórios do produtos no github e permitir ia ler e avaliar informações do repositório github e outros contextos do produto, inclusive a base de código",
       resources: [
         {
           title: "ferramentas",
@@ -84,7 +75,7 @@ export const delimitacaoIdeacaoStages = [
   },
   {
     id: 14,
-    title: "mapear potenciais soluções",
+    title: "mapear potenciais soluções para o problema",
     type: "stage",
     responsibles: ["ia"],
     details: {
