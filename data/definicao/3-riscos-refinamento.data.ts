@@ -2,7 +2,7 @@
 export const riscosRefinamentoStages = [
   {
     id: 21,
-    title: "mapear riscos técnicos de desenvolvimento",
+    title: "mapear riscos técnicos de desenvolvimento. se possível, avaliando código atual",
     type: "stage",
     responsibles: ["ia"],
     details: {
@@ -16,9 +16,18 @@ export const riscosRefinamentoStages = [
             },
           ],
         },
+        {
+          title: "ferramentas para estruturar base de código para LLM ler",
+          items: [
+            { name: "Tutorial-Codebase-Knowledge", url: "https://github.com/The-Pocket/Tutorial-Codebase-Knowledge" },
+            { name: "readme-ai", url: "https://github.com/eli64s/readme-ai" },
+            { name: "quill", url: "https://github.com/mainnebula/quill" },
+            { name: "code2prompt", url: "https://code2prompt.dev/" },
+          ],
+        },
       ],
     },
-  },
+  },  
   {
     id: 22,
     title: "refinar proposta final e avaliação de riscos",
