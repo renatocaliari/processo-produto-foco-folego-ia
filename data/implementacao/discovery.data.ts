@@ -64,9 +64,10 @@ export const discoveryTrackData = {
           {
             title: "ferramentas de automação",
             items: [
-              { name: "lutra.ai (vibe automation)", url: "https://lutra.ai/" },
-              { name: "activepieces (open-source)", url: "https://www.activepieces.com/" },
-              { name: "n8n (fair code)", url: "https://n8n.io/" },
+              { name: "lutra.ai (vibe automation; com ia)", url: "https://lutra.ai/" },
+              { name: "activepieces (open-source; com ia)", url: "https://www.activepieces.com/" },
+              { name: "n8n (fair code; com ia)", url: "https://n8n.io/" },
+              { name: "lindy.ai (com ia)", url: "https://www.lindy.ai/" },
               { name: "zapier (com ia)", url: "https://zapier.com/" },
               { name: "make", url: "https://www.make.com/" },
               { name: "gumloop", url: "https://www.gumloop.com/" },
