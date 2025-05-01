@@ -52,27 +52,7 @@ export const delimitacaoIdeacaoStages = [
         },
       ],
     },
-  },
-  {
-    id: 13,
-    title: "carregar info de produtos atuais da empresa",
-    type: "stage",
-    responsibles: ["ia"],
-    details: {
-      comment: "informar links dos repositórios do produtos no github e permitir ia ler e avaliar informações do repositório github e outros contextos do produto, inclusive a base de código",
-      resources: [
-        {
-          title: "ferramentas",
-          items: [
-            { name: "Tutorial-Codebase-Knowledge", url: "https://github.com/The-Pocket/Tutorial-Codebase-Knowledge" },
-            { name: "readme-ai", url: "https://github.com/eli64s/readme-ai" },
-            { name: "quill", url: "https://github.com/mainnebula/quill" },
-            { name: "code2prompt", url: "https://code2prompt.dev/" },
-          ],
-        },
-      ],
-    },
-  },
+  },  
   {
     id: 14,
     title: "mapear potenciais soluções para o problema",
