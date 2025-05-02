@@ -1,12 +1,12 @@
 // compreensao: evolução da solução e do negócio
 export const evolucaoSolucaoData = {
   id: 8,
-  title: "evolução da solução e do negócio",
+  title: "evolução da solução e i.a.",
   type: "stage",
   responsibles: ["humano com assistência de ia"],
   details: {
     comment:
-      "evoluir o produto a partir do mapeamento de job to be done inicial. utilizar critérios de produtos evolutivos.",
+      "evoluir o produto, os resultados dos agentes/prompts i.a. embutidos e do negócio: a partir do mapeamento de job to be done inicial, critérios de produtos evolutivos e ferramentas de avaliação de resultados de i.a..",
     resources: [
       {
         title: "recursos",
