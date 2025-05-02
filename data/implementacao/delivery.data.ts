@@ -20,6 +20,19 @@ export const deliveryTrackData = {
       details: {
         resources: [
           {
+            title: "ferramentas ia para preparar documentações de bibliotecas e-ou base de código para llm",
+            items: [
+              { name: "context7 (carregar docs de libs para llm)", url: "https://context7.com/" },
+              { name: "Tutorial-Codebase-Knowledge", url: "https://github.com/The-Pocket/Tutorial-Codebase-Knowledge" },
+              { name: "readme-ai", url: "https://github.com/eli64s/readme-ai" },
+              { name: "code2prompt", url: "https://code2prompt.dev/" },
+              { name: "web2md", url: "https://web2md.answer.ai/" }, 
+              { name: "repomix", url: "https://repomix.com/" },
+              { name: "llmstxt", url: "https://www.llmstxt.new/" },
+              { name: "gitingest", url: "https://gitingest.com/" },
+            ],
+          },          
+          {
             title: "ferramentas ia para gerar código — extensões open-source para código dentro de ide",
             items: [
               { name: "roocode", url: "https://roocode.com/" },
@@ -55,15 +68,6 @@ export const deliveryTrackData = {
               { "name": "shortest", "url": "https://shortest.com/" },
               { "name": "rag-web-browser", "url": "https://apify.com/apify/rag-web-browser" },
             ]
-          },
-          {
-            title: "ferramentas ia para preparar documentações de bibliotecas e-ou base de código para llm",
-            items: [
-              { name: "code2prompt", url: "https://code2prompt.dev/" },
-              { name: "repomix", url: "https://repomix.com/" },
-              { name: "llmstxt", url: "https://www.llmstxt.new/" },
-              { name: "gitingest", url: "https://gitingest.com/" },
-            ],
           },
           {
             title: "ferramentas de automação",
