@@ -80,6 +80,7 @@ export const prototipacaoDecisaoStages = [
           "title": "ferramentas ia de navegação autônoma",
           "items": [
             { "name": "operator.browserbase", "url": "https://operator.browserbase.com/" }, 
+            { "name": "scout ai", "url": "https://scoutnow.ai/" }, 
             { "name": "browser use", "url": "https://browser-use.com/" },
             { "name": "dobrowser", "url": "https://www.dobrowser.io/" },
             { "name": "hyperbrowser", "url": "https://www.hyperbrowser.ai/" },
