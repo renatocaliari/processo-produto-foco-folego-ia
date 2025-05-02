@@ -25,13 +25,14 @@ export const deliveryTrackData = {
               { name: "context7 (carregar docs de libs para llm)", url: "https://context7.com/" },
               { name: "Tutorial-Codebase-Knowledge", url: "https://github.com/The-Pocket/Tutorial-Codebase-Knowledge" },
               { name: "readme-ai", url: "https://github.com/eli64s/readme-ai" },
+              { name: "quill", url: "https://github.com/mainnebula/quill" },
               { name: "code2prompt", url: "https://code2prompt.dev/" },
               { name: "web2md", url: "https://web2md.answer.ai/" }, 
               { name: "repomix", url: "https://repomix.com/" },
               { name: "llmstxt", url: "https://www.llmstxt.new/" },
               { name: "gitingest", url: "https://gitingest.com/" },
             ],
-          },          
+          },         
           {
             title: "ferramentas ia para gerar código — extensões open-source para código dentro de ide",
             items: [
