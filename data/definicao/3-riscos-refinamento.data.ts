@@ -21,6 +21,7 @@ export const riscosRefinamentoStages = [
           items: [
             { name: "context7 (carregar docs de libs para llm)", url: "https://context7.com/" },
             { name: "Tutorial-Codebase-Knowledge", url: "https://github.com/The-Pocket/Tutorial-Codebase-Knowledge" },
+            { name: "probe ai", url: "https://probeai.dev/" },
             { name: "readme-ai", url: "https://github.com/eli64s/readme-ai" },
             { name: "quill", url: "https://github.com/mainnebula/quill" },
             { name: "code2prompt", url: "https://code2prompt.dev/" },
@@ -29,7 +30,7 @@ export const riscosRefinamentoStages = [
             { name: "llmstxt", url: "https://www.llmstxt.new/" },
             { name: "gitingest", url: "https://gitingest.com/" },
           ],
-        },
+        },         
       ],
     },
   },  
