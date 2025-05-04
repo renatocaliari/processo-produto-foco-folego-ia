@@ -134,19 +134,19 @@ export const deliveryTrackData = {
             ],
           },        
           {
-            title: "ferramentas ia para avaliar e evoluir resultados e performmance de prompts do produto",
+            title: "ferramentas ia para avaliar e evoluir resultados de prompts do produto",
             items: [
               { name: "latitude.so", url: "https://latitude.so/" },
               { name: "align eval", url: "https://aligneval.com/" },
-              { name: "https://github.com/WorkflowAI/workflowai", url: "https://latitude.so/" },
-              { name: "https://github.com/comet-ml/opik", url: "https://latitude.so/" },
-              { name: "https://github.com/Arize-ai/phoenix", url: "https://latitude.so/" },
-              { name: "https://github.com/agenta-ai/agenta", url: "https://latitude.so/" },
-              { name: "https://github.com/MagnivOrg/prompt-layer-library", url: "https://latitude.so/" },
-              { name: "https://github.com/Scale3-Labs/langtrace", url: "https://latitude.so/" },
-              { name: "https://github.com/openlit/openlit", url: "https://latitude.so/" },
+              { name: "workflowai", url: "https://github.com/WorkflowAI/workflowai" },
+              { name: "opik", url: "https://github.com/comet-ml/opik" },
+              { name: "phoenix", url: "https://github.com/Arize-ai/phoenix" },
+              { name: "agenta", url: "https://github.com/agenta-ai/agenta" },
+              { name: "prompt layer", url: "https://github.com/MagnivOrg/prompt-layer-library" },
+              { name: "langtrace", url: "https://github.com/Scale3-Labs/langtrace" },
+              { name: "openlit", url: "https://github.com/openlit/openlit" },
             ],
-          },
+          },          
           {
             title: "ferramentas no-code com ia",
             items: [
