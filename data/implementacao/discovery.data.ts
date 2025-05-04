@@ -78,11 +78,12 @@ export const discoveryTrackData = {
             title: "ferramentas para criar agentes de ia sem código",
             items: [
               { name: "latitude.so (estilo prompt)", url: "https://latitude.so/" },
+              { name: "promptlayer" (prompt + nós de automação), url: "https://www.promptlayer.com/" },
+              { name: "workflowai (estilo chat e prompt)", url: "https://workflowai.com/" },
               { name: "rowboatlabs (estilo chat)", url: "https://rowboatlabs.com/" },
-              { name: "rowboatlabs + openrouter para qualquer LLM (estilo chat)", url: "https://github.com/ramonck/rowboat-openrouter" },              
               { name: "wordware.ai (estilo doc)", url: "https://app.wordware.ai/lp" },
-              { name: "dify.ai (estilo automação)", url: "https://dify.ai" },
-              { name: "n8n (estilo automação)", url: "https://n8n.io/ " },
+              { name: "dify.ai (nós de automação)", url: "https://dify.ai" },
+              { name: "n8n (nós de automação)", url: "https://n8n.io/ " },
             ],
           },          
           {
