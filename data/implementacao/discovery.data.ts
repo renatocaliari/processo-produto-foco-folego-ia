@@ -25,13 +25,22 @@ export const discoveryTrackData = {
     },
     {
       id: 41,
-      title: "tipo de discovery",
+      title: "execução de discovery",
       type: "stage",
       responsibles: ["humano"],
       details: {
         comment:
           "avaliar oferta, comprometimento e operacionalização antes de produtizar. consulte tópicos no e-book abaixo.",
         resources: [
+          {
+          title: "ferramentas para mapa de calor, enquete, card sorting, tree testing, five seconds test",
+            items: [
+              { name: "uxtweak (Card Sorting, Tree Testing)", url: "https://www.uxtweak.com/" },
+              { name: "posthog", url: "https://posthog.com/" },
+              { name: "hotjar", url: "https://www.hotjar.com/pt-br/" },
+              { name: "microsoft clarity", url: "https://clarity.microsoft.com/" },
+            ],
+          },
           {
             title: "recursos",
             items: [{ name: "[e-book] A Arte Da Experimentação: Da Ideia ao Produto", url: "https://calirenato82.substack.com/p/roteiro-pratico-para-validar-ideias" }],
