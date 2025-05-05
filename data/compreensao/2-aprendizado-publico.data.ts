@@ -19,6 +19,14 @@ export const aprendizadoPublicoData = {
         ],
       },
       {
+        title: "ferramentas para recrutar pessoas, validar protótipos e mais",
+        items: [
+          { name: "maze", url: "https://maze.co/" },
+          { name: "greatquestion", url: "https://greatquestion.co/" },
+          { name: "uxtweak (Card Sorting, Tree Testing)", url: "https://www.uxtweak.com/" },
+        ],
+      },
+      {
         title: "recursos",
         items: [
           {
