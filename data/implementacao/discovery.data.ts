@@ -9,15 +9,39 @@ export const discoveryTrackData = {
       type: "stage",
       responsibles: ["humano"],
       details: {
-        comment: "o que fazer para operacionalizar antes de produtizar",
+        comment: "o que fazer para operacionalizar antes de produtizar?",
         resources: [
           {
             title: "prompts",
             items: [
               {
-                name: "discovery: operacionalizar e produtizar",
+                name: "discovery: descobrir como avaliar e operacionalizar antes de produtizar",
                 url: "https://calirenato82.substack.com/p/prompt-ia-discovery-operacionalizar-produtizar",
               },
+              {
+                name: "discovery: estratégia de lançamento para discovery + validar interesse e comprometimento",
+                url: "https://calirenato82.substack.com/p/prompt-ia-estrategia-de-lancamento-discovery",
+              },
+              {
+                name: "discovery: elaborar anúncios para veicular e medir interesse",
+                url: "https://calirenato82.substack.com/p/prompt-ia-anuncios-para-veiculacao",
+              },
+              {
+                name: "discovery: elaborar promoções para lançamento",
+                url: "https://calirenato82.substack.com/p/prompt-ia-promocoes-para-lancamento",
+              },                        
+              {
+                name: "discovery: elaborar garantias para medir interesse",
+                url: "https://calirenato82.substack.com/p/prompt-ia-garantia-alex-hormozi",
+              },                        
+              {
+                name: "discovery: ideias para elaborar bônus e medir interesse",
+                url: "https://calirenato82.substack.com/p/prompt-ia-bonus-alex-hormozi",
+              },                                         
+              {
+                name: "discovery: ideias para estimular oferta e demanda de marketplace",
+                url: "https://calirenato82.substack.com/p/prompt-ia-ideias-para-estimular-oferta",
+              },                           
             ],
           },
         ],
@@ -30,8 +54,17 @@ export const discoveryTrackData = {
       responsibles: ["humano"],
       details: {
         comment:
-          "avaliar oferta, comprometimento e operacionalização antes de produtizar. consulte tópicos no e-book abaixo.",
+          "avaliar oferta, interesse, comprometimento e operacionalização antes de produtizar. consulte tópicos no e-book abaixo.",
         resources: [
+          {
+          title: "ferramentas para mapa de calor, enquete, card sorting, tree testing, five seconds test",
+            items: [
+              { name: "uxtweak (Card Sorting, Tree Testing)", url: "https://www.uxtweak.com/" },
+              { name: "posthog", url: "https://posthog.com/" },
+              { name: "hotjar", url: "https://www.hotjar.com/pt-br/" },
+              { name: "microsoft clarity", url: "https://clarity.microsoft.com/" },
+            ],
+          },
           {
           title: "ferramentas para mapa de calor, enquete, card sorting, tree testing, five seconds test",
             items: [
