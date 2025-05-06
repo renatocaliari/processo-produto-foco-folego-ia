@@ -115,7 +115,10 @@ export const propostaInicialStages = [
         },
         {
           title: "ferramenta para visualizar mermaid",
-          items: [{ name: "mermaid mind", url: "https://mermaid-mind.vercel.app/" }],
+          items: [
+            { name: "mermaid live", url: "https://mermaid.live/" },
+            { name: "mermaid mind", url: "https://mermaid-mind.vercel.app/" },
+          ],
         },
       ],
     },
