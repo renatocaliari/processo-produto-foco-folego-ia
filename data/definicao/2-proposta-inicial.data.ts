@@ -170,6 +170,16 @@ export const propostaInicialStages = [
             { name: "avaliação de fluxos, affordances e dados", url: "https://calirenato82.substack.com/p/prompt-ia-avaliacao-da-definicao-fluxos-affordances" },
           ],
         },
+        {
+          title: "ferramentas ia para rodar o prompt",
+          items: [
+            { name: "gemini live (compartilhe a tela do wireframe ou protótipo com a gemini", url: "https://aistudio.google.com/live" },
+            { name: "gemini chat (anexe o screenshot ou pdf do fluxo ou wireframe)", url: "https://gemini.google.com/" },
+            { name: "chat gpt (anexe o screenshot ou pdf do fluxo ou wireframe)", url: "https://chatgpt.com/" },
+            { name: "deepseek r1 (anexe o screenshot ou pdf do fluxo ou wireframe)", url: "https://chat.deepseek.com/" },
+            { name: "grok think (anexe o screenshot ou pdf do fluxo ou wireframe)", url: "https://grok.com/" },
+          ],
+        },        
       ],
     },
   },
