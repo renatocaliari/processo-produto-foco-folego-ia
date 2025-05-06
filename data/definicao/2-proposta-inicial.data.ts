@@ -118,6 +118,7 @@ export const propostaInicialStages = [
           items: [
             { name: "mermaid live", url: "https://mermaid.live/" },
             { name: "mermaid mind", url: "https://mermaid-mind.vercel.app/" },
+            { name: "whimsical (crie fluxograma com a I.A. do whimsical passando algum mermaid)", url: "https://whimsical.com/" },
           ],
         },
       ],
