@@ -9,15 +9,6 @@ export const delimitacaoIdeacaoStages = [
       comment: "definir o problema a ser resolvido com clareza e o apetite de tempo. a pergunta não é 'O que poderíamos construir?' mas 'O que está acontecendo de errado (ou que poderia ser melhor)?'. defina quantas semanas tem de apetite para investir tempo em uma solução. sem isso não conseguirá determinar o que fica fora e o que precisa ser simplificado. essa informação é crucial e diferente da ideia de estimar pontos ou tempo posteriormente - que cairia na falácia do planejamento e viés do otimismo. leia mais abaixo",
       resources: [
         {
-          title: "prompts",
-          items: [
-            {
-              name: "agente de ia: principais critérios de sucesso",
-              url: "https://calirenato82.substack.com/p/agente-ia-principais-criterios-de-sucesso",
-            },
-          ],
-        },
-        {
           title: "recursos", 
           items: [
             {
@@ -63,6 +54,10 @@ export const delimitacaoIdeacaoStages = [
         {
           title: "prompts",
           items: [
+            {
+              name: "agente de ia: principais critérios de sucesso",
+              url: "https://calirenato82.substack.com/p/agente-ia-principais-criterios-de-sucesso",
+            },
             {
               name: "gerar mapeamento de oportunidades e potenciais soluções priorizando por critérios evolutivos e abordando estratégias de 'Job-to-Be-Done Growth Strategy'",
               url: "https://calirenato82.substack.com/p/prompt-ia-mapeamento-de-oportunidades",
