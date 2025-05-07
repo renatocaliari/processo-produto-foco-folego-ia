@@ -24,6 +24,7 @@ export const deliveryTrackData = {
             items: [
               { name: "context7 (carregar docs de libs para llm)", url: "https://context7.com/" },
               { name: "DeepWiki", url: "https://deepwiki.com/" },
+              { name: "DeepWiki Open (versão open-source)", url: "https://github.com/AsyncFuncAI/deepwiki-open" },
               { name: "Tutorial-Codebase-Knowledge", url: "https://github.com/The-Pocket/Tutorial-Codebase-Knowledge" },
               { name: "probe ai", url: "https://probeai.dev/" },
               { name: "readme-ai", url: "https://github.com/eli64s/readme-ai" },
