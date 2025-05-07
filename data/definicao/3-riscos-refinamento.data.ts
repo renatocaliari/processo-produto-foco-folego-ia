@@ -21,6 +21,7 @@ export const riscosRefinamentoStages = [
           items: [
             { name: "context7 (carregar docs de libs para llm)", url: "https://context7.com/" },
             { name: "Tutorial-Codebase-Knowledge", url: "https://github.com/The-Pocket/Tutorial-Codebase-Knowledge" },
+            { name: "DeepWiki Open (versão open-source)", url: "https://github.com/AsyncFuncAI/deepwiki-open" },
             { name: "DeepWiki", url: "http://deepwiki.com/" },
             { name: "probe ai", url: "https://probeai.dev/" },
             { name: "readme-ai", url: "https://github.com/eli64s/readme-ai" },
