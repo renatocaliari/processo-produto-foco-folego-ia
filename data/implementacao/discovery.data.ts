@@ -92,6 +92,7 @@ export const discoveryTrackData = {
           {
             title: "ferramentas de ia — prototipação rápida",
             items: [
+              { name: "Figma Make + Site", url: "https://www.figma.com/make/" },
               { name: "v0", url: "https://v0.dev/" },
               { name: "tempo.new", url: "https://www.tempo.new/" },
               { name: "lovable", url: "https://lovable.dev/" },
