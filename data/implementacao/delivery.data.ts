@@ -117,6 +117,7 @@ export const deliveryTrackData = {
               { name: "airweave", url: "https://airweave.ai/" },
               { name: "graphlit", url: "https://www.graphlit.com/" },
               { name: "mem0.ai", url: "https://mem0.ai/" },
+              { name: "supermemory", url: "https://supermemory.ai/" },
               {
                 name: "graphiti (memória em grafo para agentes ia)",
                 url: "https://github.com/getzep/graphiti/blob/main/mcp_server/README.md",
