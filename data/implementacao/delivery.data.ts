@@ -23,6 +23,7 @@ export const deliveryTrackData = {
             title: "ferramentas ia para preparar documentações de bibliotecas e-ou base de código para llm",
             items: [
               { name: "context7 (carregar docs de libs para llm)", url: "https://context7.com/" },
+              { name: "gitmcp (transforma um repositório em um mcp server pra consulta)", url: "https://gitmcp.io/" },
               { name: "Tutorial-Codebase-Knowledge", url: "https://github.com/The-Pocket/Tutorial-Codebase-Knowledge" },
               { name: "DeepWiki Open (versão open-source)", url: "https://github.com/AsyncFuncAI/deepwiki-open" },
               { name: "DeepWiki", url: "http://deepwiki.com/" },
