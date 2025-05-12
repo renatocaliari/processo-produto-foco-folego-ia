@@ -118,6 +118,8 @@ export const deliveryTrackData = {
               { name: "mem0.ai", url: "https://mem0.ai/" },
               { name: "zep", url: "https://www.getzep.com/" },
               { name: "graphlit", url: "https://www.graphlit.com/" },
+              { name: "letta", url: "https://www.letta.com/" },
+              { name: "cognee", url: "https://www.cognee.ai/" },
               { name: "supermemory", url: "https://supermemory.ai/" },
               { name: "airweave", url: "https://airweave.ai/" },
               {
