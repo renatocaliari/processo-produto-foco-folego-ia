@@ -20,12 +20,16 @@ export const deliveryTrackData = {
       details: {
         resources: [
           {
-            title: "ferramentas ia para preparar documentações de bibliotecas e-ou base de código para llm",
+            title: "ferramentas ia para entender melhor o código - via documentação, mcp server ou outras formas",
             items: [
               { name: "context7 (carregar docs de libs para llm)", url: "https://context7.com/" },
               { name: "gitmcp (transforma um repositório em um mcp server pra consulta)", url: "https://gitmcp.io/" },
               { name: "Tutorial-Codebase-Knowledge", url: "https://github.com/The-Pocket/Tutorial-Codebase-Knowledge" },
               { name: "DeepWiki Open (versão open-source)", url: "https://github.com/AsyncFuncAI/deepwiki-open" },
+              {
+                name: "serena (análise semântica para qualquer agente ia ou integração claude desktop)",
+                url: "https://github.com/oraios/serena",
+              },
               { name: "DeepWiki", url: "http://deepwiki.com/" },
               { name: "CodeGraph", url: "https://github.com/ChrisRoyse/CodeGraph" },
               { name: "probe ai", url: "https://probeai.dev/" },
@@ -113,7 +117,7 @@ export const deliveryTrackData = {
             ],
           },
           {
-            title: "ferramentas ia de memória para agentes ia",
+            title: "banco de dados ou ferramentas ia de memória para agentes ia",
             items: [
               { name: "mem0.ai", url: "https://mem0.ai/" },
               { name: "zep", url: "https://www.getzep.com/" },
@@ -126,17 +130,14 @@ export const deliveryTrackData = {
                 name: "graphiti (memória em grafo para agentes ia)",
                 url: "https://github.com/getzep/graphiti/blob/main/mcp_server/README.md",
               },
-              { name: "qdrant mcp server (busca vetorial)", url: "https://github.com/qdrant/mcp-server-qdrant" },
-              {
-                name: "serena (análise semântica para qualquer agent ia ou integração claude desktop)",
-                url: "https://github.com/oraios/serena",
-              },
               { name: "memgraph", url: "https://memgraph.com/" },
               { name: "weaviate", url: "https://weaviate.io/" },
               { name: "helix-db", url: "https://www.helix-db.com/" },
               { name: "trychroma", url: "https://www.trychroma.com/" },
               { name: "kuzu", url: "https://kuzudb.com/" },
-              { name: "qdrant", url: "https://qdrant.tech/" },              
+              { name: "qdrant", url: "https://qdrant.tech/" },    
+              { name: "milvus", url: "https://milvus.io/" },    
+              
             ],
           },   
           {
