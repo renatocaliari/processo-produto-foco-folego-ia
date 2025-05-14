@@ -113,7 +113,7 @@ export const deliveryTrackData = {
             ],
           },
           {
-            title: "ferramentas ia de memória e contexto para agentes ia",
+            title: "ferramentas ia de memória para agentes ia",
             items: [
               { name: "mem0.ai", url: "https://mem0.ai/" },
               { name: "zep", url: "https://www.getzep.com/" },
@@ -126,12 +126,15 @@ export const deliveryTrackData = {
                 name: "graphiti (memória em grafo para agentes ia)",
                 url: "https://github.com/getzep/graphiti/blob/main/mcp_server/README.md",
               },
-              { name: "context7 (carregar docs de libs para llm)", url: "https://context7.com/" },
               { name: "qdrant mcp server (busca vetorial)", url: "https://github.com/qdrant/mcp-server-qdrant" },
               {
                 name: "serena (análise semântica para qualquer agent ia ou integração claude desktop)",
                 url: "https://github.com/oraios/serena",
               },
+              { name: "memgraph", url: "https://memgraph.com/" },
+              { name: "weaviate", url: "https://weaviate.io/" },
+              { name: "helix-db", url: "https://www.helix-db.com/" },
+              { name: "trychroma", url: "https://www.trychroma.com/" },
             ],
           },   
           {
