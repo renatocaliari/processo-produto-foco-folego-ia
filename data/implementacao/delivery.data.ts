@@ -135,6 +135,8 @@ export const deliveryTrackData = {
               { name: "weaviate", url: "https://weaviate.io/" },
               { name: "helix-db", url: "https://www.helix-db.com/" },
               { name: "trychroma", url: "https://www.trychroma.com/" },
+              { name: "kuzu", url: "https://kuzudb.com/" },
+              { name: "qdrant", url: "https://qdrant.tech/" },              
             ],
           },   
           {
