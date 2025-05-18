@@ -22,10 +22,11 @@ export const deliveryTrackData = {
           {
             title: "ferramentas ia para entender melhor o código - via documentação, mcp server ou outras formas",
             items: [
-              { name: "context7 (carregar docs de libs para llm)", url: "https://context7.com/" },
+              { name: "probeai", url: "https://probeai.dev/" },
               { name: "gitmcp (transforma um repositório em um mcp server pra consulta)", url: "https://gitmcp.io/" },
               { name: "Tutorial-Codebase-Knowledge", url: "https://github.com/The-Pocket/Tutorial-Codebase-Knowledge" },
               { name: "DeepWiki Open (versão open-source)", url: "https://github.com/AsyncFuncAI/deepwiki-open" },
+              { name: "context7 (carregar docs de libs para llm)", url: "https://context7.com/" },
               {
                 name: "serena (análise semântica para qualquer agente ia ou integração claude desktop)",
                 url: "https://github.com/oraios/serena",
