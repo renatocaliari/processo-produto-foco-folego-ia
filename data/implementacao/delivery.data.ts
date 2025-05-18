@@ -22,7 +22,7 @@ export const deliveryTrackData = {
           {
             title: "ferramentas ia para entender melhor o código - via documentação, mcp server ou outras formas",
             items: [
-              { name: "Tutorial-Codebase-Knowledge", url: "https://github.com/The-Pocket/Tutorial-Codebase-Knowledge" },
+              { name: "code2tutorial", url: "https://code2tutorial.com/" },
               { name: "DeepWiki Open (versão open-source)", url: "https://github.com/AsyncFuncAI/deepwiki-open" },
               { name: "probeai", url: "https://probeai.dev/" },
               { name: "gitmcp (transforma um repositório em um mcp server pra consulta)", url: "https://gitmcp.io/" },
