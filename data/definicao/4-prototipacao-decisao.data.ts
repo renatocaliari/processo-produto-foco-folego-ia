@@ -6,8 +6,14 @@ export const prototipacaoDecisaoStages = [
     type: "stage",
     responsibles: ["humano com assistência de ia"],
     details: {
-      comment: "utilizar ia para apoiar, seja qual for a decisão",
+      comment: "utilizar ia para apoiar",
       resources: [
+        {
+          title: "ferramentas ia — prototipação via agente",
+          items: [
+            { name: "v0 mcp - criar protótipos via agente", url: "https://github.com/m2rads/v0-mcp" },
+          ],
+        },                
         {
           title: "ferramentas ia — alta fidelidade",
           items: [
