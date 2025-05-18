@@ -24,7 +24,7 @@ export const deliveryTrackData = {
             items: [
               { name: "code2tutorial", url: "https://code2tutorial.com/" },
               { name: "DeepWiki Open (versão open-source)", url: "https://github.com/AsyncFuncAI/deepwiki-open" },
-              { name: "probeai", url: "https://probeai.dev/" },
+              { name: "probe ai", url: "https://probeai.dev/" },
               { name: "gitmcp (transforma um repositório em um mcp server pra consulta)", url: "https://gitmcp.io/" },
               { name: "context7 (carregar docs de libs para llm)", url: "https://context7.com/" },
               { name: "DeepWiki", url: "http://deepwiki.com/" },
@@ -33,7 +33,6 @@ export const deliveryTrackData = {
                 url: "https://github.com/oraios/serena",
               },
               { name: "CodeGraph", url: "https://github.com/ChrisRoyse/CodeGraph" },
-              { name: "probe ai", url: "https://probeai.dev/" },
               { name: "readme-ai", url: "https://github.com/eli64s/readme-ai" },
               { name: "quill", url: "https://github.com/mainnebula/quill" },
               { name: "code2prompt", url: "https://code2prompt.dev/" },
