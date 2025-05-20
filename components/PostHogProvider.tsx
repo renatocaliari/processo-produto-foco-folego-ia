@@ -7,17 +7,22 @@ import { usePathname, useSearchParams } from "next/navigation"
 
 export function PostHogProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
-    posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY!, {
-      api_host: "/ingest",
-      ui_host: "https://us.posthog.com",
-      capture_pageview: true, // We capture pageviews manually
-      capture_pageleave: true, // Enable pageleave capture
-      debug: process.env.NODE_ENV === "development",
-      autocapture: {
-        capture_copied_text: true
-        // PostHog automatically captures id and name attributes by default
-      }
-    })
+    // Inicializa o PostHog apenas se a chave estiver disponível
+    if (process.env.NEXT_PUBLIC_POSTHOG_KEY) {
+      posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY, {
+        api_host: "/ingest",
+        ui_host: "https://us.posthog.com",
+        capture_pageview: true, // We capture pageviews manually
+        capture_pageleave: true, // Enable pageleave capture
+        debug: process.env.NODE_ENV === "development",
+        autocapture: {
+          capture_copied_text: true
+          // PostHog automatically captures id and name attributes by default
+        }
+      })
+    } else if (process.env.NODE_ENV === "development") {
+      console.log("PostHog key not found. Analytics disabled.")
+    }
   }, [])
 
   return (
@@ -34,7 +39,7 @@ function PostHogPageView() {
   const posthog = usePostHog()
 
   useEffect(() => {
-    if (pathname && posthog) {
+    if (pathname && posthog && process.env.NEXT_PUBLIC_POSTHOG_KEY) {
       let url = window.origin + pathname
       const search = searchParams.toString()
       if (search) {

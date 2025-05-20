@@ -61,7 +61,7 @@ export default function ProductProcess() {
               <span role="img" aria-label="Contato" className="text-base md:text-lg">
                 👋
               </span>
-              Precisa de ajuda? Entre em contato
+              Precisa de ajuda?
             </button>
           </div>
         </div>
