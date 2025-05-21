@@ -52,11 +52,18 @@ export const deliveryTrackData = {
             ],
           },
           {
+            "title": "swe-agents - agentes de software engineer",
+            "items": [
+              { name: "jules", url: "https://jules.google.com/" },
+              { name: "codex", url: "https://openai.com/codex/" },
+              { "name": "all hands (open source)", "url": "https://github.com/All-Hands-AI/OpenHands" },
+              { "name": "swe agent (open source)", "url": "https://swe-agent.com/" },
+              { "name": "devin", "url": "https://devin.ai/" }
+            ]
+          },
+          {
             title: "ferramentas ia para gerar código — pagas/freemium para código",
             items: [
-              { name: "all hands (open source)", url: "https://github.com/All-Hands-AI/OpenHands" },
-              { name: "swe agent (open source)", url: "https://swe-agent.com/" },
-              { name: "devin", url: "https://devin.ai/" },
               { name: "bolt", url: "https://bolt.new/" },
               { name: "replit", url: "https://replit.com/" },
               { name: "cursor", url: "https://www.cursor.com/" },
