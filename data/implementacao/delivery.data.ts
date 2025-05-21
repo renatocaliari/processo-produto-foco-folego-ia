@@ -40,6 +40,7 @@ export const deliveryTrackData = {
               { name: "repomix", url: "https://repomix.com/" },
               { name: "llmstxt", url: "https://www.llmstxt.new/" },
               { name: "gitingest", url: "https://gitingest.com/" },
+              { name: "GitDiagram", url: "https://gitdiagram.com/" },
             ],
           },         
           {
