@@ -28,6 +28,7 @@ export const deliveryTrackData = {
               { name: "gitmcp (transforma um repositório em um mcp server pra consulta)", url: "https://gitmcp.io/" },
               { name: "context7 (carregar docs de libs para llm)", url: "https://context7.com/" },
               { name: "DeepWiki", url: "http://deepwiki.com/" },
+              { name: "CodeAlive", url: "https://www.codealive.ai/" },
               {
                 name: "serena (análise semântica para qualquer agente ia ou integração claude desktop)",
                 url: "https://github.com/oraios/serena",
