@@ -110,6 +110,7 @@ export const deliveryTrackData = {
               { name: "wordware.ai (estilo doc)", url: "https://app.wordware.ai/lp" },
               { name: "dify.ai (nós de automação)", url: "https://dify.ai" },
               { name: "n8n (nós de automação)", url: "https://n8n.io/ " },
+              { name: "lamatic.ai (nós de automação)", url: "https://lamatic.ai// " },
             ],
           },          
           {
@@ -125,7 +126,7 @@ export const deliveryTrackData = {
             ],
           },
           {
-            title: "banco de dados ou ferramentas ia de memória para agentes ia",
+            title: "banco de dados, memória ou RAG-as-a-service para agentes ia",
             items: [
               { name: "mem0.ai", url: "https://mem0.ai/" },
               { name: "zep", url: "https://www.getzep.com/" },
@@ -134,6 +135,8 @@ export const deliveryTrackData = {
               { name: "cognee", url: "https://www.cognee.ai/" },
               { name: "supermemory", url: "https://supermemory.ai/" },
               { name: "airweave", url: "https://airweave.ai/" },
+              { name: "ragie", url: "https://www.ragie.ai/" },
+              { name: "nuclia", url: "https://nuclia.com/rag-as-a-service/" },
               {
                 name: "graphiti (memória em grafo para agentes ia)",
                 url: "https://github.com/getzep/graphiti/blob/main/mcp_server/README.md",
@@ -156,7 +159,7 @@ export const deliveryTrackData = {
               { name: "graphlit", url: "https://www.graphlit.com/" },
               { name: "composio", url: "https://composio.dev/" },
             ],
-          },        
+          },    
           {
             title: "ferramentas ia para avaliar e evoluir resultados de prompts do produto",
             items: [
