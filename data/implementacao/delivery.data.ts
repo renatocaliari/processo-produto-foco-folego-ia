@@ -38,6 +38,7 @@ export const deliveryTrackData = {
               { name: "quill", url: "https://github.com/mainnebula/quill" },
               { name: "code2prompt", url: "https://code2prompt.dev/" },
               { name: "web2md", url: "https://web2md.answer.ai/" }, 
+              { name: "pastemax", url: "https://github.com/kleneway/pastemax" }, 
               { name: "repomix", url: "https://repomix.com/" },
               { name: "llmstxt", url: "https://www.llmstxt.new/" },
               { name: "gitingest", url: "https://gitingest.com/" },
