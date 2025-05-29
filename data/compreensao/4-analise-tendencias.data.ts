@@ -20,11 +20,17 @@ export const analiseTendenciasData = {
       {
         title: "ferramentas de ia generalistas",
         items: [
-          { name: "perplexity deep research", url: "" },
-          { name: "chatgpt deep research", url: "" },
-          { name: "gemini deep research", url: "" },
-          { name: "grok deep research", url: "" },
-          { name: "deepseek deepthink", url: "" },
+          { name: "dojoma", url: "https://dojoma.ai/" },
+          { name: "flowithio", url: "https://flowith.io/" },
+          { name: "skywork", url: "https://skywork.ai/" },
+          { name: "scout", url: "https://scout.new/" },
+          { name: "suna", url: "https://www.suna.so/" },
+          { name: "perplexity", url: "https://www.perplexity.ai/" },
+          { name: "grok", url: "https://grok.com/" },
+          { name: "exa", url: "https://exa.ai/" },
+          { name: "gemini", url: "https://gemini.google.com/" },
+          { name: "deepseek", url: "https://chat.deepseek.com/" },
+          { name: "chatgpt", url: "https://chatgpt.com/" },
         ],
       },
       {
