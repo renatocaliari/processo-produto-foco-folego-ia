@@ -24,7 +24,10 @@ export const analiseQualitativaData = {
         title: "ferramentas ia explorar padrões em sua própria base de conhecimento",
         items: [
           { name: "notebooklm", url: "https://notebooklm.google.com/" },
-          { name: "perplexity ai space", url: "https://www.perplexity.ai/spaces" },
+          { name: "perplexity space", url: "https://www.perplexity.ai/spaces" },
+          { name: "grok workspace", url: "https://grok.com/workspace" },
+          { name: "dojoma", url: "https://dojoma.ai/" },
+          { name: "gemini deep research com seus próprios arquivos", url: "https://gemini.google/overview/deep-research/" },
           { name: "flowithio", url: "https://flowith.io/" },
           { name: "notion ai", url: "https://www.notion.so/product/ai" },
         ],
