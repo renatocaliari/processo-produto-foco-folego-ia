@@ -7,6 +7,11 @@ interface ResourcesSectionProps {
 export function ResourcesSection({ emoji }: ResourcesSectionProps) {
   const resources = [
     {
+      title: "o futuro do trabalho em produto: como a i.a. está transformando papéis e práticas",
+      url: "https://calirenato82.substack.com/p/o-futuro-do-trabalho-em-produto",
+      description: "perspectivas de mercado seguidas por minhas reflexões finais",
+    },
+    {
       title: "Produto Digital: Processo com Assistência de Inteligência Artificial",
       url: "https://calirenato82.substack.com/p/produto-digital-processo-assistencia-inteligencia-artificial",
       description:
