@@ -15,6 +15,8 @@ export const analiseTendenciasData = {
             name: "análise de mercado multimetodológica",
             url: "https://calirenato82.substack.com/p/prompt-ia-analise-de-mercado-multimetodologica",
           },
+          { name: "descoberta de critérios de sucesso e soluções competidoras relacionadas a um job to be done", url: "https://calirenato82.substack.com/p/prompt-ia-descoberta-de-necessidades" },
+          { name: "descoberta de competidores diretos, indiretos e ocultos", url: "https://calirenato82.substack.com/p/prompt-ia-descoberta-de-competidores" },
         ],
       },
       {
