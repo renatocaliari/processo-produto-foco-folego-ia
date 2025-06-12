@@ -20,8 +20,8 @@ export const propostaInicialStages = [
           title: "prompts",
           items: [
             {
-              name: "definição suficiente para implementação de produto",
-              url: "https://calirenato82.substack.com/p/prompt-ia-prd-elegance",
+              name: "melhorar e avaliar proposta de solução",
+              url: "https://calirenato82.substack.com/p/prompt-ia-avaliacao-da-proposta-de-solucao",
             },
           ],
         },
@@ -59,25 +59,6 @@ export const propostaInicialStages = [
     },
   },
   {
-    id: 18.2,
-    title: "avaliar proposta de solução",
-    type: "stage",
-    responsibles: ["ia"],
-    details: {
-      resources: [
-        {
-          title: "prompts",
-          items: [
-            {
-              name: "avaliar proposta de solução",
-              url: "https://calirenato82.substack.com/p/prompt-ia-avaliacao-da-proposta-de-solucao",
-            },
-          ],
-        },
-      ],
-    },
-  },
-  {
     id: 19,
     title: "mapear métricas para acompanhar",
     type: "stage",
@@ -98,15 +79,19 @@ export const propostaInicialStages = [
   },
   {
     id: 20,
-    title: "ui/ux - definição inicial",
+    title: "interfaces alternativas",
     type: "stage",
     responsibles: ["ia"],
     details: {
-      comment: "fluxos com mermaid, telas, affordances",
+      comment: "i.a. gera 4 potenciais alternativas de interface",
       resources: [
         {
           title: "prompts",
           items: [
+            {
+              name: "explorar alternativas de interfaces e interação",
+              url: "https://calirenato82.substack.com/p/prompt-ia-avaliacao-da-proposta-de-solucao",
+            },
             {
               name: "definição de fluxos e affordances",
               url: "https://calirenato82.substack.com/p/prompt-ia-definicao-de-fluxos-affordances",
@@ -121,17 +106,6 @@ export const propostaInicialStages = [
             { name: "whimsical (crie fluxograma com a I.A. do whimsical passando algum mermaid)", url: "https://whimsical.com/" },
           ],
         },
-      ],
-    },
-  },
-  {
-    id: 20.5,
-    title: "ui/ux - refinar fluxos e wireframes",
-    type: "stage",
-    responsibles: ["humano com assistência de ia"],
-    details: {
-      comment: "refinar fluxos e confirmar necessidade de wireframes",
-      resources: [
         {
           title: "ferramentas ia para fluxos",
           items: [
