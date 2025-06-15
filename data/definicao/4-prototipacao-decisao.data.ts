@@ -18,7 +18,7 @@ export const prototipacaoDecisaoStages = [
           title: "ferramentas ia — alta fidelidade",
           items: [
             { name: "motiff", url: "https://motiff.com/" },
-  { name: "magicpatterns", url: "https://www.magicpatterns.com/" },
+            { name: "magicpatterns", url: "https://www.magicpatterns.com/" },
             { name: "stitch google (exporta pra figma)", url: "https://stitch.withgoogle.com/" },
             { name: "uxpilot (há plugin pro figma)", url: "https://uxpilot.ai/" },
             { name: "penpot", url: "https://penpot.app/" },
