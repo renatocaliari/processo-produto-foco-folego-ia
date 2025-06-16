@@ -90,7 +90,7 @@ export const propostaInicialStages = [
           items: [
             {
               name: "explorar alternativas de interfaces e interação",
-              url: "https://calirenato82.substack.com/p/prompt-ia-avaliacao-da-proposta-de-solucao",
+              url: "https://calirenato82.substack.com/p/prompt-ia-alternativas-interfaces",
             },
             {
               name: "definição de fluxos e affordances",
