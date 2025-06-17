@@ -7,6 +7,11 @@ interface ResourcesSectionProps {
 export function ResourcesSection({ emoji }: ResourcesSectionProps) {
   const resources = [
     {
+      title: "além da \"força-tarefa\": cultivando ambientes para times mais adaptáveis e fluidos",
+      url: "https://calirenato82.substack.com/p/alem-da-forca-tarefa",
+      description: "a velocidade vista em projetos especiais não é uma condição ideal inatingível, mas um sintoma de um sistema com autonomia e foco",
+    },
+    {
       title: "o futuro do trabalho em produto: como a i.a. está transformando papéis e práticas",
       url: "https://calirenato82.substack.com/p/o-futuro-do-trabalho-em-produto",
       description: "perspectivas de mercado seguidas por minhas reflexões finais",
