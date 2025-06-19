@@ -22,12 +22,12 @@ export const deliveryTrackData = {
           {
             title: "ferramentas ia para entender melhor o código - via documentação, mcp server ou outras formas",
             items: [
+              { name: "DeepWiki", url: "http://deepwiki.com/" },
               { name: "code2tutorial", url: "https://code2tutorial.com/" },
               { name: "DeepWiki Open (versão open-source)", url: "https://github.com/AsyncFuncAI/deepwiki-open" },
               { name: "probe ai", url: "https://probeai.dev/" },
               { name: "gitmcp (transforma um repositório em um mcp server pra consulta)", url: "https://gitmcp.io/" },
               { name: "context7 (carregar docs de libs para llm)", url: "https://context7.com/" },
-              { name: "DeepWiki", url: "http://deepwiki.com/" },
               { name: "CodeAlive", url: "https://www.codealive.ai/" },
               {
                 name: "serena (análise semântica para qualquer agente ia ou integração claude desktop)",
