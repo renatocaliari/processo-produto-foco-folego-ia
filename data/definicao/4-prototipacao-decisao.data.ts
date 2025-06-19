@@ -88,6 +88,7 @@ export const prototipacaoDecisaoStages = [
         {
           "title": "ferramentas ia de navegação autônoma",
           "items": [
+            { "name": "minimax", "url": "https://chat.minimax.io/" },
             { "name": "scout new", "url": "https://scout.new/" },
             { "name": "kortix suna", "url": "https://www.suna.so/" },
             { "name": "skywork", "url": "https://skywork.ai/" },
