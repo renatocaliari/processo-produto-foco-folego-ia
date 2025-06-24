@@ -58,7 +58,12 @@ export const deliveryTrackData = {
             "items": [
               { name: "jules", url: "https://jules.google.com/" },
               { name: "codex", url: "https://openai.com/codex/" },
-              { "name": "all hands (open source)", "url": "https://github.com/All-Hands-AI/OpenHands" },
+              { "name": "all hands cloud (open source)", "url": "https://www.all-hands.dev/" },
+              { "name": "all hands cli (terminal and open source)", "url": "https://docs.all-hands.dev/usage/how-to/cli-mode" },
+              { "name": "claude code (terminal)", "url": "https://www.anthropic.com/claude-code" },
+              { "name": "opencode.ai (terminal)", "url": "https://opencode.ai/" },
+              { "name": "augment code - remote agent", "url": "https://docs.augmentcode.com/using-augment/remote-agent" },
+              { "name": "cursor - background agent", "url": "https://docs.cursor.com/background-agent" },
               { "name": "swe agent (open source)", "url": "https://swe-agent.com/" },
               { "name": "devin", "url": "https://devin.ai/" }
             ]
