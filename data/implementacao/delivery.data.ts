@@ -56,16 +56,16 @@ export const deliveryTrackData = {
           {
             "title": "swe-agents - agentes de software engineer",
             "items": [
-              { name: "jules", url: "https://jules.google.com/" },
-              { name: "codex", url: "https://openai.com/codex/" },
-              { "name": "all hands cloud (open source)", "url": "https://www.all-hands.dev/" },
               { "name": "all hands cli (terminal and open source)", "url": "https://docs.all-hands.dev/usage/how-to/cli-mode" },
-              { "name": "claude code (terminal)", "url": "https://www.anthropic.com/claude-code" },
-              { "name": "opencode.ai (terminal)", "url": "https://opencode.ai/" },
+              { "name": "all hands cloud (open source)", "url": "https://www.all-hands.dev/" },
               { "name": "augment code - remote agent", "url": "https://docs.augmentcode.com/using-augment/remote-agent" },
+              { "name": "claude code (terminal)", "url": "https://www.anthropic.com/claude-code" },
+              { name: "codex", url: "https://openai.com/codex/" },
               { "name": "cursor - background agent", "url": "https://docs.cursor.com/background-agent" },
-              { "name": "swe agent (open source)", "url": "https://swe-agent.com/" },
-              { "name": "devin", "url": "https://devin.ai/" }
+              { "name": "devin", "url": "https://devin.ai/" },
+              { name: "jules (free)", url: "https://jules.google.com/" },
+              { "name": "opencode.ai (terminal and open source)", "url": "https://opencode.ai/" },
+              { "name": "swe agent (open source)", "url": "https://swe-agent.com/" }
             ]
           },
           {
