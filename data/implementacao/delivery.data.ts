@@ -63,9 +63,11 @@ export const deliveryTrackData = {
               { name: "codex", url: "https://openai.com/codex/" },
               { "name": "cursor - background agent", "url": "https://docs.cursor.com/background-agent" },
               { "name": "devin", "url": "https://devin.ai/" },
+              { name: "gemini-cli (terminal, free e open-source)", url: "https://github.com/google-gemini/gemini-cli" },
               { name: "jules (free)", url: "https://jules.google.com/" },
               { "name": "opencode.ai (terminal and open source)", "url": "https://opencode.ai/" },
-              { "name": "swe agent (open source)", "url": "https://swe-agent.com/" }
+              { "name": "swe agent (open source)", "url": "https://swe-agent.com/" },
+              { name: "warp (mistura entre terminal e ide)", url: "https://www.warp.dev/" }
             ]
           },
           {
