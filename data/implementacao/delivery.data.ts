@@ -50,6 +50,7 @@ export const deliveryTrackData = {
             items: [
               { name: "roocode", url: "https://roocode.com/" },
               { name: "cline", url: "https://cline.bot/" },
+              { name: "gemini code assist", url: "https://codeassist.google/" },
               { name: "augment code", url: "https://www.augmentcode.com/" },
             ],
           },

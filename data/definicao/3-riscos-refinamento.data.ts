@@ -57,6 +57,7 @@ export const riscosRefinamentoStages = [
             { name: "devin", url: "https://app.devin.ai/" },
             { name: "roocode (open source)", url: "https://roocode.com/" },
             { name: "cline (open source)", url: "https://cline.bot/" },
+            { name: "gemini code assist", url: "https://codeassist.google/" },
           ],
         },
       ],
