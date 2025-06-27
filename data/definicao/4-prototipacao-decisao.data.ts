@@ -17,13 +17,14 @@ export const prototipacaoDecisaoStages = [
         {
           title: "ferramentas ia — alta fidelidade",
           items: [
-            { name: "motiff", url: "https://motiff.com/" },
-            { name: "magicpatterns", url: "https://www.magicpatterns.com/" },
-            { name: "stitch google (exporta pra figma)", url: "https://stitch.withgoogle.com/" },
-            { name: "uxpilot (há plugin pro figma)", url: "https://uxpilot.ai/" },
-            { name: "penpot", url: "https://penpot.app/" },
-            { name: "fraydesign (com figma)", url: "https://fray.design/" },
             { name: "figma", url: "https://figma.com/" },
+            { name: "fraydesign (com figma)", url: "https://fray.design/" },
+            { name: "magicpatterns", url: "https://www.magicpatterns.com/" },
+            { name: "motiff", url: "https://motiff.com/" },
+            { name: "penpot", url: "https://penpot.app/" },
+            { name: "stitch google (exporta pra figma)", url: "https://stitch.withgoogle.com/" },
+            { name: "super design (free e open source)", url: "https://www.superdesign.dev/" },
+            { name: "uxpilot (há plugin pro figma)", url: "https://uxpilot.ai/" },
           ],
         },
         {
@@ -37,19 +38,15 @@ export const prototipacaoDecisaoStages = [
         {
           title: "ferramentas de ia — prototipação rápida",
           items: [
-            { name: "Figma Make + Site", url: "https://www.figma.com/make/" },
-            { name: "v0", url: "https://v0.dev/" },
-            { name: "tempo.new", url: "https://www.tempo.new/" },
-            { name: "lovable", url: "https://lovable.dev/" },
-            { name: "firebase.studio", url: "https://firebase.studio/" },
             { name: "+70 outras ferramentas", url: "https://vibecodingdirectory.com/" },
-          ],
-        },
-        {
-          title: "ferramentas de ia — prototipação rápida - open source",
-          items: [
-            { name: "dyad.sh", url: "https://www.dyad.sh/" },
-            { name: "bolt.diy", url: "https://bolt.diy/" },
+            { name: "bolt.diy (open source)", url: "https://bolt.diy/" },
+            { name: "dyad.sh (open source)", url: "https://www.dyad.sh/" },
+            { name: "Figma Make + Site", url: "https://www.figma.com/make/" },
+            { name: "firebase.studio", url: "https://firebase.studio/" },
+            { name: "lovable", url: "https://lovable.dev/" },
+            { name: "super design (free e open source)", url: "https://www.superdesign.dev/" },
+            { name: "tempo.new", url: "https://www.tempo.new/" },
+            { name: "v0", url: "https://v0.dev/" },
           ],
         },
         {

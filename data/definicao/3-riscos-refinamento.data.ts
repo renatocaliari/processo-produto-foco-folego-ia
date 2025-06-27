@@ -93,6 +93,15 @@ export const riscosRefinamentoStages = [
       comment: "[se proposta de delivery] o refinamento do mapeamento gerado aqui será realizado no período de implementação.",
       resources: [
         {
+          title: "Recursos",
+          items: [
+            {
+              name: "dinâmicas de kickoff e workshop tático",
+              url: "https://calirenato82.substack.com/p/kick-off-workshop-tatico",
+            },
+          ],
+        },
+        {
           title: "prompts",
           items: [
             {
