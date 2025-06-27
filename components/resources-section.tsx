@@ -7,6 +7,11 @@ interface ResourcesSectionProps {
 export function ResourcesSection({ emoji }: ResourcesSectionProps) {
   const resources = [
     {
+      title: "kick-off e workshop tático",
+      url: "https://calirenato82.substack.com/p/kick-off-workshop-tatico",
+      description: "um guia para aterrissar iniciativas para implementação",
+    },
+    {
       title: "além da \"força-tarefa\": cultivando ambientes para times mais adaptáveis e fluidos",
       url: "https://calirenato82.substack.com/p/alem-da-forca-tarefa",
       description: "a velocidade vista em projetos especiais não é uma condição ideal inatingível, mas um sintoma de um sistema com autonomia e foco",
