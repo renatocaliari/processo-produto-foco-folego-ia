@@ -7,6 +7,11 @@ interface ResourcesSectionProps {
 export function ResourcesSection({ emoji }: ResourcesSectionProps) {
   const resources = [
     {
+      title: "workshop organizacional sobre o futuro do trabalho com inteligência artificial",
+      url: "https://calirenato82.substack.com/p/workshop-organizacional-sobre-o-futuro",
+      description: "menu de perguntas e uma estrutura de \"consultoria cética\" para quebrar certezas e gerar ações em grupo",
+    },
+    {
       title: "kick-off e workshop tático",
       url: "https://calirenato82.substack.com/p/kick-off-workshop-tatico",
       description: "um guia para aterrissar iniciativas para implementação",
