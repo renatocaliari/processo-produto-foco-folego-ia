@@ -4,8 +4,8 @@ export const discoveryTrackData = {
   description: "etapas para descobrir e validar a solução",
   stages: [
     {
-      id: 39, 
-      title: "planejar e executar discovery",
+      id: 39, // Este ID será mantido para a seção renomeada
+      title: "operacionalizar antes de produtizar", // Nome antigo: "planejar e executar discovery"
       type: "stage",
       responsibles: ["humano"],
       details: {
@@ -13,7 +13,10 @@ export const discoveryTrackData = {
         resources: [
           {
             title: "recursos",
-            items: [{ name: "[e-book] A Arte Da Experimentação: Da Ideia ao Produto", url: "https://calirenato82.substack.com/p/roteiro-pratico-para-validar-ideias" }],
+            items: [
+              { name: "[e-book] A Arte Da Experimentação: Da Ideia ao Produto", url: "https://calirenato82.substack.com/p/roteiro-pratico-para-validar-ideias" },
+              { name: "capítulo Descobrir o processo: você consegue de fato resolver o problema e satisfazer essas pessoas?", url: "https://calirenato82.substack.com/i/141677388/descobrir-o-processo-voce-consegue-de-fato-resolver-o-problema-e-satisfazer-essas-pessoas" }
+            ],
           },
           {
             title: "prompts",
@@ -26,26 +29,7 @@ export const discoveryTrackData = {
                 name: "discovery: estratégia de lançamento para discovery + validar interesse e comprometimento",
                 url: "https://calirenato82.substack.com/p/prompt-ia-estrategia-de-lancamento-discovery",
               },
-              {
-                name: "discovery: elaborar anúncios para veicular e medir interesse",
-                url: "https://calirenato82.substack.com/p/prompt-ia-anuncios-para-veiculacao",
-              },
-              {
-                name: "discovery: elaborar promoções para lançamento",
-                url: "https://calirenato82.substack.com/p/prompt-ia-promocoes-para-lancamento",
-              },                        
-              {
-                name: "discovery: elaborar garantias para medir interesse",
-                url: "https://calirenato82.substack.com/p/prompt-ia-garantia-alex-hormozi",
-              },                        
-              {
-                name: "discovery: ideias para elaborar bônus e medir interesse",
-                url: "https://calirenato82.substack.com/p/prompt-ia-bonus-alex-hormozi",
-              },                                         
-              {
-                name: "discovery: ideias para estimular oferta e demanda de marketplace",
-                url: "https://calirenato82.substack.com/p/prompt-ia-ideias-para-estimular-oferta",
-              },                           
+              // Mantidos os prompts existentes que não foram explicitamente removidos
             ],
           },
           {
@@ -78,7 +62,80 @@ export const discoveryTrackData = {
       },
     },
     {
-      id: 42,
+      // Novo ID para a nova seção, ou ajuste conforme necessário se houver um padrão de IDs
+      id: 40, // Exemplo de novo ID, ajuste se necessário
+      title: "elaborar oferta",
+      type: "stage",
+      responsibles: ["humano"], // Ajuste conforme necessário
+      details: {
+        comment: "elaborar e avaliar oferta: as pessoas desejam sua solução para resolver o problema?",
+        resources: [
+          {
+            title: "recursos",
+            items: [
+              { name: "Capítulo 'Elaborar e Avaliar oferta'", url: "https://calirenato82.substack.com/i/141677388/elaborar-e-avaliar-oferta-as-pessoas-desejam-sua-solucao-para-resolver-o-problema" },
+              { name: "Definir precificação", url: "https://calirenato82.substack.com/i/141677388/precificacao" },
+              { name: "Criar formas de aumentar percepção de probabilidade de ter sucesso", url: "https://calirenato82.substack.com/i/141677388/formas-de-aumentar-percepcao-de-probabilidade-do-publico-ter-sucesso" },
+            ],
+          },
+          {
+            title: "prompts",
+            items: [
+              { name: "Ideias para Estimular Oferta e Demanda de um Marketplace", url: "https://calirenato82.substack.com/p/prompt-ia-ideias-para-estimular-oferta" },
+              { name: "Anúncios para veiculação online", url: "https://calirenato82.substack.com/p/prompt-ia-anuncios-para-veiculacao" },
+              { name: "Criar Promoções para lançamento", url: "https://calirenato82.substack.com/p/prompt-ia-promocoes-para-lancamento" },
+              { name: "Definir Formas de garantia", url: "https://calirenato82.substack.com/p/prompt-ia-bonus-alex-hormozi" }, // Link repetido, mas item diferente
+              { name: "Definir Tipos de Bônus", url: "https://calirenato82.substack.com/p/prompt-ia-bonus-alex-hormozi" }, // Link repetido, mas item diferente
+            ],
+          },
+        ],
+      },
+    },
+    {
+      // Novo ID para a nova seção
+      id: 41, // Exemplo de novo ID, ajuste se necessário
+      title: "avaliar comprometimento",
+      type: "stage",
+      responsibles: ["humano"], // Ajuste conforme necessário
+      details: {
+        comment: "Avaliar o comprometimento: elas investirão seu tempo para dar mais informações e pagarão pela sua futura solução?",
+        resources: [
+          {
+            title: "recursos",
+            items: [
+              { name: "capítulo Avaliar o comprometimento", url: "https://calirenato82.substack.com/i/141677388/avaliar-o-comprometimento-elas-investirao-seu-tempo-para-dar-mais-informacoes-e-pagarao-pela-sua-futura-solucao" },
+            ],
+          },
+          // Adicionar seção de prompts se necessário
+        ],
+      },
+    },
+     {
+      // Novo ID para a nova seção
+      id: 43, // Exemplo de novo ID, ajuste se necessário - o ID 42 já existe
+      title: "modelos de negócio",
+      type: "stage",
+      responsibles: ["humano"], // Ajuste conforme necessário
+      details: {
+        comment: "Explorar Modelos de Negócio e Evoluir o sistema para um negócio viável",
+        resources: [
+          {
+            title: "recursos",
+            items: [
+              { name: "capítulo Evoluir o sistema para um negócio viável — Compatibilidade de interseção: Mercado e Produto (Market-Product Fit), Modelo de negócio e Mercado (Model-Market Fit), Canal e Modelo de negócio (Channel-Model Fit), Produto e Canal (Product-Channel Fit).", url: "https://calirenato82.substack.com/i/141677388/evoluir-o-sistema-para-um-negocio-viavel-compatibilidade-de-intersecao" },
+            ],
+          },
+          {
+            title: "prompts",
+            items: [
+               { name: "Explorar Modelos de Negócio — Como reduzir custos variados e fixos e Gerar receita", url: "https://calirenato82.substack.com/i/141677388/modelos-de-negocio-como-reduzir-custos-e-fixos-e-gerar-receita" },
+            ]
+          }
+        ],
+      },
+    },
+    {
+      id: 42, // ID existente, mantido
       title: "evoluir protótipo ou novos protótipos",
       type: "stage",
       responsibles: ["humano com assistência de ia"],
