@@ -84,8 +84,8 @@ export const discoveryTrackData = {
               { name: "Ideias para Estimular Oferta e Demanda de um Marketplace", url: "https://calirenato82.substack.com/p/prompt-ia-ideias-para-estimular-oferta" },
               { name: "Anúncios para veiculação online", url: "https://calirenato82.substack.com/p/prompt-ia-anuncios-para-veiculacao" },
               { name: "Criar Promoções para lançamento", url: "https://calirenato82.substack.com/p/prompt-ia-promocoes-para-lancamento" },
-              { name: "Definir Formas de garantia", url: "https://calirenato82.substack.com/p/prompt-ia-bonus-alex-hormozi" }, // Link repetido, mas item diferente
-              { name: "Definir Tipos de Bônus", url: "https://calirenato82.substack.com/p/prompt-ia-bonus-alex-hormozi" }, // Link repetido, mas item diferente
+              { name: "Definir Formas de garantia", url: "https://calirenato82.substack.com/p/prompt-ia-garantia-alex-hormozi" },
+              { name: "Definir Tipos de Bônus", url: "https://calirenato82.substack.com/p/prompt-ia-bonus-alex-hormozi" },
             ],
           },
         ],
