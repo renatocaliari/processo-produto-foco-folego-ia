@@ -7,7 +7,7 @@ export const discoveryTrackData = {
       id: 39, // Este ID será mantido para a seção renomeada
       title: "operacionalizar antes de produtizar", // Nome antigo: "planejar e executar discovery"
       type: "stage",
-      responsibles: ["humano"],
+      responsibles: ["humano com assistência de ia"],
       details: {
         comment: "o que fazer para operacionalizar antes de produtizar?",
         resources: [
@@ -66,7 +66,7 @@ export const discoveryTrackData = {
       id: 40, // Exemplo de novo ID, ajuste se necessário
       title: "elaborar oferta",
       type: "stage",
-      responsibles: ["humano"], // Ajuste conforme necessário
+      responsibles: ["humano com assistência de ia"], // Ajuste conforme necessário
       details: {
         comment: "elaborar e avaliar oferta: as pessoas desejam sua solução para resolver o problema?",
         resources: [
@@ -96,7 +96,7 @@ export const discoveryTrackData = {
       id: 41, // Exemplo de novo ID, ajuste se necessário
       title: "avaliar comprometimento",
       type: "stage",
-      responsibles: ["humano"], // Ajuste conforme necessário
+      responsibles: ["humano com assistência de ia"], // Ajuste conforme necessário
       details: {
         comment: "Avaliar o comprometimento: elas investirão seu tempo para dar mais informações e pagarão pela sua futura solução?",
         resources: [
@@ -115,7 +115,7 @@ export const discoveryTrackData = {
       id: 43, // Exemplo de novo ID, ajuste se necessário - o ID 42 já existe
       title: "modelos de negócio",
       type: "stage",
-      responsibles: ["humano"], // Ajuste conforme necessário
+      responsibles: ["humano com assistência de ia"], // Ajuste conforme necessário
       details: {
         comment: "Explorar Modelos de Negócio e Evoluir o sistema para um negócio viável",
         resources: [
