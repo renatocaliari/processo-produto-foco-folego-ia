@@ -1,72 +1,13 @@
-// implementacao: track discovery (stages 39-42)
+// implementacao: track discovery (stages 39-43)
 export const discoveryTrackData = {
   title: "discovery",
   description: "etapas para descobrir e validar a solução",
   stages: [
     {
-      id: 39, // Este ID será mantido para a seção renomeada
-      title: "operacionalizar antes de produtizar", // Nome antigo: "planejar e executar discovery"
-      type: "stage",
-      responsibles: ["humano com assistência de ia"],
-      details: {
-        comment: "o que fazer para operacionalizar antes de produtizar?",
-        resources: [
-          {
-            title: "recursos",
-            items: [
-              { name: "[e-book] A Arte Da Experimentação: Da Ideia ao Produto", url: "https://calirenato82.substack.com/p/roteiro-pratico-para-validar-ideias" },
-              { name: "capítulo Descobrir o processo: você consegue de fato resolver o problema e satisfazer essas pessoas?", url: "https://calirenato82.substack.com/i/141677388/descobrir-o-processo-voce-consegue-de-fato-resolver-o-problema-e-satisfazer-essas-pessoas" }
-            ],
-          },
-          {
-            title: "prompts",
-            items: [
-              {
-                name: "discovery: descobrir como avaliar e operacionalizar discovery antes de produtizar",
-                url: "https://calirenato82.substack.com/p/prompt-ia-discovery-operacionalizar-produtizar",
-              },
-              {
-                name: "discovery: estratégia de lançamento para discovery + validar interesse e comprometimento",
-                url: "https://calirenato82.substack.com/p/prompt-ia-estrategia-de-lancamento-discovery",
-              },
-              // Mantidos os prompts existentes que não foram explicitamente removidos
-            ],
-          },
-          {
-            title: "ferramentas para recrutar pessoas, validar protótipos e mais",
-            items: [
-              { name: "maze", url: "https://maze.co/" },
-              { name: "greatquestion", url: "https://greatquestion.co/" },
-              { name: "uxtweak (Card Sorting, Tree Testing)", url: "https://www.uxtweak.com/" },
-            ],
-          },          
-          {
-          title: "ferramentas para mapa de calor, enquete, card sorting, tree testing, five seconds test",
-            items: [
-              { name: "uxtweak (Card Sorting, Tree Testing)", url: "https://www.uxtweak.com/" },
-              { name: "posthog", url: "https://posthog.com/" },
-              { name: "hotjar", url: "https://www.hotjar.com/pt-br/" },
-              { name: "microsoft clarity", url: "https://clarity.microsoft.com/" },
-            ],
-          },
-          {
-          title: "ferramentas para mapa de calor, enquete, card sorting, tree testing, five seconds test",
-            items: [
-              { name: "uxtweak (Card Sorting, Tree Testing)", url: "https://www.uxtweak.com/" },
-              { name: "posthog", url: "https://posthog.com/" },
-              { name: "hotjar", url: "https://www.hotjar.com/pt-br/" },
-              { name: "microsoft clarity", url: "https://clarity.microsoft.com/" },
-            ],
-          },
-        ],
-      },
-    },
-    {
-      // Novo ID para a nova seção, ou ajuste conforme necessário se houver um padrão de IDs
-      id: 40, // Exemplo de novo ID, ajuste se necessário
+      id: 39, // Anteriormente 40
       title: "elaborar oferta",
       type: "stage",
-      responsibles: ["humano com assistência de ia"], // Ajuste conforme necessário
+      responsibles: ["humano com assistência de ia"],
       details: {
         comment: "elaborar e avaliar oferta: as pessoas desejam sua solução para resolver o problema?",
         resources: [
@@ -92,11 +33,10 @@ export const discoveryTrackData = {
       },
     },
     {
-      // Novo ID para a nova seção
-      id: 41, // Exemplo de novo ID, ajuste se necessário
+      id: 40, // Anteriormente 41
       title: "avaliar comprometimento",
       type: "stage",
-      responsibles: ["humano com assistência de ia"], // Ajuste conforme necessário
+      responsibles: ["humano com assistência de ia"],
       details: {
         comment: "Avaliar o comprometimento: elas investirão seu tempo para dar mais informações e pagarão pela sua futura solução?",
         resources: [
@@ -106,16 +46,14 @@ export const discoveryTrackData = {
               { name: "capítulo Avaliar o comprometimento", url: "https://calirenato82.substack.com/i/141677388/avaliar-o-comprometimento-elas-investirao-seu-tempo-para-dar-mais-informacoes-e-pagarao-pela-sua-futura-solucao" },
             ],
           },
-          // Adicionar seção de prompts se necessário
         ],
       },
     },
-     {
-      // Novo ID para a nova seção
-      id: 43, // Exemplo de novo ID, ajuste se necessário - o ID 42 já existe
+    {
+      id: 41, // Anteriormente 43
       title: "modelos de negócio",
       type: "stage",
-      responsibles: ["humano com assistência de ia"], // Ajuste conforme necessário
+      responsibles: ["humano com assistência de ia"],
       details: {
         comment: "Explorar Modelos de Negócio e Evoluir o sistema para um negócio viável",
         resources: [
@@ -135,7 +73,64 @@ export const discoveryTrackData = {
       },
     },
     {
-      id: 42, // ID existente, mantido
+      id: 42, // Anteriormente 39
+      title: "operacionalizar antes de produtizar",
+      type: "stage",
+      responsibles: ["humano com assistência de ia"],
+      details: {
+        comment: "o que fazer para operacionalizar antes de produtizar?",
+        resources: [
+          {
+            title: "recursos",
+            items: [
+              { name: "[e-book] A Arte Da Experimentação: Da Ideia ao Produto", url: "https://calirenato82.substack.com/p/roteiro-pratico-para-validar-ideias" },
+              { name: "capítulo Descobrir o processo: você consegue de fato resolver o problema e satisfazer essas pessoas?", url: "https://calirenato82.substack.com/i/141677388/descobrir-o-processo-voce-consegue-de-fato-resolver-o-problema-e-satisfazer-essas-pessoas" }
+            ],
+          },
+          {
+            title: "prompts",
+            items: [
+              {
+                name: "discovery: descobrir como avaliar e operacionalizar discovery antes de produtizar",
+                url: "https://calirenato82.substack.com/p/prompt-ia-discovery-operacionalizar-produtizar",
+              },
+              {
+                name: "discovery: estratégia de lançamento para discovery + validar interesse e comprometimento",
+                url: "https://calirenato82.substack.com/p/prompt-ia-estrategia-de-lancamento-discovery",
+              },
+            ],
+          },
+          {
+            title: "ferramentas para recrutar pessoas, validar protótipos e mais",
+            items: [
+              { name: "maze", url: "https://maze.co/" },
+              { name: "greatquestion", url: "https://greatquestion.co/" },
+              { name: "uxtweak (Card Sorting, Tree Testing)", url: "https://www.uxtweak.com/" },
+            ],
+          },
+          {
+          title: "ferramentas para mapa de calor, enquete, card sorting, tree testing, five seconds test",
+            items: [
+              { name: "uxtweak (Card Sorting, Tree Testing)", url: "https://www.uxtweak.com/" },
+              { name: "posthog", url: "https://posthog.com/" },
+              { name: "hotjar", url: "https://www.hotjar.com/pt-br/" },
+              { name: "microsoft clarity", url: "https://clarity.microsoft.com/" },
+            ],
+          },
+          {
+          title: "ferramentas para mapa de calor, enquete, card sorting, tree testing, five seconds test",
+            items: [
+              { name: "uxtweak (Card Sorting, Tree Testing)", url: "https://www.uxtweak.com/" },
+              { name: "posthog", url: "https://posthog.com/" },
+              { name: "hotjar", url: "https://www.hotjar.com/pt-br/" },
+              { name: "microsoft clarity", url: "https://clarity.microsoft.com/" },
+            ],
+          },
+        ],
+      },
+    },
+    {
+      id: 43, // Anteriormente 42
       title: "evoluir protótipo ou novos protótipos",
       type: "stage",
       responsibles: ["humano com assistência de ia"],
