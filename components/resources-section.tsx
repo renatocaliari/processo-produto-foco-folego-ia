@@ -7,6 +7,18 @@ interface ResourcesSectionProps {
 export function ResourcesSection({ emoji }: ResourcesSectionProps) {
   const resources = [
     {
+      title: "[e-book] guia para criar produtos com aprendizado em ciclos curtos",
+      url: "https://calirenato82.substack.com/p/roteiro-pratico-para-validar-ideias",
+      description:
+        "um método para substituir a especulação pela evidência, passo a passo",
+    },
+    {
+      title: "Processo de Produto: Foco & Fôlego",
+      url: "https://calirenato82.substack.com/p/processo-de-produto-foco-and-folego",
+      description:
+        "Explicação detalhada sobre o equilíbrio entre foco (atividades direcionadas ao produto) e fôlego (atividades de sustentação) no processo de produto.",
+    },
+    {
       title: "workshop organizacional sobre o futuro do trabalho com inteligência artificial",
       url: "https://calirenato82.substack.com/p/workshop-organizacional-sobre-o-futuro",
       description: "menu de perguntas e uma estrutura de \"consultoria cética\" para quebrar certezas e gerar ações em grupo",
@@ -33,12 +45,6 @@ export function ResourcesSection({ emoji }: ResourcesSectionProps) {
         "Guia completo sobre como integrar IA no processo de desenvolvimento de produto digital, com foco em ferramentas e metodologias práticas.",
     },
     {
-      title: "Processo de Produto: Foco & Fôlego",
-      url: "https://calirenato82.substack.com/p/processo-de-produto-foco-and-folego",
-      description:
-        "Explicação detalhada sobre o equilíbrio entre foco (atividades direcionadas ao produto) e fôlego (atividades de sustentação) no processo de produto.",
-    },
-    {
       title: "Recursos Principais para Produto com IA",
       url: "https://calirenato82.substack.com/p/recursos-principais",
       description:
@@ -49,12 +55,6 @@ export function ResourcesSection({ emoji }: ResourcesSectionProps) {
       url: "https://v0-zero-to-insight-jtbd.vercel.app/",
       description:
         "Descubra o que realmente importa para seu público e construa produtos, serviços e experiências que geram resultados reais.",
-    },
-    {
-      title: "[e-book] A Arte da Experimentação: Da Ideia ao Produto",
-      url: "https://calirenato82.substack.com/p/roteiro-pratico-para-validar-ideias",
-      description:
-        "Compilação dos recursos essenciais para profissionais de produto que desejam incorporar IA em seus processos e ferramentas.",
     },
     {
       title: "[e-book] Inovação baseada em Jobs To Be Done",
