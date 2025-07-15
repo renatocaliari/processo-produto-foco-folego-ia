@@ -51,19 +51,6 @@ export default function ProductProcess() {
             uma abordagem integrada para evolução não-linear em um mundo em constante mudança.
           </p>
           
-          <div className="text-center mb-8">
-            <button
-              className="text-sm md:text-base bg-black text-white py-2 px-4 rounded-md hover:bg-gray-800 transition-colors inline-flex items-center gap-2 font-bold shadow-[2px_2px_0px_0px_rgba(0,0,0,0.3)]"
-              data-tally-open="3jgb49"
-              data-tally-emoji-text="🤖"
-              data-tally-emoji-animation="wave"
-            >
-              <span role="img" aria-label="Contato" className="text-base md:text-lg">
-                👋
-              </span>
-              Precisa de ajuda?
-            </button>
-          </div>
         </div>
 
         {/* Mover SiteIntro (cards) para depois da primeira dobra */}
@@ -75,33 +62,6 @@ export default function ProductProcess() {
         {/* Novo subtítulo com estatísticas */}
         <p className="text-center text-sm mb-6">2 ciclos, 3 trilhas, +100 ferramentas, +10 prompts, <br/>+etapas automatizadas ou assistidas por inteligência artificial</p>
 
-        {/* Stickers abaixo do título "Processo Foco & Fôlego com IA" */}
-        <div className="flex items-center justify-center mb-6">
-          <div className="flex items-center gap-4">
-            <Link href="http://calirenato82.substack.com/p/processo-de-produto-foco-and-folego" target="_blank">
-              <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-pKb78DESfUMWDkvoEmRxBQAL434QUW.png"
-                alt="Foco & Fôlego"
-                width={80}
-                height={80}
-                className="hover:scale-105 transition-transform cursor-pointer"
-              />
-            </Link>
-            <div className="text-3xl font-bold">+</div>
-            <Link
-              href="https://calirenato82.substack.com/p/produto-digital-processo-assistencia-inteligencia-artificial"
-              target="_blank"
-            >
-              <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-RqtpI7SoccYImW9EgzL1qjCZBDMBvx.png"
-                alt="IA"
-                width={80}
-                height={80}
-                className="hover:scale-105 transition-transform cursor-pointer"
-              />
-            </Link>
-          </div>
-        </div>
 
         {/* ExperimentationCTA movido para abaixo dos stickers */}
         <div className="mb-8">
@@ -172,6 +132,21 @@ export default function ProductProcess() {
           emoji="🧘"
         />
       </div>
+
+        {/* CTA "Precisa de ajuda?" movido para cá */}
+        <div className="text-center my-12">
+          <button
+            className="text-lg md:text-xl bg-amber-100 text-black py-4 px-8 rounded-lg border-2 border-black hover:bg-amber-200 transition-colors inline-flex items-center gap-3 font-bold shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]"
+            data-tally-open="3jgb49"
+            data-tally-emoji-text="🤖"
+            data-tally-emoji-animation="wave"
+          >
+            <span role="img" aria-label="Contato" className="text-2xl">
+              👋
+            </span>
+            Precisa de ajuda?
+          </button>
+        </div>
 
         {/* Nova seção de Níveis de impacto, Avaliação e remuneração */}
         <div id="niveis-impacto">
