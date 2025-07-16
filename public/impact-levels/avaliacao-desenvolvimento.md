@@ -11,7 +11,7 @@ a ideia é focar em processos mais:
 
 ## **artigos para aprofundamento**
 
-para explorar mais sobre experimentos de processo e estruturas práticas relacionadas à avaliação e desenvolvimento, recomendamos a leitura dos seguintes artigos:
+para explorar mais sobre experimentos de processo e estruturas práticas relacionadas à avaliação e desenvolvimento, recomendo a leitura dos seguintes artigos:
 
 *   [desconstruindo o ritual 1:1 - mantendo um ecossistema de apoio e desenvolvimento](https://calirenato82.substack.com/p/repensando-reunioes-de-one-to-one)
 *   [gestão de desempenho: o modelo de avaliar e desenvolver pessoas nasceu quebrado - um convite para experimentar um sistema leve de sinais de engajamento, parceria e prontidão](https://calirenato82.substack.com/p/de-avaliacao-para-sinais-continuos)

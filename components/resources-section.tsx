@@ -86,6 +86,18 @@ export function ResourcesSection({ emoji }: ResourcesSectionProps) {
       description:
         "Sistema com regras básicas para dar mais agilidade, distribuir decisões com autonomia e responsabilidade, e fomentar experimentações.",
     },
+    {
+      title: "desconstruindo o ritual 1:1",
+      url: "https://calirenato82.substack.com/p/repensando-reunioes-de-one-to-one",
+      description:
+        "mantendo um ecossistema de apoio e desenvolvimento",
+    },
+    {
+      title: "gestão de desempenho: o modelo de avaliar e desenvolver pessoas nasceu quebrado",
+      url: "https://calirenato82.substack.com/p/de-avaliacao-para-sinais-continuos",
+      description:
+        "um convite para experimentar um sistema leve de sinais de engajamento, parceria e prontidão",
+    },
   ]
 
   return (
