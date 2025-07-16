@@ -55,15 +55,16 @@ export const propostaInicialStages = [
     type: "stage",
     responsibles: ["humano"],
     details: {
-      comment: "refinar proposta"
+      comment: "refinar a proposta avaliada e estruturada pela i.a."
     },
   },
   {
     id: 19,
-    title: "mapear métricas para acompanhar",
+    title: "mapear métricas",
     type: "stage",
     responsibles: ["ia"],
     details: {
+      comment: "mapear um conjunto de métricas essenciais para acompanhamento das tensões: \n- velocidade vs. qualidade da ativação \n- hábito vs. progresso vs. bem-estar \n- profundidade para fiéis vs. acessibilidade para novatos",
       resources: [
         {
           title: "prompts",
