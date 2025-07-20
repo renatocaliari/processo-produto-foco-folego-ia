@@ -103,6 +103,7 @@ export const deliveryTrackData = {
               { name: "lutra.ai (vibe automation; com ia)", url: "https://lutra.ai/" },
               { name: "activepieces (open-source; com ia)", url: "https://www.activepieces.com/" },
               { name: "n8n (fair code; com ia)", url: "https://n8n.io/" },
+              { name: "sim studio (open-source)", url: "https://github.com/simstudioai/sim" },
               { name: "lindy.ai (com ia)", url: "https://www.lindy.ai/" },
               { name: "zapier (com ia)", url: "https://zapier.com/" },
               { name: "make", url: "https://www.make.com/" },
