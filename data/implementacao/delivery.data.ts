@@ -68,6 +68,7 @@ export const deliveryTrackData = {
               { name: "jules (free)", url: "https://jules.google.com/" },
               { "name": "opencode.ai (terminal and open source)", "url": "https://opencode.ai/" },
               { "name": "swe agent (open source)", "url": "https://swe-agent.com/" },
+              { "name": "trae-agent", "url": "https://github.com/bytedance/trae-agent" },
               { name: "warp (mistura entre terminal e ide)", url: "https://www.warp.dev/" }
             ]
           },
