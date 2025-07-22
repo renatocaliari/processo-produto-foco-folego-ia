@@ -1,68 +1,78 @@
-# Product Manager
+# Trilha de Product Manager
 
-Product Manager é responsável por identificar oportunidades de produto, definir a visão e estratégia, e trabalhar com equipes multidisciplinares para entregar valor aos usuários e ao negócio.
+## Introdução: Para Além das Escadas Corporativas
 
-## papéis e responsabilidades (pode ter múltiplos)
+O desenvolvimento de uma carreira em produto raramente segue uma linha reta. É um caminho de aprendizado contínuo, moldado por desafios, contextos e pela descoberta de nossas próprias forças. Os modelos tradicionais de progressão, com seus degraus fixos de júnior, pleno e sênior, muitas vezes falham em capturar essa realidade. Eles podem criar uma rigidez que foca em títulos em vez de impacto, e em checklists de competências em vez de maestria real.
 
-* mapeamento de espaço do problema
-* pm | delimitação de problema
-* pm | definição de solução
-* pm | entrega & otimização de produto
-* pm | produto técnico (incluindo plataformas, apis, sdks, infraestrutura)
-* 🤖 pm | produto com ia embarcada (foco específico em produtos que utilizam ia como core)
-* pm | plataforma
-* pm | growth
-* pm | estratégia de área/portfólio (evitar conotação hierárquica)
-* orientador(a) de capítulo de produto (papel distinto de desenvolvimento da disciplina/pessoas)
-* mentor(a) de pms (papel distinto de desenvolvimento individual)
+Este mapa oferece uma alternativa. Ele foi desenhado não como uma escada a ser escalada, mas como um território a ser explorado. O seu propósito é oferecer clareza e direção, reconhecendo que o valor emerge de diversas formas.
 
-## selos (apenas ideias para explorar e refinar)
+Ele se baseia em uma combinação de cinco elementos: a **trilha** como nosso caminho profissional, as **esferas de impacto** como nosso alcance, as **áreas de foco** como os territórios que exploramos, os **papéis contextuais** como nossas missões atuais e os **selos de prática** como nossas ferramentas comprovadas. Juntos, eles formam um framework vivo, um convite para uma conversa mais rica e honesta sobre desenvolvimento e contribuição.
 
-### estratégia & visão de produto:
+## 1. A Trilha de Product Manager
 
-* [selo] definição e comunicação de visão de produto
-* [selo] mapeamento do espaço do problema (ex: jobs to be done)
-* 🤖 [selo] análise de mercado e concorrência (realiza análises multi-fontes, demonstrando habilidade em alavancar ferramentas de ia para pesquisa e análise de tendências - ex: perplexity, askpot)
-* [selo] modelagem de negócios & monetização
-* [selo] construção e comunicação de roadmap estratégico (desenvolve e comunica roadmaps alinhados à visão, utilizando ferramentas apropriadas, incluindo potenciais recursos de ia para planejamento - ex: productplan, airfocus)
-* [selo] definição de métricas norte e kpis estratégicos
+A trilha de Product Manager representa o nosso ofício (craft). Pessoas nesta trilha são responsáveis por garantir que estamos construindo o **produto certo** para as **pessoas certas**, de uma forma que **sustente o negócio**. Isso envolve uma dança contínua entre estratégia e execução, navegando entre as necessidades dos usuários, os objetivos da organização e as restrições técnicas.
 
-### descoberta & validação:
+## 2. Esferas de Impacto em Produto
 
-* [selo] avaliação estratégica de iniciativas (demonstra capacidade de analisar criticamente novas ideias ou problemas, avaliando o alinhamento estratégico, potencial de mercado (oferta), adequação ao apetite (comprometimento) e definindo a abordagem inicial (operacionalização).)
-* [selo] design de mvp & estratégia de validação (projeta a forma mais simples de entregar e testar o valor central de uma proposta (mvp, experimento), definindo a estratégia para coleta de evidências e aprendizado rápido.)
-* [selo] condução de pesquisa qualitativa com usuários (planeja e executa entrevistas e sessões de escuta eficazes, utilizando ia como suporte para rascunho e análise inicial, quando apropriado)
-* 🤖 [selo] análise de dados qualitativos (identifica padrões e insights em dados não estruturados, utilizando eficazmente ferramentas ia de análise textual para processar grandes volumes e acelerar a síntese - ex: dovetail, delve)
-* [selo] design e análise de experimentos (a/b testing)
-* [selo] priorização de oportunidades e features (aplica frameworks de priorização de forma consistente, podendo utilizar suporte ia para avaliação multicritério)
-* [selo] definição de apetite de tempo e delimitação do escopo
-* 🤖 [selo] prototipagem e teste de conceito (colabora com design na validação de conceitos, explorando e utilizando ferramentas ia/no-code para prototipagem rápida quando vantajoso - ex: v0, bubble)
-* [selo] avaliação de riscos (técnicos, mercado, usabilidade) (identifica e comunica riscos de forma proativa, colaborando com especialistas e utilizando ia como suporte para análise, se aplicável)
+As esferas descrevem a evolução do escopo de impacto e autonomia dentro da trilha. A progressão não é sobre tempo de casa ou um checklist, mas sobre a **complexidade dos desafios** que uma pessoa consegue navegar de forma consistente.
 
-### entrega & execução:
+*   **Aprendiz:** Focado em aprender os fundamentos do ofício, aplicando-os sob orientação. Seu impacto é local, geralmente em tarefas e features bem definidas, garantindo a qualidade da execução.
+*   **Realizador:** Atua de forma autônoma em uma área do produto ou em um fluxo de valor. É responsável por todo o ciclo de uma iniciativa, da descoberta à entrega, propondo soluções para problemas conhecidos. Seu impacto é no sucesso do time e do produto que cuida.
+*   **Mentor:** Lida com problemas complexos e ambíguos, com escopo amplo (ex: um novo produto, uma jornada de usuário complexa). Define o "o quê" e o "porquê" para múltiplas equipes e multiplica o conhecimento, atuando como mentor para outros PMs. Seu impacto é multi-time ou de área.
+*   **Estrategista:** Lida com desafios sistêmicos que afetam toda a organização. Seu foco é em criar novas capacidades, definir direção estratégica para um portfólio de produtos e moldar o ambiente onde os times de produto operam. Seu impacto é estratégico para o negócio.
 
-* [selo] gerenciamento de backlog e fluxo de trabalho (utilizando ferramentas de gestão de tarefas/projetos - ex: jira, linear)
-* [selo] colaboração técnica com engenharia
-* 🤖 [selo] análise de métricas de produto pós-lançamento (monitora e interpreta métricas de performance, utilizando as capacidades de ferramentas de product analytics, incluindo funcionalidades de ia embarcadas - ex: posthog, amplitude)
-* 🤖 [selo] colaboração na definição de comportamento e testes (participa na definição de critérios de aceite, explorando geração assistida por ia para cenários de teste - ex: bdd/gherkin)
+### Como a progressão acontece?
 
-### análise de dados & feedback:
+O reconhecimento em uma nova esfera é validado por um **painel de deliberação** que analisa um portfólio de evidências de impacto. O processo pode ser iniciado de forma "puxada" (pela própria pessoa) ou "proposta" (através de um convite confidencial do "grupo de cuidado").
 
-* 🤖 [selo] proficiência em ferramentas de product analytics (demonstra autonomia na configuração, exploração e geração de insights a partir de ferramentas de análise de produto, incluindo o uso de funcionalidades de ia - ex: posthog, mixpanel, amplitude)
-* 🤖 [selo] exploração de dados com linguagem natural (utiliza ferramentas ia para consultar bases de dados e obter insights de forma conversacional - ex: juliusai, thoughtspot)
-* [selo] gestão e análise de feedback de usuários (estrutura a coleta e análise de feedback direto, utilizando ferramentas de gestão e, quando aplicável, ia para sumarização inicial - ex: canny, featurebase)
-* 🤖 [selo] integração e análise de feedback multicanal (consolida e analisa feedback de diversas fontes, aplicando ferramentas ia para classificação automática, sumarização e identificação de temas - ex: clientzen, usepainboard)
+## 3. Áreas de Foco em Produto
 
-### liderança & colaboração:
+Enquanto a esfera descreve o "tamanho" do impacto, as áreas de foco descrevem o "sabor" ou o contexto do trabalho. Não são cargos, mas especializações onde um PM pode atuar.
 
-* [selo] gerenciamento e comunicação com stakeholders
-* [selo] facilitação de reuniões & workshops
-* [selo] apresentação eficaz de resultados e visão
-* [selo] mentoria e desenvolvimento de pms (aplicável a quem exerce papel de mentor/líder de capítulo)
+*   **Produto de Crescimento (Growth):** Foco em otimização de funis, aquisição e retenção.
+*   **Produto de Plataforma:** Foco em habilitar outros times, tratando-os como clientes internos.
+*   **Produto Técnico:** Foco em produtos para desenvolvedores (APIs, SDKs, infraestrutura).
+*   **Produto com IA Embarcada:** Foco em produtos cujo core é uma funcionalidade de IA.
 
-### aplicação de ia no processo de produto:
+## 4. Papéis Contextuais Comuns para PMs
 
-* 🤖 [selo] análise de viabilidade (mercado & negócio) assistida por ia (utiliza proativamente ferramentas de ia para coletar, sintetizar e analisar dados de mercado, concorrência e feedback, suportando decisões sobre a viabilidade e o potencial de novas iniciativas.)
-* 🤖 [selo] uso estratégico de ia generativa (aplica ia generativa de forma eficaz para pesquisa, ideação, sumarização e outras tarefas relevantes ao ciclo de produto - ex: gemini, claude)
-* 🤖 [selo] avaliação crítica de ferramentas ia para produto (capacidade de identificar, testar e avaliar a aplicabilidade de novas ferramentas ia para otimizar o processo de produto)
-* 🤖 [selo] fundamentos e ética de ia em produtos (compreende os princípios básicos de ia, suas limitações e as considerações éticas ao aplicá-la em produtos)
+Papéis são sobre responsabilidade temporária ou persistente. Eles descrevem "o que você está fazendo agora" para o time.
+
+*   **Papéis de Função (persistentes):** Cuidados contínuos com o sistema.
+    *   *Exemplos:* "Facilitador(a) da comunidade de prática de produto", "Guardião(ã) do processo de descoberta de produto".
+*   **Papéis de Projeto (temporários):** Responsabilidades focadas em uma iniciativa específica.
+    *   *Exemplos:* "Líder da iniciativa de otimização do onboarding", "PM responsável pelo lançamento do feature Y".
+
+## 5. Catálogo de Selos de Prática em Produto
+
+Selos são sobre **capacidade comprovada**. Esta não é uma lista exaustiva a ser conquistada, mas um catálogo de referência para inspirar o desenvolvimento. A sugestão é começar com um conjunto essencial e permitir que novos selos surjam da necessidade.
+
+### Como os selos são definidos e validados?
+
+A proposta de um novo selo é aberta e deve justificar seu valor para a organização. A validação de que alguém possui um selo é feita por um **painel de pares** que analisa um portfólio de evidências.
+
+### Exemplos de Categorias e Selos Iniciais:
+
+**Estratégia & Visão de Produto:**
+
+*   [Selo] Definição e comunicação de visão de produto
+*   [Selo] Mapeamento do espaço do problema (ex: Jobs to be Done)
+*   [Selo] Construção e comunicação de roadmap estratégico
+
+**Descoberta & Validação:**
+
+*   [Selo] Condução de pesquisa qualitativa com usuários
+*   [Selo] Design e análise de experimentos (A/B testing)
+*   [Selo] Priorização de oportunidades e features
+
+**Entrega & Execução:**
+
+*   [Selo] Gerenciamento de backlog e fluxo de trabalho
+*   [Selo] Colaboração técnica com engenharia
+*   [Selo] Análise de métricas de produto pós-lançamento
+
+**Liderança & Colaboração:**
+
+*   [Selo] Gerenciamento e comunicação com stakeholders
+*   [Selo] Facilitação de decisões em grupo
+*   [Selo] Mentoria de pares em produto
