@@ -98,6 +98,12 @@ export function ResourcesSection({ emoji }: ResourcesSectionProps) {
       description:
         "um convite para experimentar um sistema leve de sinais de engajamento, parceria e prontidão",
     },
+    {
+      title: "a armadilha da eficiência com i.a.",
+      url: "https://calirenato82.substack.com/p/a-armadilha-da-eficiencia-com-ia",
+      description:
+        "como a busca por produtividade com i.a. leva um time a priorizar a velocidade da resposta em vez da qualidade da pergunta.",
+    },
   ]
 
   return (
