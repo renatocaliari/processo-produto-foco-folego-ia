@@ -42,6 +42,7 @@ export const deliveryTrackData = {
               { name: "repomix", url: "https://repomix.com/" },
               { name: "llmstxt", url: "https://www.llmstxt.new/" },
               { name: "gitingest", url: "https://gitingest.com/" },
+              { name: "code-context", url: "https://github.com/zilliztech/code-context" },
               { name: "GitDiagram", url: "https://gitdiagram.com/" },
             ],
           },         
@@ -140,7 +141,8 @@ export const deliveryTrackData = {
           {
             title: "banco de dados, memória ou RAG-as-a-service para agentes ia",
             items: [
-              { name: "mem0.ai", url: "https://mem0.ai/" },
+              { name: "mem0", url: "https://mem0.ai/" },
+              { name: "byterover", url: "https://byterover.dev/" },
               { name: "zep", url: "https://www.getzep.com/" },
               { name: "graphlit", url: "https://www.graphlit.com/" },
               { name: "letta", url: "https://www.letta.com/" },
