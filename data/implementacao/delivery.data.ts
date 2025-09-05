@@ -177,7 +177,15 @@ export const deliveryTrackData = {
               { name: "graphlit", url: "https://www.graphlit.com/" },
               { name: "composio", url: "https://composio.dev/" },
             ],
-          },    
+          },
+          {
+            title: "diretório de mcp servers",
+            items: [
+              { name: "activepieces mcp server", url: "https://www.activepieces.com/mcp" },
+              { name: "rube (composio)", url: "https://rube.app/" },
+              { name: "smithery.ai", url: "https://smithery.ai/" },
+            ],
+          },
           {
             title: "ferramentas ia para avaliar e evoluir resultados de prompts do produto",
             items: [
