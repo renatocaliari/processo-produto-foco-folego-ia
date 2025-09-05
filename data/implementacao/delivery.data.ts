@@ -133,13 +133,14 @@ export const deliveryTrackData = {
           {
             title: "frameworks para criar agentes de ia com código",
             items: [
-              { name: "inngest agent kit", url: "https://agentkit.inngest.com/overview" },
+              { name: "agno", url: "https://agno.com/" },
               { name: "cloudflare agent kit", url: "https://github.com/cloudflare/agents-starter" },
               { name: "google agent kit", url: "https://google.github.io/adk-docs/" },
-              { name: "agno", url: "https://agno.com/" },
-              { name: "smolagents", url: "https://github.com/huggingface/smolagents" },
-              { name: "pocketflow", url: "https://the-pocket.github.io/PocketFlow/" },
+              { name: "inngest agent kit", url: "https://agentkit.inngest.com/overview" },
               { name: "motia", url: "https://github.com/MotiaDev/motia" },
+              { name: "parlant", url: "https://github.com/emcie-co/parlant" },
+              { name: "pocketflow", url: "https://the-pocket.github.io/PocketFlow/" },
+              { name: "smolagents", url: "https://github.com/huggingface/smolagents" },
             ],
           },
           {
