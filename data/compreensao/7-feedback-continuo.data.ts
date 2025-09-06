@@ -28,6 +28,7 @@ export const feedbackContinuoData = {
           { name: "airweave", url: "https://airweave.ai/" },
           { name: "graphlit", url: "https://www.graphlit.com/" },
           { name: "composio", url: "https://composio.dev/" },
+          { name: "rube (mcp composio)", url: "https://rube.app/" },
           { name: "google agentspace", url: "https://cloud.google.com/products/agentspace?hl=pt_br" },
           { name: "atlassian rovo", url: "https://www.atlassian.com/software/rovo" },
         ],
