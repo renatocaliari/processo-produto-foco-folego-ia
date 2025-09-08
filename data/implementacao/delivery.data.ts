@@ -135,7 +135,7 @@ export const deliveryTrackData = {
             title: "frameworks para criar agentes de ia com código",
             items: [
               { name: "agno", url: "https://agno.com/" },
-              { name: "cloudflare agent kit", url: "https://github.com/cloudflare/agents-starter" },
+              { name: "cloudflare agents starter", url: "https://github.com/cloudflare/agents-starter" },
               { name: "google agent kit", url: "https://google.github.io/adk-docs/" },
               { name: "inngest agent kit", url: "https://agentkit.inngest.com/overview" },
               { name: "motia", url: "https://github.com/MotiaDev/motia" },
