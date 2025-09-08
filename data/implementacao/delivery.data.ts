@@ -128,6 +128,7 @@ export const deliveryTrackData = {
               { name: "dify.ai (nós de automação)", url: "https://dify.ai" },
               { name: "n8n (nós de automação)", url: "https://n8n.io/ " },
               { name: "lamatic.ai (nós de automação)", url: "https://lamatic.ai// " },
+              { name: "xpander (All-in-one platform)", url: "http://xpander.ai/" },
             ],
           },          
           {
@@ -141,6 +142,7 @@ export const deliveryTrackData = {
               { name: "parlant", url: "https://github.com/emcie-co/parlant" },
               { name: "pocketflow", url: "https://the-pocket.github.io/PocketFlow/" },
               { name: "smolagents", url: "https://github.com/huggingface/smolagents" },
+              { name: "xpander (low-code)", url: "http://xpander.ai/" },
             ],
           },
           {
