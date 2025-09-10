@@ -32,11 +32,14 @@ export const mapeamentoInicialData = {
       {
         title: "ferramentas ia generalistas",
         items: [
+          { name: "chatgpt", url: "https://chatgpt.com/" },
+          { name: "claude", url: "https://claude.ai/" },
+          { name: "deepseek", url: "https://www.deepseek.com/" },
           { name: "gemini", url: "https://gemini.google.com/" },
           { name: "grok", url: "https://grok.x.ai/" },
-          { name: "deepseek", url: "https://www.deepseek.com/" },
-          { name: "claude", url: "https://claude.ai/" },
-          { name: "chatgpt", url: "https://chatgpt.com/" },
+          { name: "mistral", url: "https://chat.mistral.ai/chat" },
+          { name: "qwen", url: "https://chat.qwen.ai/" },
+          { name: "z.ai", url: "https://chat.z.ai/" },
         ],
       },
       {
