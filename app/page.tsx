@@ -150,24 +150,44 @@ export default function ProductProcess() {
         </div>
 
         {/* Seção de Ferramentas de IA para Uso Geral */}
-        <div className="text-center my-12">
-          <h3 className="text-xl font-bold mb-4">Ferramentas de I.A. para uso geral</h3>
-          <ul className="flex flex-wrap justify-center gap-4">
-            {analiseTendenciasData.details.resources
-              .find((resource) => resource.title === "ferramentas de ia generalistas")
-              ?.items.map((item) => (
-                <li key={item.name}>
-                  <a
-                    href={item.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-lg text-blue-600 hover:underline"
-                  >
-                    {item.name}
-                  </a>
-                </li>
-              ))}
-          </ul>
+        <div className="my-12 p-6 border border-neutral-300 rounded-lg bg-neutral-50">
+          <h3 className="text-xl font-bold mb-6 text-center">Ferramentas de I.A. para uso geral</h3>
+          <div className="flex justify-center gap-12">
+            <ul className="list-disc pl-5">
+              {analiseTendenciasData.details.resources
+                .find((resource) => resource.title === "ferramentas de ia generalistas")
+                ?.items.slice(0, 6)
+                .map((item) => (
+                  <li key={item.name} className="mb-2">
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-lg text-blue-600 hover:underline"
+                    >
+                      {item.name}
+                    </a>
+                  </li>
+                ))}
+            </ul>
+            <ul className="list-disc pl-5">
+              {analiseTendenciasData.details.resources
+                .find((resource) => resource.title === "ferramentas de ia generalistas")
+                ?.items.slice(6, 12)
+                .map((item) => (
+                  <li key={item.name} className="mb-2">
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-lg text-blue-600 hover:underline"
+                    >
+                      {item.name}
+                    </a>
+                  </li>
+                ))}
+            </ul>
+          </div>
         </div>
 
         {/* Nova seção de Níveis de impacto, Avaliação e remuneração */}
