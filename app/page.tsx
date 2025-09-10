@@ -15,6 +15,7 @@ import { SiteIntro } from "@/components/site-intro"
 import { Footer } from "@/components/footer"
 import Image from "next/image"
 import Link from "next/link"
+import { analiseTendenciasData } from "@/data/compreensao/4-analise-tendencias.data"
 
 export default function ProductProcess() {
   const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({
@@ -146,6 +147,27 @@ export default function ProductProcess() {
             </span>
             Precisa de ajuda?
           </button>
+        </div>
+
+        {/* Seção de Ferramentas de IA para Uso Geral */}
+        <div className="text-center my-12">
+          <h3 className="text-xl font-bold mb-4">Ferramentas de I.A. para uso geral</h3>
+          <ul className="flex flex-wrap justify-center gap-4">
+            {analiseTendenciasData.details.resources
+              .find((resource) => resource.title === "ferramentas de ia generalistas")
+              ?.items.map((item) => (
+                <li key={item.name}>
+                  <a
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-lg text-blue-600 hover:underline"
+                  >
+                    {item.name}
+                  </a>
+                </li>
+              ))}
+          </ul>
         </div>
 
         {/* Nova seção de Níveis de impacto, Avaliação e remuneração */}
