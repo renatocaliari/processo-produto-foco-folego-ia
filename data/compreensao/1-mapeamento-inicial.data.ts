@@ -30,7 +30,7 @@ export const mapeamentoInicialData = {
         ],
       },
       {
-        title: "ferramentas ia generalistas",
+        title: "Ferramentas IA Generalistas",
         items: [
           { name: "chatgpt", url: "https://chatgpt.com/" },
           { name: "claude", url: "https://claude.ai/" },
@@ -40,6 +40,25 @@ export const mapeamentoInicialData = {
           { name: "mistral", url: "https://chat.mistral.ai/chat" },
           { name: "qwen", url: "https://chat.qwen.ai/" },
           { name: "z.ai", url: "https://chat.z.ai/" },
+        ],
+      },
+      {
+        title: "Ferramentas de Exploração Semi-Autônoma",
+        items: [
+          { name: "capy.ai", url: "https://capy.ai/" },
+          { name: "dojoma", url: "https://dojoma.ai/" },
+          { name: "flowithio", url: "https://flowith.io/" },
+          { name: "skywork", url: "https://skywork.ai/" },
+          { name: "suna", url: "https://www.suna.so/" },
+          { name: "vectal.ai", url: "https://vectal.ai/" },
+        ],
+      },
+      {
+        title: "Ferramentas de Pesquisa e Insights",
+        items: [
+          { name: "exa", url: "https://exa.ai/" },
+          { name: "firecrawl.dev", url: "firecrawl.dev" },
+          { name: "perplexity", url: "https://www.perplexity.ai/" },
         ],
       },
       {

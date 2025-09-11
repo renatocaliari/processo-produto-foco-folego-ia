@@ -134,6 +134,70 @@ export default function ProductProcess() {
         />
       </div>
 
+        {/* Seção de Ferramentas de IA para Uso Geral */}
+        <div className="my-12 p-6 border border-neutral-300 rounded-lg bg-neutral-50">
+          <h3 className="text-xl font-bold mb-6 text-center">Ferramentas de I.A. para uso geral</h3>
+          <div className="flex justify-center gap-12">
+            <div>
+              <h4 className="text-lg font-bold mb-2">Ferramentas IA Generalistas</h4>
+              <ul className="list-disc pl-5">
+                {analiseTendenciasData.details.resources
+                  .find((resource) => resource.title === "Ferramentas IA Generalistas")
+                  ?.items.map((item) => (
+                    <li key={item.name} className="mb-2">
+                      <a
+                        href={item.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:underline"
+                      >
+                        {item.name}
+                      </a>
+                    </li>
+                  ))}
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-lg font-bold mb-2">Ferramentas de Exploração Semi-Autônoma</h4>
+              <ul className="list-disc pl-5">
+                {analiseTendenciasData.details.resources
+                  .find((resource) => resource.title === "Ferramentas de Exploração Semi-Autônoma")
+                  ?.items.map((item) => (
+                    <li key={item.name} className="mb-2">
+                      <a
+                        href={item.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:underline"
+                      >
+                        {item.name}
+                      </a>
+                    </li>
+                  ))}
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-lg font-bold mb-2">Ferramentas de Pesquisa e Insights</h4>
+              <ul className="list-disc pl-5">
+                {analiseTendenciasData.details.resources
+                  .find((resource) => resource.title === "Ferramentas de Pesquisa e Insights")
+                  ?.items.map((item) => (
+                    <li key={item.name} className="mb-2">
+                      <a
+                        href={item.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:underline"
+                      >
+                        {item.name}
+                      </a>
+                    </li>
+                  ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+
         {/* CTA "Precisa de ajuda?" movido para cá */}
         <div className="text-center my-12">
           <button
@@ -147,47 +211,6 @@ export default function ProductProcess() {
             </span>
             Precisa de ajuda?
           </button>
-        </div>
-
-        {/* Seção de Ferramentas de IA para Uso Geral */}
-        <div className="my-12 p-6 border border-neutral-300 rounded-lg bg-neutral-50">
-          <h3 className="text-xl font-bold mb-6 text-center">Ferramentas de I.A. para uso geral</h3>
-          <div className="flex justify-center gap-12">
-            <ul className="list-disc pl-5">
-              {analiseTendenciasData.details.resources
-                .find((resource) => resource.title === "ferramentas de ia generalistas")
-                ?.items.slice(0, 6)
-                .map((item) => (
-                  <li key={item.name} className="mb-2">
-                    <a
-                      href={item.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-lg text-blue-600 hover:underline"
-                    >
-                      {item.name}
-                    </a>
-                  </li>
-                ))}
-            </ul>
-            <ul className="list-disc pl-5">
-              {analiseTendenciasData.details.resources
-                .find((resource) => resource.title === "ferramentas de ia generalistas")
-                ?.items.slice(6, 12)
-                .map((item) => (
-                  <li key={item.name} className="mb-2">
-                    <a
-                      href={item.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-lg text-blue-600 hover:underline"
-                    >
-                      {item.name}
-                    </a>
-                  </li>
-                ))}
-            </ul>
-          </div>
         </div>
 
         {/* Nova seção de Níveis de impacto, Avaliação e remuneração */}
