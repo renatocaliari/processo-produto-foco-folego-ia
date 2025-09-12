@@ -20,20 +20,35 @@ export const analiseTendenciasData = {
         ],
       },
       {
-        title: "ferramentas de ia generalistas",
+        title: "Ferramentas IA Generalistas",
+        items: [
+          { name: "chatgpt", url: "https://chatgpt.com/" },
+          { name: "claude", url: "https://claude.ai/" },
+          { name: "deepseek", url: "https://www.deepseek.com/" },
+          { name: "gemini", url: "https://gemini.google.com/" },
+          { name: "grok", url: "https://grok.x.ai/" },
+          { name: "mistral", url: "https://chat.mistral.ai/chat" },
+          { name: "qwen", url: "https://chat.qwen.ai/" },
+          { name: "z.ai", url: "https://chat.z.ai/" },
+        ],
+      },
+      {
+        title: "Ferramentas de Exploração Semi-Autônoma",
         items: [
           { name: "capy.ai", url: "https://capy.ai/" },
-          { name: "chatgpt", url: "https://chatgpt.com/" },
-          { name: "deepseek", url: "https://chat.deepseek.com/" },
           { name: "dojoma", url: "https://dojoma.ai/" },
-          { name: "exa", url: "https://exa.ai/" },
           { name: "flowithio", url: "https://flowith.io/" },
-          { name: "gemini", url: "https://gemini.google.com/" },
-          { name: "grok", url: "https://grok.com/" },
-          { name: "perplexity", url: "https://www.perplexity.ai/" },
           { name: "skywork", url: "https://skywork.ai/" },
           { name: "suna", url: "https://www.suna.so/" },
           { name: "vectal.ai", url: "https://vectal.ai/" },
+        ],
+      },
+      {
+        title: "Ferramentas de Pesquisa e Insights",
+        items: [
+          { name: "exa", url: "https://exa.ai/" },
+          { name: "firecrawl.dev", url: "firecrawl.dev" },
+          { name: "perplexity", url: "https://www.perplexity.ai/" },
         ],
       },
       {
