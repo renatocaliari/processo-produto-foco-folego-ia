@@ -54,6 +54,7 @@ export const prototipacaoDecisaoStages = [
           title: "ferramentas no-code com ia para prototipação rápida",
           items: [
             { name: "bubble", "url": "https://bubble.io/" },
+            { name: "opal", url: "https://opal.withgoogle.com/" },
             { name: "webstudio", url: "https://weweb.io/" },
             { name: "weweb.io", url: "https://lovable.dev/" },
             { name: "webflow", url: "http://webflow.com/" },
