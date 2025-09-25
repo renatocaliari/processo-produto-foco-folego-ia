@@ -48,6 +48,7 @@ export const mapeamentoInicialData = {
           { name: "capy.ai", url: "https://capy.ai/" },
           { name: "dojoma", url: "https://dojoma.ai/" },
           { name: "flowithio", url: "https://flowith.io/" },
+          { name: "opal", url: "https://opal.withgoogle.com/" },
           { name: "skywork", url: "https://skywork.ai/" },
           { name: "suna", url: "https://www.suna.so/" },
           { name: "vectal.ai", url: "https://vectal.ai/" },
