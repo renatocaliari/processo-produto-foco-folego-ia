@@ -101,6 +101,7 @@ export const prototipacaoDecisaoStages = [
             { "name": "open manus", "url": "https://github.com/FoundationAgents/OpenManus" },
             { "name": "automate", "url": "https://github.com/yuruotong1/autoMate" }, 
             { "name": "manus", "url": "https://manus.im/" },
+            { "name": "Lemon AI", "url": "https://github.com/hexdocom/lemonai" },
             { "name": "openai operator", "url": "https://openai.com/index/introducing-operator/" },
             { "name": "claude computer", "url": "https://docs.anthropic.com/en/docs/agents-and-tools/computer-use" },
           ]
