@@ -85,28 +85,6 @@ export const prototipacaoDecisaoStages = [
       "comment": "a execução ou opcionalidade dessa etapa depende do contexto: complexidade da solução, velocidade e custo desejados para obter feedback inicial, e a tolerância a riscos. combina abordagens humanas e com assistência de ia.",
       "resources": [
         {
-          "title": "ferramentas ia de navegação autônoma",
-          "items": [
-            { "name": "minimax", "url": "https://agent.minimax.io/" },
-            { "name": "scout new", "url": "https://scout.new/" },
-            { "name": "kortix suna", "url": "https://www.suna.so/" },
-            { "name": "skywork", "url": "https://skywork.ai/" },
-            { "name": "operator.browserbase", "url": "https://operator.browserbase.com/" },
-            { "name": "browser use", "url": "https://browser-use.com/" },
-            { "name": "dobrowser", "url": "https://www.dobrowser.io/" },
-            { "name": "hyperbrowser", "url": "https://www.hyperbrowser.ai/" },
-            { "name": "simular", "url": "https://www.simular.ai/" },            
-            { "name": "skyvern", "url": "https://skyvern.com/" },
-            { "name": "owl", "url": "https://github.com/camel-ai/owl" },
-            { "name": "open manus", "url": "https://github.com/FoundationAgents/OpenManus" },
-            { "name": "automate", "url": "https://github.com/yuruotong1/autoMate" }, 
-            { "name": "manus", "url": "https://manus.im/" },
-            { "name": "Lemon AI", "url": "https://github.com/hexdocom/lemonai" },
-            { "name": "openai operator", "url": "https://openai.com/index/introducing-operator/" },
-            { "name": "claude computer", "url": "https://docs.anthropic.com/en/docs/agents-and-tools/computer-use" },
-          ]
-        },
-        {
           "title": "ferramentas ia para avaliação rápida",
           "items": [
             { "name": "gemini live (avaliação ao vivo por vídeo)", "url": "https://aistudio.google.com/live" },
