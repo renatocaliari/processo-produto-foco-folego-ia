@@ -88,9 +88,10 @@ export const deliveryTrackData = {
           {
             title: "ferramentas ia para gerar código — web editor/ide open-source",
             items: [
-              { name: "bolt.diy", url: "https://bolt.diy" },
-              { name: "dyad.sh", url: "https://dyad.sh" },
+              { name: "bolt.diy", url: "https://bolt.diy/" },
+              { name: "dyad.sh", url: "https://www.dyad.sh/" },
               { name: "open lovable (firecrawl)", url: "https://github.com/firecrawl/open-lovable" },
+              { name: "quests.dev", url: "https://quests.dev/" },
             ],
           },
           {
