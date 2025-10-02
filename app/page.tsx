@@ -43,7 +43,7 @@ export default function ProductProcess() {
               🚀
             </span>
             <div className="flex flex-col">
-              <span>Product Ops</span>
+              <span>Time Produto</span>
               <span className="text-2xl">Navegando na complexidade e potencializando times com IA</span>
             </div>
           </h1>
