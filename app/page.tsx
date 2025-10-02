@@ -140,7 +140,7 @@ export default function ProductProcess() {
           <div className="flex justify-center gap-12">
             <div>
               <h4 className="text-lg font-bold mb-2">Ferramentas IA Generalistas</h4>
-              <ul className="list-disc pl-5">
+              <ul className="list-disc pl-5 h-48 overflow-y-auto">
                 {analiseTendenciasData.details.resources
                   .find((resource) => resource.title === "Ferramentas IA Generalistas")
                   ?.items.map((item) => (
@@ -159,7 +159,7 @@ export default function ProductProcess() {
             </div>
             <div>
               <h4 className="text-lg font-bold mb-2">Ferramentas de Exploração Semi-Autônoma</h4>
-              <ul className="list-disc pl-5">
+              <ul className="list-disc pl-5 h-48 overflow-y-auto">
                 {analiseTendenciasData.details.resources
                   .find((resource) => resource.title === "Ferramentas de Exploração Semi-Autônoma")
                   ?.items.map((item) => (
@@ -178,7 +178,7 @@ export default function ProductProcess() {
             </div>
             <div>
               <h4 className="text-lg font-bold mb-2">Ferramentas de Pesquisa e Insights</h4>
-              <ul className="list-disc pl-5">
+              <ul className="list-disc pl-5 h-48 overflow-y-auto">
                 {analiseTendenciasData.details.resources
                   .find((resource) => resource.title === "Ferramentas de Pesquisa e Insights")
                   ?.items.map((item) => (
