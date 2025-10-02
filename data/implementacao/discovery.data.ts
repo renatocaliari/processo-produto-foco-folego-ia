@@ -184,7 +184,6 @@ export const discoveryTrackData = {
             title: "ferramentas de ia — prototipação rápida - open source",
             items: [
               { name: "dyad.sh", url: "https://www.dyad.sh/" },
-              { name: "quests.dev", url: "https://quests.dev/" },
               { name: "bolt.diy", url: "https://bolt.diy/" },
             ],
           },
