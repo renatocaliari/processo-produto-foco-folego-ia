@@ -5,7 +5,7 @@ import Script from "next/script"
 import { PostHogProvider } from "../components/PostHogProvider"
 
 export const metadata: Metadata = {
-  title: "Ops - Time de Produto",
+  title: "Time de Produto",
   description: "Visualização do processo de produto com IA e trilhas de progressão para o futuro do trabalho",
   generator: 'v0.dev'
 }
