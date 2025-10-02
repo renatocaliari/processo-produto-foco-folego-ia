@@ -90,6 +90,7 @@ export const deliveryTrackData = {
             items: [
               { name: "bolt.diy", url: "https://bolt.diy" },
               { name: "dyad.sh", url: "https://dyad.sh" },
+              { name: "quests.dev", url: "https://quests.dev/" },
               { name: "open lovable (firecrawl)", url: "https://github.com/firecrawl/open-lovable" },
             ],
           },

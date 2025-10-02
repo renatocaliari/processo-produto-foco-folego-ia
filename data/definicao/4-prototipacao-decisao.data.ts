@@ -41,6 +41,7 @@ export const prototipacaoDecisaoStages = [
             { name: "+70 outras ferramentas", url: "https://vibecodingdirectory.com/" },
             { name: "bolt.diy (open source)", url: "https://bolt.diy/" },
             { name: "dyad.sh (open source)", url: "https://www.dyad.sh/" },
+            { name: "quests.dev", url: "https://quests.dev/" },
             { name: "firebase.studio", url: "https://firebase.studio/" },
             { name: "Figma Make + Site", url: "https://www.figma.com/make/" },
             { name: "lovable", url: "https://lovable.dev/" },
