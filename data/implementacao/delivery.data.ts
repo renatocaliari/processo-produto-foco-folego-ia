@@ -68,6 +68,7 @@ export const deliveryTrackData = {
               { "name": "cursor - background agent", "url": "https://docs.cursor.com/background-agent" },
               { "name": "devin", "url": "https://devin.ai/" },
               { "name": "gemini-cli (terminal, free e open-source)", "url": "https://github.com/google-gemini/gemini-cli" },
+              { "name": "factory.ai cli", "url": "https://factory.ai/" },
               { "name": "jules (free)", "url": "https://jules.google.com/" },
               { "name": "opencode.ai (terminal and open source)", "url": "https://opencode.ai/" },
               { "name": "qwen-code", "url": "https://github.com/QwenLM/qwen-code" },
