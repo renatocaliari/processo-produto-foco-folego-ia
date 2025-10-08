@@ -200,7 +200,6 @@ export const deliveryTrackData = {
             title: "ferramentas ia para avaliar e evoluir resultados de prompts do produto",
             items: [
               { name: "agenta", url: "https://github.com/agenta-ai/agenta" },
-              { name: "agentuse (agentes com markdown)", url: "https://github.com/agentuse/agentuse" },
               { name: "align eval", url: "https://aligneval.com/" },
               { name: "langtrace", url: "https://github.com/Scale3-Labs/langtrace" },
               { name: "latitude.so", url: "https://latitude.so/" },
