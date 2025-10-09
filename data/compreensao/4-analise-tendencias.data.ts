@@ -64,6 +64,7 @@ export const analiseTendenciasData = {
           { name: "exa", url: "https://exa.ai/" },
           { name: "firecrawl.dev", url: "firecrawl.dev" },
           { name: "perplexity", url: "https://www.perplexity.ai/" },
+          { name: "tavily", url: "https://tavily.com/" },
         ],
       },
       {
