@@ -26,6 +26,7 @@ export const evolucaoSolucaoData = {
         items: [
           { name: "agenta", url: "https://github.com/agenta-ai/agenta" },
           { name: "align eval", url: "https://aligneval.com/" },
+          { name: "langfuse", url: "https://langfuse.com/" },
           { name: "langtrace", url: "https://github.com/Scale3-Labs/langtrace" },
           { name: "latitude.so", url: "https://latitude.so/" },
           { name: "openlit", url: "https://github.com/openlit/openlit" },
