@@ -61,10 +61,16 @@ export const analiseTendenciasData = {
       {
         title: "Ferramentas de Pesquisa e Insights",
         items: [
-          { name: "exa", url: "https://exa.ai/" },
-          { name: "firecrawl.dev", url: "firecrawl.dev" },
+          { name: "Brave Search API", url: "https://brave.com/search/api/" },
+          { name: "crawlbase", url: "https://crawlbase.com/" },
+          { name: "Exa API", url: "https://exa.ai/" },
+          { name: "Firecrawl", url: "https://firecrawl.dev/" },
+          { name: "Jina", url: "https://jina.ai/" },
+          { name: "linkup", url: "https://linkup.so/" },
+          { name: "open-websearch-mcp (open source, no api keys)", url: "https://github.com/Aas-ee/open-webSearch" },
           { name: "perplexity", url: "https://www.perplexity.ai/" },
-          { name: "tavily", url: "https://tavily.com/" },
+          { name: "searxng", url: "https://searxng.org/" },
+          { name: "Tavily", url: "https://tavily.com/" },
         ],
       },
       {
