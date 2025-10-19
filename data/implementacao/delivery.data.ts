@@ -186,7 +186,9 @@ export const deliveryTrackData = {
               { name: "composio", url: "https://composio.dev/" },
               { name: "graphlit", url: "https://www.graphlit.com/" },
               { name: "klavis (open-source)", url: "https://www.klavis.ai/" },
+              { name: "Open Rube (open source)", url: "https://github.com/composiohq/open-rube" },
               { name: "rube (mcp composio)", url: "https://rube.app/" },
+              { name: "Strata by Klavis AI", url: "https://www.klavis.ai/" },
             ],
           },
           {
@@ -194,8 +196,10 @@ export const deliveryTrackData = {
             items: [
               { name: "activepieces mcp server", url: "https://www.activepieces.com/mcp" },
               { name: "klavis (open-source)", url: "https://www.klavis.ai/" },
+              { name: "Open Rube (open source)", url: "https://github.com/composiohq/open-rube" },
               { name: "rube (mcp composio)", url: "https://rube.app/" },
               { name: "smithery.ai", url: "https://smithery.ai/" },
+              { name: "Strata by Klavis AI", url: "https://www.klavis.ai/" },
             ],
           },
           {
