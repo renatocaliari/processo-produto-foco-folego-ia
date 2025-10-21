@@ -97,7 +97,9 @@ export const mapeamentoInicialData = {
       {
         title: "ferramentas para encontrar insights no reddit",
         items: [
+          { name: "arctic-shift", url: "https://arctic-shift.photon-reddit.com/search/" },
           { name: "gummysearch", url: "https://gummysearch.com/" },
+          { name: "ihsoyct", url: "https://ihsoyct.github.io/" },
           { name: "search pullpush", url: "https://search-new.pullpush.io/" },
         ],
       },
