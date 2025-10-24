@@ -49,7 +49,6 @@ export const analiseTendenciasData = {
           { "name": "minimax", "url": "https://agent.minimax.io/" },
           { "name": "open manus", "url": "https://github.com/FoundationAgents/OpenManus" },
           { "name": "openai operator", "url": "https://openai.com/index/introducing-operator/" },
-          { "name": "opal", "url": "https://opal.withgoogle.com/" },
           { "name": "operator.browserbase", "url": "https://operator.browserbase.com/" },
           { "name": "owl", "url": "https://github.com/camel-ai/owl" },
           { "name": "simular", "url": "https://www.simular.ai/" },
