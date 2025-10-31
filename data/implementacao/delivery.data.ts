@@ -30,6 +30,7 @@ export const deliveryTrackData = {
               { name: "context7 (carregar docs de libs para llm)", url: "https://context7.com/" },
               { name: "DeepWiki", url: "http://deepwiki.com/" },
               { name: "DeepWiki Open (versão open-source)", url: "https://github.com/AsyncFuncAI/deepwiki-open" },
+              { name: "exa-code (no api key through smithery)", url: "https://github.com/exa-labs/exa-mcp-server/" },
               { name: "GitDiagram", url: "https://gitdiagram.com/" },
               { name: "gitingest", url: "https://gitingest.com/" },
               { name: "gitmcp (transforma um repositório em um mcp server pra consulta)", url: "https://gitmcp.io/" },
