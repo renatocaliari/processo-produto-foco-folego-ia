@@ -25,14 +25,15 @@ export const analiseDadosProducaoData = {
       {
         title: "ferramentas de ia para explorar banco de dados de estado em linguagem humana",
         items: [
+          { name: "bagofwords", url: "https://github.com/bagofwords1/bagofwords" },
+          { name: "briefer", url: "https://briefer.cloud" },
+          { name: "chat2db.ai", url: "https://chat2db.ai/pt-pt" },
+          { name: "dataline", url: "https://dataline.app/" },
           { name: "juliusai", url: "https://julius.ai/" },
-          { name: "wrenai", url: "https://getwren.ai/oss" },
+          { name: "observablehq", url: "https://observablehq.com/" },
           { name: "supaboardai", url: "https://supaboard.ai/" },
           { name: "thoughtspot", url: "https://www.thoughtspot.com/" },
-          { name: "briefer", url: "https://briefer.cloud" },
-          { name: "observablehq", url: "https://observablehq.com/" },
-          { name: "dataline", url: "https://dataline.app/" },
-          { name: "chat2db.ai", url: "https://chat2db.ai/pt-pt" },
+          { name: "wrenai", url: "https://getwren.ai/oss" },
         ],
       },
       {
