@@ -11,13 +11,14 @@ export const analiseQualitativaData = {
       {
         title: "ferramentas ia específicas para encontrar padrões e insights de entrevistas",
         items: [
+          { name: "condens", url: "https://condens.io/" },
           { name: "delve", url: "https://delvetool.com/" },
           { name: "dovetail", url: "https://dovetail.com/" },
-          { name: "marvin", url: "https://heymarvin.com/" },
-          { name: "condens", url: "https://condens.io/" },
-          { name: "reduct", url: "https://reduct.video/" },
-          { name: "looppanel", url: "https://www.looppanel.com/" },
           { name: "insightlab", url: "https://www.getinsightlab.com/" },
+          { name: "looppanel", url: "https://www.looppanel.com/" },
+          { name: "marvin", url: "https://heymarvin.com/" },
+          { name: "reduct", url: "https://reduct.video/" },
+          { name: "reforge concept testing", url: "https://www.reforge.com/blog/concept-testing" },
         ],
       },
       {

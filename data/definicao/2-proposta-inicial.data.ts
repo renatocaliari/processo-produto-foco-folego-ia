@@ -7,6 +7,17 @@ export const propostaInicialStages = [
     responsibles: ["humano"],
     details: {
       comment: "elaborar um esboço sumarizado da proposta inicial",
+      resources: [
+        {
+          title: "ferramentas para validação de conceito",
+          items: [
+            {
+              name: "reforge concept testing",
+              url: "https://www.reforge.com/blog/concept-testing",
+            },
+          ],
+        },
+      ],
     },
   },
   {
