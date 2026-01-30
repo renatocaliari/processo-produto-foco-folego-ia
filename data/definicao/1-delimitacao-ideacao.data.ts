@@ -74,6 +74,17 @@ export const delimitacaoIdeacaoStages = [
     responsibles: ["humano"],
     details: {
       comment: "escolher ideia mais promissora para o apetite",
+      resources: [
+        {
+          title: "ferramentas para validação de conceito",
+          items: [
+            {
+              name: "reforge concept testing",
+              url: "https://www.reforge.com/blog/concept-testing",
+            },
+          ],
+        },
+      ],
     },
   },
 ]
