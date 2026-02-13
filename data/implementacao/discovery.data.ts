@@ -149,6 +149,7 @@ export const discoveryTrackData = {
               { name: "Figma Make + Site", url: "https://www.figma.com/make/" },
               { name: "lovable", url: "https://lovable.dev/" },
               { name: "open lovable (open source)", url: "https://github.com/firecrawl/open-lovable" },
+              { name: "subframe", url: "https://www.subframe.com/" },
               { name: "tempo.new", url: "https://www.tempo.new/" },
               { name: "v0", url: "https://v0.dev/" },
             ],
