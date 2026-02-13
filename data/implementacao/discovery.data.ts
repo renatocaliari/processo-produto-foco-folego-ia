@@ -145,10 +145,11 @@ export const discoveryTrackData = {
             title: "ferramentas de ia — prototipação rápida",
             items: [
               { name: "+70 outras ferramentas", url: "https://vibecodingdirectory.com/" },
-              { name: "firebase.studio", url: "https://firebase.studio/" },
               { name: "Figma Make + Site", url: "https://www.figma.com/make/" },
+              { name: "firebase.studio", url: "https://firebase.studio/" },
               { name: "lovable", url: "https://lovable.dev/" },
               { name: "open lovable (open source)", url: "https://github.com/firecrawl/open-lovable" },
+              { name: "subframe", url: "https://www.subframe.com/" },
               { name: "tempo.new", url: "https://www.tempo.new/" },
               { name: "v0", url: "https://v0.dev/" },
             ],
