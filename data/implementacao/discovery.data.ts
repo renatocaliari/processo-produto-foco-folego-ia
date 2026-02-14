@@ -147,6 +147,7 @@ export const discoveryTrackData = {
               { name: "+70 outras ferramentas", url: "https://vibecodingdirectory.com/" },
               { name: "Figma Make + Site", url: "https://www.figma.com/make/" },
               { name: "firebase.studio", url: "https://firebase.studio/" },
+              { name: "kombai", url: "https://kombai.com/" },
               { name: "lovable", url: "https://lovable.dev/" },
               { name: "open lovable (open source)", url: "https://github.com/firecrawl/open-lovable" },
               { name: "subframe", url: "https://www.subframe.com/" },

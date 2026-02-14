@@ -83,8 +83,9 @@ export const deliveryTrackData = {
             title: "ferramentas ia para gerar código — pagas/freemium para código",
             items: [
               { name: "bolt", url: "https://bolt.new/" },
-              { name: "replit", url: "https://replit.com/" },
               { name: "cursor", url: "https://www.cursor.com/" },
+              { name: "kombai", url: "https://kombai.com/" },
+              { name: "replit", url: "https://replit.com/" },
               { name: "windsurf", url: "https://codeium.com/windsurf" },
             ],
           },
