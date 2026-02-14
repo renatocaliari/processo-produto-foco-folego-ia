@@ -19,6 +19,7 @@ export const riscosRefinamentoStages = [
         {
           title: "ferramentas ia para preparar documentações de bibliotecas e-ou base de código para llm",
           items: [
+              { name: "codewiki.google", url: "https://codewiki.google/" },
               { name: "context7 (carregar docs de libs para llm)", url: "https://context7.com/" },
               { name: "DeepWiki", url: "https://deepwiki.com/" },
               { name: "DeepWiki Open (versão open-source)", url: "https://github.com/AsyncFuncAI/deepwiki-open" },
