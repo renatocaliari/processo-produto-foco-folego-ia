@@ -55,6 +55,7 @@ export const analiseTendenciasData = {
           { "name": "skyvern", "url": "https://skyvern.com/" },
           { "name": "skywork", "url": "https://skywork.ai/" },
           { "name": "vectal.ai", "url": "https://vectal.ai/" },
+          { "name": "Vibium", "url": "https://github.com/VibiumDev/vibium" },
         ],
       },
       {
