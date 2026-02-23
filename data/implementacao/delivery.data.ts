@@ -179,6 +179,7 @@ export const deliveryTrackData = {
               { name: "trychroma", url: "https://www.trychroma.com/" },
               { name: "weaviate", url: "https://weaviate.io/" },
               { name: "zep", url: "https://www.getzep.com/" },
+              { name: "zvec (in-process vector database)", url: "https://github.com/alibaba/zvec" },
             ],
           },
           {
