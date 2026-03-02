@@ -173,6 +173,7 @@ export const deliveryTrackData = {
               { name: "memgraph", url: "https://memgraph.com/" },
               { name: "milvus", url: "https://milvus.io/" },
               { name: "nuclia", url: "https://nuclia.com/rag-as-a-service/" },
+              { name: "openmemory", url: "https://github.com/CaviraOSS/OpenMemory" },
               { name: "qdrant", url: "https://qdrant.tech/" },
               { name: "ragie", url: "https://www.ragie.ai/" },
               { name: "supermemory", url: "https://supermemory.ai/" },
