@@ -49,6 +49,7 @@ export const mapeamentoInicialData = {
           { "name": "browser use", "url": "https://browser-use.com/" },
           { "name": "capy.ai", "url": "https://capy.ai/" },
           { "name": "claude computer", "url": "https://docs.anthropic.com/en/docs/agents-and-tools/computer-use" },
+          { "name": "deerflow (open-source)", "url": "https://deerflow.tech/" },
           { "name": "dobrowser", "url": "https://www.dobrowser.io/" },
           { "name": "dojoma", "url": "https://dojoma.ai/" },
           { "name": "flowithio", "url": "https://flowith.io/" },
